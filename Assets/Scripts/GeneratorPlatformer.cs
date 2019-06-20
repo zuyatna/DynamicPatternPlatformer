@@ -1,40 +1,42 @@
 ﻿using UnityEngine;
+using UnityEngine.Serialization;
 
 public class GeneratorPlatformer : MonoBehaviour {
 
-    public static GeneratorPlatformer Instance;
+    private static GeneratorPlatformer instance;
 
-    public float DistanceBetween;
-    public Transform GenerationPoint;
+    [FormerlySerializedAs("DistanceBetween")] public float distanceBetween;
+    [FormerlySerializedAs("GenerationPoint")] public Transform generationPoint;
     public ObjectPooler[] theObjectPools;
     
-    [HideInInspector] public int PlatformSelector;
+    [FormerlySerializedAs("PlatformSelector")] [HideInInspector] public int platformSelector;
 
     void Awake()
     {
-        Instance = this;
+        instance = this;
     }
 
     void FixedUpdate()
     {
-        if (transform.position.y < GenerationPoint.position.y)
+        if (transform.position.y < generationPoint.position.y)
         {
             PositionTransform();
+            PlatformerReplacing.Instance.SwapAllByArray();
         }
     }
 
-    public void PositionTransform() {
+    private void PositionTransform() {
     
-        transform.position = new Vector3(transform.position.x, transform.position.y + DistanceBetween, 0);
+        transform.position = new Vector3(transform.position.x, transform.position.y + distanceBetween, 0);
 
-        PlatformSelector = Random.Range(0, theObjectPools.Length);
+        platformSelector = Random.Range(0, theObjectPools.Length);
 
         // Spawn pooling
-        GameObject newPlatform = theObjectPools[PlatformSelector].GetPooledObject();
+        GameObject newPlatform = theObjectPools[platformSelector].GetPooledObject();        
 
         newPlatform.transform.position = transform.position;
         newPlatform.transform.rotation = transform.rotation;
-        newPlatform.SetActive(true);
+        newPlatform.SetActive(true);        
 
         transform.position = new Vector3(transform.position.x, transform.position.y, 0);
     }
