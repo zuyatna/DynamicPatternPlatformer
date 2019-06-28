@@ -2,6 +2,7 @@ using UnityEngine;
 using System.Collections;
 using Photon;
 using Photon.Pun;
+using UnityEngine.UI;
 
 
 /// <summary>
@@ -19,6 +20,8 @@ public class ShowInfoOfPlayer : MonoBehaviourPunCallbacks
 
     public Font font;
     public bool DisableOnOwnObjects;
+
+    public Text displayName;
 
     void Start()
     {
@@ -67,15 +70,18 @@ public class ShowInfoOfPlayer : MonoBehaviourPunCallbacks
         Photon.Realtime.Player owner = this.photonView.Owner;
         if (owner != null)
         {
-            tm.text = (string.IsNullOrEmpty(owner.NickName)) ? "player"+owner.UserId : owner.NickName;
+//            tm.text = (string.IsNullOrEmpty(owner.NickName)) ? "player"+owner.UserId : owner.NickName;
+            displayName.text = (string.IsNullOrEmpty(owner.NickName)) ? "player"+owner.UserId : owner.NickName;
         }
         else if (this.photonView.IsSceneView)
         {
-            tm.text = "scn";
+//            tm.text = "scn";
+            displayName.text = "scn";
         }
         else
         {
-            tm.text = "n/a";
+//            tm.text = "n/a";
+            displayName.text = "n/a";
         }
     }
 }

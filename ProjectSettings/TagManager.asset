@@ -6,6 +6,21 @@ TagManager:
   tags:
   - DestroyPlatform
   - Platformer
+  - CamLeft
+  - Border
+  - CamRight
+  - Enemy
+  - Items
+  - Lance
+  - RGShield
+  - PunchAttack
+  - FireBomb
+  - Ground
+  - Weapon
+  - WeaponSpecial
+  - ItemGrab
+  - Wall
+  - NonPlayer
   layers:
   - Default
   - TransparentFX
@@ -15,7 +30,7 @@ TagManager:
   - UI
   - 
   - 
-  - 
+  - Player
   - 
   - 
   - 
@@ -42,4 +57,7 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Player
+    uniqueID: 2005967091
     locked: 0

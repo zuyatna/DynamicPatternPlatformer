@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   TitleId: CE94
   DeveloperSecretKey: M68T3JPTWFBKTM8186S1ZGBB4KDUU3KT47WNKH3BIEPRUBAEB7
-  ProductionEnvironmentUrl: 
-  RequestType: 2
+  ProductionEnvironmentUrl: .playfabapi.com
+  RequestType: 0
   AdvertisingIdType: 
   AdvertisingIdValue: 
   DisableAdvertising: 0
@@ -23,7 +23,7 @@ MonoBehaviour:
   DisableFocusTimeCollection: 0
   RequestTimeout: 2000
   RequestKeepAlive: 1
-  CompressApiData: 1
+  CompressApiData: 0
   LogLevel: 12
   LoggerHost: 
   LoggerPort: 0
