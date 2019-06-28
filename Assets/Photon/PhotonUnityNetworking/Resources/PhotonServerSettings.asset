@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: PhotonServerSettings
   m_EditorClassIdentifier: 
   AppSettings:
-    AppIdRealtime: 2770bac3-236c-4c1f-a2d5-96c830bdb6e0
+    AppIdRealtime: 7b3c4371-9004-4cff-803f-5f6a9f8b47b9
     AppIdChat: 
     AppIdVoice: 
     AppVersion: 
@@ -25,9 +25,31 @@ MonoBehaviour:
     EnableLobbyStatistics: 0
     NetworkLogging: 1
   StartInOfflineMode: 0
-  PunLogging: 0
+  PunLogging: 2
   EnableSupportLogger: 0
   RunInBackground: 1
-  RpcList: []
+  RpcList:
+  - CameraMoving
+  - RPCActiveItemBomb
+  - RPCActiveItemBombCollider
+  - RPCActiveLance
+  - RPCActiveLanceCollider
+  - RPCActiveShield
+  - RPCActiveShieldCollider
+  - RPCDirection_ThrowingItems
+  - RPCDirection_ThrowingLance
+  - RPCDirection_ThrowingShield
+  - RPCInstantiateBurnItem
+  - RPCInstantiateSpecialWeapons
+  - RPCInstantiateWeapons
+  - RPCItemsDrop
+  - RPCLeaveRoom
+  - RPCPlayerDamage
+  - RPCPlayers
+  - RPCSpawnBurnItem
+  - RPCSpawnPlayer
+  - RPCSpawnSpecialWeapons
+  - RPCSpawnWeapons
+  - RPCStandingPlayer
+  - RPCUsingUltimate
   DisableAutoOpenWizard: 1
-  ShowSettings: 0

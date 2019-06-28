@@ -85,7 +85,7 @@ namespace Photon.Pun
 
                 if (this.m_SynchronizeVelocity || this.m_SynchronizeAngularVelocity)
                 {
-                    float lag = Mathf.Abs((float)(PhotonNetwork.Time - info.SentServerTime));
+                    float lag = Mathf.Abs((float)(PhotonNetwork.Time - info.timestamp));
 
                     if (m_SynchronizeVelocity)
                     {

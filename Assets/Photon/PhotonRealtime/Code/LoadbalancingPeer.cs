@@ -153,7 +153,7 @@ namespace Photon.Realtime
                 parameters[(byte)ParameterCode.LobbyType] = (byte)lobby.Type;
             }
 
-            return this.SendOperation(OperationCode.JoinLobby, parameters, SendOptions.SendReliable);
+            return this.SendOperation(OperationCode.JoinLobby, parameters, new SendOptions() { Reliability = true });
         }
 
 
@@ -169,7 +169,7 @@ namespace Photon.Realtime
                 this.Listener.DebugReturn(DebugLevel.INFO, "OpLeaveLobby()");
             }
 
-            return this.SendOperation(OperationCode.LeaveLobby, null, SendOptions.SendReliable);
+            return this.SendOperation(OperationCode.LeaveLobby, null, new SendOptions() { Reliability = true });
         }
 
 
@@ -312,7 +312,7 @@ namespace Photon.Realtime
             }
 
             //this.Listener.DebugReturn(DebugLevel.INFO, "CreateGame: " + SupportClass.DictionaryToString(op));
-            return this.SendOperation(OperationCode.CreateGame, op, SendOptions.SendReliable);
+            return this.SendOperation(OperationCode.CreateGame, op, new SendOptions() { Reliability = true });
         }
 
         /// <summary>
@@ -375,7 +375,7 @@ namespace Photon.Realtime
             }
 
             // UnityEngine.Debug.Log("JoinGame: " + SupportClass.DictionaryToString(op));
-            return this.SendOperation(OperationCode.JoinGame, op, SendOptions.SendReliable);
+            return this.SendOperation(OperationCode.JoinGame, op, new SendOptions() { Reliability = true });
         }
 
 
@@ -428,7 +428,7 @@ namespace Photon.Realtime
             }
 
             //this.Listener.DebugReturn(DebugLevel.INFO, "OpJoinRandom: " + SupportClass.DictionaryToString(opParameters));
-            return this.SendOperation(OperationCode.JoinRandomGame, opParameters, SendOptions.SendReliable);
+            return this.SendOperation(OperationCode.JoinRandomGame, opParameters, new SendOptions() { Reliability = true });
         }
 
 
@@ -492,7 +492,7 @@ namespace Photon.Realtime
             opParameters[(byte)ParameterCode.LobbyType] = (byte)lobby.Type;
             opParameters[(byte)ParameterCode.Data] = queryData;
 
-            return this.SendOperation(OperationCode.GetGameList, opParameters, SendOptions.SendReliable);
+            return this.SendOperation(OperationCode.GetGameList, opParameters, new SendOptions() { Reliability = true });
         }
 
         /// <summary>
@@ -517,7 +517,7 @@ namespace Photon.Realtime
                 opParameters[ParameterCode.FindFriendsRequestList] = friendsToFind;
             }
 
-            return this.SendOperation(OperationCode.FindFriends, opParameters, SendOptions.SendReliable);
+            return this.SendOperation(OperationCode.FindFriends, opParameters, new SendOptions() { Reliability = true });
         }
 
         public bool OpSetCustomPropertiesOfActor(int actorNr, Hashtable actorProperties)
@@ -564,7 +564,7 @@ namespace Photon.Realtime
                 opParameters[ParameterCode.EventForward] = webflags.WebhookFlags;
             }
 
-            return this.SendOperation(OperationCode.SetProperties, opParameters, SendOptions.SendReliable);
+            return this.SendOperation(OperationCode.SetProperties, opParameters, new SendOptions() { Reliability = true });
         }
 
 
@@ -608,7 +608,7 @@ namespace Photon.Realtime
                 opParameters[ParameterCode.EventForward] = webflags.WebhookFlags;
             }
 
-            return this.SendOperation(OperationCode.SetProperties, opParameters, SendOptions.SendReliable);
+            return this.SendOperation(OperationCode.SetProperties, opParameters, new SendOptions() { Reliability = true });
         }
 
         /// <summary>
@@ -644,7 +644,7 @@ namespace Photon.Realtime
             if (authValues != null && authValues.Token != null)
             {
                 opParameters[ParameterCode.Secret] = authValues.Token;
-                return this.SendOperation(OperationCode.Authenticate, opParameters, SendOptions.SendReliable); // we don't have to encrypt, when we have a token (which is encrypted)
+                return this.SendOperation(OperationCode.Authenticate, opParameters, new SendOptions() { Reliability = true }); // we don't have to encrypt, when we have a token (which is encrypted)
             }
 
 
@@ -669,14 +669,20 @@ namespace Photon.Realtime
                 if (authValues.AuthType != CustomAuthenticationType.None)
                 {
                     opParameters[ParameterCode.ClientAuthenticationType] = (byte)authValues.AuthType;
-                    // if we had a token, the code above would use it. here, we send parameters:
-                    if (!string.IsNullOrEmpty(authValues.AuthGetParameters))
+                    if (!string.IsNullOrEmpty(authValues.Token))
                     {
-                        opParameters[ParameterCode.ClientAuthenticationParams] = authValues.AuthGetParameters;
+                        opParameters[ParameterCode.Secret] = authValues.Token;
                     }
-                    if (authValues.AuthPostData != null)
+                    else
                     {
-                        opParameters[ParameterCode.ClientAuthenticationData] = authValues.AuthPostData;
+                        if (!string.IsNullOrEmpty(authValues.AuthGetParameters))
+                        {
+                            opParameters[ParameterCode.ClientAuthenticationParams] = authValues.AuthGetParameters;
+                        }
+                        if (authValues.AuthPostData != null)
+                        {
+                            opParameters[ParameterCode.ClientAuthenticationData] = authValues.AuthPostData;
+                        }
                     }
                 }
             }
@@ -715,7 +721,7 @@ namespace Photon.Realtime
             if (authValues != null && authValues.Token != null)
             {
                 opParameters[ParameterCode.Secret] = authValues.Token;
-                return this.SendOperation(OperationCode.AuthenticateOnce, opParameters, SendOptions.SendReliable); // we don't have to encrypt, when we have a token (which is encrypted)
+                return this.SendOperation(OperationCode.AuthenticateOnce, opParameters, new SendOptions() { Reliability = true }); // we don't have to encrypt, when we have a token (which is encrypted)
             }
 
             if (encryptionMode == EncryptionMode.DatagramEncryption && expectedProtocol != ConnectionProtocol.Udp)
@@ -797,7 +803,7 @@ namespace Photon.Realtime
                 opParameters[(byte)ParameterCode.Add] = groupsToAdd;
             }
 
-            return this.SendOperation(OperationCode.ChangeGroups, opParameters, SendOptions.SendReliable);
+            return this.SendOperation(OperationCode.ChangeGroups, opParameters, new SendOptions() { Reliability = true });
         }
 
 
@@ -892,7 +898,7 @@ namespace Photon.Realtime
                 return true;
             }
 
-            return this.SendOperation(OperationCode.ServerSettings, this.opParameters, SendOptions.SendReliable);
+            return this.SendOperation(OperationCode.ServerSettings, this.opParameters, new SendOptions() { Reliability = true });
         }
     }
 
@@ -1854,9 +1860,6 @@ namespace Photon.Realtime
         /// <summary>Authenticates users by their Xbox Account and XSTS token.</summary>
         Xbox = 5,
 
-        /// <summary>Authenticates users by their HTC Viveport Account and user token. Set AuthGetParameters to "userToken=[userToken]"</summary>
-        Viveport = 10,
-
         /// <summary>Disables custom authentification. Same as not providing any AuthenticationValues for connect (more precisely for: OpAuthenticate).</summary>
         None = byte.MaxValue
     }
@@ -1895,14 +1898,10 @@ namespace Photon.Realtime
         }
 
         /// <summary>This string must contain any (http get) parameters expected by the used authentication service. By default, username and token.</summary>
-        /// <remarks>
-        /// Maps to operation parameter 216.
-        /// Standard http get parameters are used here and passed on to the service that's defined in the server (Photon Cloud Dashboard).
-        /// </remarks>
+        /// <remarks>Standard http get parameters are used here and passed on to the service that's defined in the server (Photon Cloud Dashboard).</remarks>
         public string AuthGetParameters { get; set; }
 
         /// <summary>Data to be passed-on to the auth service via POST. Default: null (not sent). Either string or byte[] (see setters).</summary>
-        /// <remarks>Maps to operation parameter 214.</remarks>
         public object AuthPostData { get; private set; }
 
         /// <summary>After initial authentication, Photon provides a token for this client / user, which is subsequently used as (cached) validation.</summary>
@@ -1949,7 +1948,7 @@ namespace Photon.Realtime
             this.AuthPostData = dictData;
         }
 
-        /// <summary>Adds a key-value pair to the get-parameters used for Custom Auth (AuthGetParameters).</summary>
+        /// <summary>Adds a key-value pair to the get-parameters used for Custom Auth.</summary>
         /// <remarks>This method does uri-encoding for you.</remarks>
         /// <param name="key">Key for the value to set.</param>
         /// <param name="value">Some value relevant for Custom Authentication.</param>
