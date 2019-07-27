@@ -16,7 +16,7 @@ public class homeplaymanager : MonoBehaviour {
 	IEnumerator waiting()
 	{
 		yield return new WaitForSeconds(3f);
-		operation = SceneManager.LoadSceneAsync("Authentication");
+		operation = SceneManager.LoadSceneAsync(1);
 
 		while(!operation.isDone) {
 			yield return null;

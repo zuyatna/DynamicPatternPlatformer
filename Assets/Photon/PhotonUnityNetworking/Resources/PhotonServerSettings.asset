@@ -16,7 +16,7 @@ MonoBehaviour:
     AppIdRealtime: 7b3c4371-9004-4cff-803f-5f6a9f8b47b9
     AppIdChat: 
     AppIdVoice: 
-    AppVersion: 
+    AppVersion: 1
     UseNameServer: 1
     FixedRegion: 
     Server: 
@@ -25,7 +25,7 @@ MonoBehaviour:
     EnableLobbyStatistics: 0
     NetworkLogging: 1
   StartInOfflineMode: 0
-  PunLogging: 2
+  PunLogging: 0
   EnableSupportLogger: 0
   RunInBackground: 1
   RpcList:
@@ -52,4 +52,7 @@ MonoBehaviour:
   - RPCSpawnWeapons
   - RPCStandingPlayer
   - RPCUsingUltimate
+  - RpcLeaveRoom
+  - RpcPlayers
+  - RpcItemsDrop
   DisableAutoOpenWizard: 1

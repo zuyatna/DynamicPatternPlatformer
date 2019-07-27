@@ -179,26 +179,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 114095065898901104, guid: f20ce2fde89d8b348b0741f1d4131a49,
-        type: 3}
-      propertyPath: viewIdField
-      value: 6
-      objectReference: {fileID: 0}
-    - target: {fileID: 114095065898901104, guid: f20ce2fde89d8b348b0741f1d4131a49,
-        type: 3}
-      propertyPath: InstantiationId
-      value: 6
-      objectReference: {fileID: 0}
-    - target: {fileID: 114598783573559582, guid: f20ce2fde89d8b348b0741f1d4131a49,
-        type: 3}
-      propertyPath: viewIdField
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 114598783573559582, guid: f20ce2fde89d8b348b0741f1d4131a49,
-        type: 3}
-      propertyPath: InstantiationId
-      value: 5
-      objectReference: {fileID: 0}
     - target: {fileID: 137440042645973616, guid: f20ce2fde89d8b348b0741f1d4131a49,
         type: 3}
       propertyPath: m_Mesh
@@ -213,16 +193,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Mesh
       value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 114146702513576874, guid: f20ce2fde89d8b348b0741f1d4131a49,
-        type: 3}
-      propertyPath: viewIdField
-      value: 4
-      objectReference: {fileID: 0}
-    - target: {fileID: 114146702513576874, guid: f20ce2fde89d8b348b0741f1d4131a49,
-        type: 3}
-      propertyPath: InstantiationId
-      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 137948115637709062, guid: f20ce2fde89d8b348b0741f1d4131a49,
         type: 3}
@@ -258,36 +228,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Mesh
       value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 114332676259604046, guid: f20ce2fde89d8b348b0741f1d4131a49,
-        type: 3}
-      propertyPath: viewIdField
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 114332676259604046, guid: f20ce2fde89d8b348b0741f1d4131a49,
-        type: 3}
-      propertyPath: InstantiationId
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 114866128474919606, guid: f20ce2fde89d8b348b0741f1d4131a49,
-        type: 3}
-      propertyPath: viewIdField
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 114866128474919606, guid: f20ce2fde89d8b348b0741f1d4131a49,
-        type: 3}
-      propertyPath: InstantiationId
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 114972475553888686, guid: f20ce2fde89d8b348b0741f1d4131a49,
-        type: 3}
-      propertyPath: viewIdField
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 114972475553888686, guid: f20ce2fde89d8b348b0741f1d4131a49,
-        type: 3}
-      propertyPath: InstantiationId
-      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f20ce2fde89d8b348b0741f1d4131a49, type: 3}
@@ -1255,7 +1195,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1607092731456710, guid: 8be2f1b540b4f6e43b47c04b811a9c1b, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4321061944920442, guid: 8be2f1b540b4f6e43b47c04b811a9c1b, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2265,7 +2205,7 @@ PrefabInstance:
     - target: {fileID: 114921097695647526, guid: de927173f25701f4b8f80d7dce322610,
         type: 3}
       propertyPath: m_Text
-      value: Waiting Until 2 Players
+      value: Waiting Until n Players
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: de927173f25701f4b8f80d7dce322610, type: 3}
@@ -2760,7 +2700,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1949700319889084, guid: 00555ecb27111054087dfc7ed5a703e8, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4660645721123768, guid: 00555ecb27111054087dfc7ed5a703e8, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3136,7 +3076,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1417192335022548, guid: b23cb9aeb8c08ff42b50b7a925e070a1, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1417192335022548, guid: b23cb9aeb8c08ff42b50b7a925e070a1, type: 3}
       propertyPath: m_Layer
@@ -3174,16 +3114,6 @@ PrefabInstance:
       propertyPath: m_RootOrder
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 212802314923348340, guid: b23cb9aeb8c08ff42b50b7a925e070a1,
-        type: 3}
-      propertyPath: m_SortingLayerID
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 212802314923348340, guid: b23cb9aeb8c08ff42b50b7a925e070a1,
-        type: 3}
-      propertyPath: m_SortingOrder
-      value: 10
-      objectReference: {fileID: 0}
     - target: {fileID: 114914906918735378, guid: b23cb9aeb8c08ff42b50b7a925e070a1,
         type: 3}
       propertyPath: viewIdField
@@ -3193,6 +3123,16 @@ PrefabInstance:
         type: 3}
       propertyPath: instantiationId
       value: 43
+      objectReference: {fileID: 0}
+    - target: {fileID: 212802314923348340, guid: b23cb9aeb8c08ff42b50b7a925e070a1,
+        type: 3}
+      propertyPath: m_SortingLayerID
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 212802314923348340, guid: b23cb9aeb8c08ff42b50b7a925e070a1,
+        type: 3}
+      propertyPath: m_SortingOrder
+      value: 10
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b23cb9aeb8c08ff42b50b7a925e070a1, type: 3}
@@ -3403,13 +3343,14 @@ MonoBehaviour:
   itemsDropPosition: []
   itemsDrop: []
   tempTimerDrop: 0
+  tempPlayer: 1
   playerInRoom: {fileID: 1238484163}
   activeCameraMoving: 0
   activeTimer: 0
   waitingPlayer: {fileID: 708543704}
   loadingObject: {fileID: 708543705}
   maxPlayer: 2
-  movingCamera: {fileID: 0}
+  movingCamera: {fileID: 388375948}
   time: 180
 --- !u!4 &1851379181
 Transform:
@@ -3696,7 +3637,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &2083293013
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -2743,15 +2743,13 @@ MonoBehaviour:
   ObservedComponentsFoldoutOpen: 1
   Group: 0
   prefixField: -1
-  Synchronization: 3
+  Synchronization: 0
   OwnershipTransfer: 0
   ObservedComponents:
   - {fileID: 224020203534435158}
   - {fileID: 114674299892007090}
-  - {fileID: 0}
-  - {fileID: 0}
-  viewIdField: 64
-  InstantiationId: 64
+  viewIdField: 11
+  InstantiationId: 11
   isRuntimeInstantiated: 0
 --- !u!114 &114674299892007090
 MonoBehaviour:
@@ -3173,13 +3171,13 @@ MonoBehaviour:
   ObservedComponentsFoldoutOpen: 1
   Group: 0
   prefixField: -1
-  Synchronization: 3
+  Synchronization: 0
   OwnershipTransfer: 0
   ObservedComponents:
   - {fileID: 114807235956775308}
   - {fileID: 114413388404433112}
-  viewIdField: 65
-  InstantiationId: 65
+  viewIdField: 12
+  InstantiationId: 12
   isRuntimeInstantiated: 0
 --- !u!114 &114413388404433112
 MonoBehaviour:
@@ -3908,12 +3906,12 @@ MonoBehaviour:
   ObservedComponentsFoldoutOpen: 1
   Group: 0
   prefixField: -1
-  Synchronization: 3
+  Synchronization: 0
   OwnershipTransfer: 0
   ObservedComponents:
   - {fileID: 114150328513574454}
-  viewIdField: 66
-  InstantiationId: 66
+  viewIdField: 13
+  InstantiationId: 13
   isRuntimeInstantiated: 0
 --- !u!1 &1496035340537074
 GameObject:
@@ -5424,8 +5422,8 @@ MonoBehaviour:
   OwnershipTransfer: 0
   ObservedComponents:
   - {fileID: 0}
-  viewIdField: 62
-  InstantiationId: 62
+  viewIdField: 8
+  InstantiationId: 8
   isRuntimeInstantiated: 0
 --- !u!1 &1687551016340122
 GameObject:
@@ -6769,8 +6767,8 @@ MonoBehaviour:
   OwnershipTransfer: 0
   ObservedComponents:
   - {fileID: 114385773002949750}
-  viewIdField: 67
-  InstantiationId: 67
+  viewIdField: 14
+  InstantiationId: 14
   isRuntimeInstantiated: 0
 --- !u!1 &1787946939022646
 GameObject:
@@ -8164,7 +8162,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1889398027449538}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 5d6ea926a1fd2164593e93fe2580b7e4, type: 3}
   m_Name: 
@@ -8190,7 +8188,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1889398027449538}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 3d672a0abddbe054b8bf5bf39e6c66ed, type: 3}
   m_Name: 
@@ -8217,14 +8215,12 @@ MonoBehaviour:
   - {fileID: 114147888741685182}
   - {fileID: 114508197328969678}
   - {fileID: 114058452947560490}
-  - {fileID: 114822225059214930}
   - {fileID: 114829074023142118}
   - {fileID: 114924720381021418}
   - {fileID: 114724937118539524}
   - {fileID: 114066531868665638}
-  - {fileID: 114770614757868052}
-  viewIdField: 63
-  InstantiationId: 63
+  viewIdField: 9
+  InstantiationId: 9
   isRuntimeInstantiated: 0
 --- !u!114 &114829074023142118
 MonoBehaviour:
@@ -8240,7 +8236,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_SynchronizePosition: 1
   m_SynchronizeRotation: 1
-  m_SynchronizeScale: 0
+  m_SynchronizeScale: 1
 --- !u!114 &114924720381021418
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8255,7 +8251,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_SynchronizeVelocity: 1
   m_SynchronizeAngularVelocity: 1
-  m_TeleportEnabled: 0
+  m_TeleportEnabled: 1
   m_TeleportIfDistanceGreaterThan: 3
 --- !u!114 &114724937118539524
 MonoBehaviour:
@@ -8297,37 +8293,37 @@ MonoBehaviour:
     SynchronizeType: 1
     Name: ShieldAttack
   - Type: 4
-    SynchronizeType: 1
+    SynchronizeType: 0
     Name: Throw_Fire
   - Type: 4
     SynchronizeType: 1
     Name: ShieldUltimate
   - Type: 4
-    SynchronizeType: 1
+    SynchronizeType: 0
     Name: LanceIdle
   - Type: 4
-    SynchronizeType: 1
+    SynchronizeType: 0
     Name: LanceRun
   - Type: 4
-    SynchronizeType: 1
+    SynchronizeType: 0
     Name: LanceJump
   - Type: 4
-    SynchronizeType: 1
+    SynchronizeType: 0
     Name: LanceAttack
   - Type: 9
-    SynchronizeType: 1
+    SynchronizeType: 0
     Name: LanceDamage
   - Type: 4
-    SynchronizeType: 1
+    SynchronizeType: 0
     Name: Item_ThrowFire_Idle
   - Type: 4
-    SynchronizeType: 1
+    SynchronizeType: 0
     Name: Item_ThrowFire_Run
   - Type: 4
-    SynchronizeType: 1
+    SynchronizeType: 0
     Name: Item_ThrowFire_Jump
   - Type: 4
-    SynchronizeType: 1
+    SynchronizeType: 0
     Name: LanceJumpAttack
   - Type: 4
     SynchronizeType: 1

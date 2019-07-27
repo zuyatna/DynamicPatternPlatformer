@@ -6,14 +6,17 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 0
-    path: Assets/Scenes/GeneratorScene.unity
-    guid: 15c2231e805cd114e82bfec9d240765e
-  - enabled: 1
-    path: Assets/Scenes/_MASTER/Lobby/Authentication.unity
-    guid: 1e424348c985c064782e062a2fd74c37
+    path: Assets/CrystalFramework/Utility/Demos/SafeAreaDemo.unity
+    guid: a6e5e67a77ff0402b907d9f025feb0f8
   - enabled: 0
-    path: Assets/Scenes/_FEATURE/MenuGame/MenuGame.unity
-    guid: ed476b39568832040b63704025d900a8
+    path: Assets/Scenes/_MASTER/Lobby/Login.unity
+    guid: f7a36d237cf08e242bb68f3da51a815d
+  - enabled: 1
+    path: Assets/Scenes/_FEATURE/HomePlay/Homeplay.unity
+    guid: 0d051d7cca23a9040a5b5423e01d8c19
+  - enabled: 1
+    path: Assets/Scenes/_MASTER/Lobby/Authentication 1.unity
+    guid: 731f7f0f52710ed4c9e6dc69f61f40b6
   - enabled: 1
     path: Assets/Scenes/_FEATURE/MenuGame/MenuGame 1.unity
     guid: ee692189c5dd4fc48b8e247039042985

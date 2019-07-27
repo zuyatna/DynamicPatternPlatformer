@@ -204,6 +204,15 @@
           </e>
           <e p="Version.txt" t="Include" />
         </e>
+        <e p="CrystalFramework" t="Include">
+          <e p="Utility" t="Include">
+            <e p="Demos" t="Include">
+              <e p="SafeAreaDemo.cs" t="Include" />
+              <e p="SafeAreaDemo.txt" t="Include" />
+            </e>
+            <e p="SafeArea.cs" t="Include" />
+          </e>
+        </e>
         <e p="Editor" t="Include">
           <e p="CrossPlatformInput" t="Include">
             <e p="CrossPlatformInputInitialize.cs" t="Include" />
@@ -599,8 +608,12 @@
               <e p="SpecialWeaponsBehaviour.cs" t="Include" />
               <e p="WeaponsBehaviour.cs" t="Include" />
             </e>
+            <e p="Login" t="Include">
+              <e p="PlayerData.cs" t="Include" />
+            </e>
             <e p="Photon" t="Include">
               <e p="CreateRoom.cs" t="Include" />
+              <e p="CustomMatch.cs" t="Include" />
               <e p="Launcher.cs" t="Include" />
               <e p="ShowInfoOfPlayer.cs" t="Include" />
             </e>

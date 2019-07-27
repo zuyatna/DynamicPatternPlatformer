@@ -2,10 +2,7 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
-using Photon;
 using Photon.Pun;
-using PlayFab;
-using PlayFab.ClientModels;
 
 public class LevelManager : MonoBehaviourPunCallbacks, IPunObservable
 {
@@ -14,7 +11,7 @@ public class LevelManager : MonoBehaviourPunCallbacks, IPunObservable
 
 	#region Public Variables
 
-	[Tooltip("The prefab to use for representating the player")]
+	[Tooltip("The prefab to use for representation the player")]
     public GameObject playerPrefab;
 
 	[Header("Leave Room")]
@@ -24,15 +21,15 @@ public class LevelManager : MonoBehaviourPunCallbacks, IPunObservable
 	public List<GameObject> itemsDrop;
 
 	[Tooltip("Time for drop")]
-	private float timerDrop;
+	private float _timerDrop;
 	public float tempTimerDrop;
-	private int tempRandomItemDrop = 0;
-	private int tempRandomDropPosition = 1;
+	private int _tempRandomItemDrop = 0;
+	private int _tempRandomDropPosition = 1;
 
-	private int tempPlayer = 1;
+	[SerializeField] private int tempPlayer = 1;
 	public Text playerInRoom;
 
-	private int players = 1;
+	private int _players = 1;
 
 	[HideInInspector] public bool activeCameraMoving;
 	[HideInInspector] public bool activeTimer;
@@ -43,9 +40,9 @@ public class LevelManager : MonoBehaviourPunCallbacks, IPunObservable
 
 	[Tooltip("Main Camera")]
 	public GameObject movingCamera;
-	public float time; //detik
-    private float minutes;
-	private float seconds;
+	public float time; //second
+    private float _minutes;
+	private float _seconds;
 		
 	#endregion
 
@@ -54,7 +51,7 @@ public class LevelManager : MonoBehaviourPunCallbacks, IPunObservable
 	/// </summary>
 	void Awake()
 	{
-		Instance = this;		
+		Instance = this;
 
 		if (playerPrefab == null)
         {
@@ -74,27 +71,29 @@ public class LevelManager : MonoBehaviourPunCallbacks, IPunObservable
 				Debug.Log("Ignoring scene load for "+Application.loadedLevelName);
 			}
         }
+		
+		leaveButton.onClick.AddListener(LeaveRoom);
+		
+		waitingPlayer.text = "Waiting Until " +maxPlayer +" Players";
+		_timerDrop = tempTimerDrop;
+		tempPlayer = maxPlayer;
+		
+		Application.targetFrameRate = 70;
+		
 
-		leaveButton.onClick.AddListener(LeaveRoom);		
-
-		timerDrop = tempTimerDrop;
-
-
-		foreach (var player in PhotonNetwork.PlayerListOthers)
-		{
-			tempPlayer++;
-			maxPlayer -= tempPlayer;
-
-			photonView.RPC("RPCPlayers", RpcTarget.All, 1f);
-
-			if(tempPlayer > 0)
-			{
-				playerInRoom.text = "PIR: " +tempPlayer +" RPC: " +players;
-				waitingPlayer.text = "Waiting Until " +maxPlayer +" Players";
-			}	
-		}			
-
-		Application.targetFrameRate = 70;	
+//		foreach (var player in PhotonNetwork.PlayerListOthers)
+//		{
+//			_tempPlayer++;
+//			maxPlayer -= _tempPlayer;
+//
+//			photonView.RPC("RPCPlayers", RpcTarget.All, 1f);
+//
+//			if(_tempPlayer > 0)
+//			{
+//				playerInRoom.text = "PIR: " +_tempPlayer +" RPC: " +_players;
+//				waitingPlayer.text = "Waiting Until " +maxPlayer +" Players";
+//			}	
+//		}			
 	}
 
 	/// <summary>
@@ -105,31 +104,31 @@ public class LevelManager : MonoBehaviourPunCallbacks, IPunObservable
 
 		if(photonView.IsMine)
 		{
-			if(players >= 2)
-			{
-				// activeCameraMoving = true;
-				loadingObject.SetActive(false);			
-			}
-
-			if(activeCameraMoving)
-			{
-				photonView.RPC("CameraMoving", RpcTarget.All);
-			}
-
-			if(activeTimer)
-			{
-				minutes = Mathf.Floor(time / 60);
-				seconds = Mathf.RoundToInt(time % 60);
-				time -= Time.deltaTime;
-				
-				if (time <= 0)
-				{                
-					GameObject.FindGameObjectWithTag("MainCamera").GetComponent<MovingCamera>().enabled = false;               			
-					photonView.RPC("RPCLeaveRoom", RpcTarget.All);					
-				}
-			}				   
+			//
 		}
 		
+		if(_players == tempPlayer)
+		{
+			activeCameraMoving = true;
+		}
+
+		if(activeCameraMoving)
+		{
+			photonView.RPC("CameraMoving", RpcTarget.All);
+		}
+
+		if(activeTimer)
+		{
+			_minutes = Mathf.Floor(time / 60);
+			_seconds = Mathf.RoundToInt(time % 60);
+			time -= Time.deltaTime;
+				
+			if (time <= 0)
+			{                
+				GameObject.FindGameObjectWithTag("MainCamera").GetComponent<MovingCamera>().enabled = false;               			
+				photonView.RPC("RpcLeaveRoom", RpcTarget.All);					
+			}
+		}
 	}
 
 	#region Photon Messages
@@ -141,14 +140,22 @@ public class LevelManager : MonoBehaviourPunCallbacks, IPunObservable
 		if(PhotonNetwork.IsMasterClient) {
 
 			Debug.Log("OnPhotonPlayerConnected isMasterClient " +PhotonNetwork.IsMasterClient);
-			LoadArena();
 		}
+
+		_players++;
+		maxPlayer -= _players;
+		
+		waitingPlayer.text = "Waiting Until " +maxPlayer +" Players";
 	}
 
 	public override void OnPlayerLeftRoom(Photon.Realtime.Player otherPlayer) {
 
 		Debug.Log("OnPhotonPlayerDisconnected isMasterClient " +PhotonNetwork.IsMasterClient);
-		LoadArena();
+		
+		_players--;
+		maxPlayer -= _players;
+		
+		waitingPlayer.text = "Waiting Until " +maxPlayer +" Players";
 	}
 
 	/// <summary>
@@ -156,7 +163,7 @@ public class LevelManager : MonoBehaviourPunCallbacks, IPunObservable
 	/// </summary>
 	public override void OnLeftRoom() {
 
-		SceneManager.LoadScene(2);
+		SceneManager.LoadScene("MenuGame 1");
 	}
 
 	#endregion
@@ -180,7 +187,7 @@ public class LevelManager : MonoBehaviourPunCallbacks, IPunObservable
 		}
 
 		Debug.Log("PhotonNetwork: Loading Level: " +PhotonNetwork.CurrentRoom.PlayerCount);
-		PhotonNetwork.LoadLevel(5);
+		PhotonNetwork.LoadLevel("Gameplay-Online");
 	}
 
 	#endregion
@@ -188,55 +195,57 @@ public class LevelManager : MonoBehaviourPunCallbacks, IPunObservable
 	#region RPC			
 
 	[PunRPC]
-	private void RPCItemsDrop()
+	private void RpcItemsDrop()
 	{		
-		var _randomDrop = Random.Range(0, itemsDrop.Count);
-		Debug.LogWarning("item drop: " +_randomDrop);
+		var randomDrop = Random.Range(0, itemsDrop.Count);
+		Debug.LogWarning("item drop: " +randomDrop);
 
-		var _randomPosition = Random.Range(0, itemsDropPosition.Count);
-		Debug.LogWarning("drop position: " +_randomPosition);
+		var randomPosition = Random.Range(0, itemsDropPosition.Count);
+		Debug.LogWarning("drop position: " +randomPosition);
 
-		if(tempRandomItemDrop == _randomDrop)
+		if(_tempRandomItemDrop == randomDrop)
 		{
-			_randomDrop = Random.Range(0, itemsDrop.Count);
-			Debug.LogWarning("item drop [again]: " +_randomDrop);			
+			randomDrop = Random.Range(0, itemsDrop.Count);
+			Debug.LogWarning("item drop [again]: " +randomDrop);			
 		}
 		else
 		{
-			tempRandomItemDrop = _randomDrop;
+			_tempRandomItemDrop = randomDrop;
 		}
 		
-		if(tempRandomDropPosition == _randomPosition)
+		if(_tempRandomDropPosition == randomPosition)
 		{
-			_randomPosition = Random.Range(0, itemsDropPosition.Count);
-			Debug.LogWarning("drop position [again]: " +_randomPosition);			
+			randomPosition = Random.Range(0, itemsDropPosition.Count);
+			Debug.LogWarning("drop position [again]: " +randomPosition);			
 		}
 		else
 		{
-			tempRandomDropPosition = _randomPosition;
+			_tempRandomDropPosition = randomPosition;
 		}
 
-		Instantiate(itemsDrop[tempRandomItemDrop], new Vector3(itemsDropPosition[tempRandomDropPosition].position.x, itemsDropPosition[tempRandomDropPosition].position.y, 90), Quaternion.identity);
+		Instantiate(itemsDrop[_tempRandomItemDrop], new Vector3(itemsDropPosition[_tempRandomDropPosition].position.x, itemsDropPosition[_tempRandomDropPosition].position.y, 90), Quaternion.identity);
 	}
 
 	[PunRPC]
 	private void CameraMoving()
 	{		
 		GameObject.FindGameObjectWithTag("MainCamera").GetComponent<MovingCamera>().enabled = true;
+		
+		loadingObject.SetActive(false);
 		activeCameraMoving = false;
 		activeTimer = true;
 	}
 
 	[PunRPC]
-	private void RPCLeaveRoom()
+	private void RpcLeaveRoom()
 	{
 		PhotonNetwork.LeaveRoom();
 	}
 
 	[PunRPC]
-	private void RPCPlayers(int _player)
+	private void RpcPlayers(int player)
 	{
-		players += _player;
+		_players += player;
 	}
 
     #endregion
