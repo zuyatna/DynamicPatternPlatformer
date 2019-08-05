@@ -1,4 +1,6 @@
-﻿using System.Collections.Generic;
+﻿using System.Collections;
+using System.Collections.Generic;
+using JetBrains.Annotations;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
@@ -11,14 +13,13 @@ public class LevelManager : MonoBehaviourPunCallbacks, IPunObservable
 
 	#region Public Variables
 
-	[Tooltip("The prefab to use for representation the player")]
-    public GameObject playerPrefab;
+	[Tooltip("The prefab to use for representation the player")] [CanBeNull]
+	public GameObject playerPrefab;
 
-	[Header("Leave Room")]
-	public Button leaveButton;
+	[Header("Leave Room")] [CanBeNull] public Button leaveButton;
 
-	public List<Transform> itemsDropPosition;
-	public List<GameObject> itemsDrop;
+	[CanBeNull] public List<Transform> itemsDropPosition;
+	[CanBeNull] public List<GameObject> itemsDrop;
 
 	[Tooltip("Time for drop")]
 	public float tempTimerDrop;
@@ -28,15 +29,16 @@ public class LevelManager : MonoBehaviourPunCallbacks, IPunObservable
 	[HideInInspector] public bool activeCameraMoving;
 	[HideInInspector] public bool activeTimer;
 
-	[Tooltip("Main Camera")]
-	public GameObject movingCamera;
+	[Tooltip("Main Camera")] [CanBeNull] public GameObject movingCamera;
 	public float time; //second
     private float _minutes;
 	private float _seconds;
 
 	public float countdown;
-	private float _countdownSecond;
 	public Text countdownText;
+	private float _countdownSecond;
+
+	private readonly List<string> _playersInRoom = new List<string>();
 
 	#endregion
 
@@ -70,6 +72,13 @@ public class LevelManager : MonoBehaviourPunCallbacks, IPunObservable
 		
 		leaveButton.onClick.AddListener(LeaveRoom);
 		Application.targetFrameRate = 70;
+		
+		foreach (var player in PhotonNetwork.PlayerListOthers)
+		{
+			_playersInRoom.Add(player.NickName);
+		}
+		
+		Debug.Log("Player In Room: " +_playersInRoom.Count);
 	}
 
 	/// <summary>
@@ -105,6 +114,11 @@ public class LevelManager : MonoBehaviourPunCallbacks, IPunObservable
 				photonView.RPC("RpcLeaveRoom", RpcTarget.All);					
 			}
 		}
+
+		if (_playersInRoom.Count == 0)
+		{
+			PhotonNetwork.LeaveRoom();
+		}
 	}
 
 	#region Photon Messages
@@ -122,6 +136,9 @@ public class LevelManager : MonoBehaviourPunCallbacks, IPunObservable
 	public override void OnPlayerLeftRoom(Photon.Realtime.Player otherPlayer) {
 
 		Debug.Log("OnPhotonPlayerDisconnected isMasterClient " +PhotonNetwork.IsMasterClient);
+		_playersInRoom.Remove(otherPlayer.NickName);
+		
+		Debug.Log("Was Remove: " +_playersInRoom.Remove(otherPlayer.NickName));
 	}
 
 	/// <summary>
