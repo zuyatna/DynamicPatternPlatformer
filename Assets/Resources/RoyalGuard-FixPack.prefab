@@ -2748,8 +2748,8 @@ MonoBehaviour:
   ObservedComponents:
   - {fileID: 224020203534435158}
   - {fileID: 114674299892007090}
-  viewIdField: 11
-  InstantiationId: 11
+  viewIdField: 8
+  InstantiationId: 8
   isRuntimeInstantiated: 0
 --- !u!114 &114674299892007090
 MonoBehaviour:
@@ -3176,8 +3176,8 @@ MonoBehaviour:
   ObservedComponents:
   - {fileID: 114807235956775308}
   - {fileID: 114413388404433112}
-  viewIdField: 12
-  InstantiationId: 12
+  viewIdField: 9
+  InstantiationId: 9
   isRuntimeInstantiated: 0
 --- !u!114 &114413388404433112
 MonoBehaviour:
@@ -3910,8 +3910,8 @@ MonoBehaviour:
   OwnershipTransfer: 0
   ObservedComponents:
   - {fileID: 114150328513574454}
-  viewIdField: 13
-  InstantiationId: 13
+  viewIdField: 16
+  InstantiationId: 16
   isRuntimeInstantiated: 0
 --- !u!1 &1496035340537074
 GameObject:
@@ -5422,8 +5422,8 @@ MonoBehaviour:
   OwnershipTransfer: 0
   ObservedComponents:
   - {fileID: 0}
-  viewIdField: 8
-  InstantiationId: 8
+  viewIdField: 6
+  InstantiationId: 6
   isRuntimeInstantiated: 0
 --- !u!1 &1687551016340122
 GameObject:
@@ -6767,8 +6767,8 @@ MonoBehaviour:
   OwnershipTransfer: 0
   ObservedComponents:
   - {fileID: 114385773002949750}
-  viewIdField: 14
-  InstantiationId: 14
+  viewIdField: 17
+  InstantiationId: 17
   isRuntimeInstantiated: 0
 --- !u!1 &1787946939022646
 GameObject:
@@ -8219,8 +8219,8 @@ MonoBehaviour:
   - {fileID: 114924720381021418}
   - {fileID: 114724937118539524}
   - {fileID: 114066531868665638}
-  viewIdField: 9
-  InstantiationId: 9
+  viewIdField: 7
+  InstantiationId: 7
   isRuntimeInstantiated: 0
 --- !u!114 &114829074023142118
 MonoBehaviour:

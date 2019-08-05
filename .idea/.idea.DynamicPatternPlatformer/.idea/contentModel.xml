@@ -613,8 +613,8 @@
             </e>
             <e p="Photon" t="Include">
               <e p="CreateRoom.cs" t="Include" />
-              <e p="CustomMatch.cs" t="Include" />
               <e p="Launcher.cs" t="Include" />
+              <e p="LobbyNetwork.cs" t="Include" />
               <e p="ShowInfoOfPlayer.cs" t="Include" />
             </e>
             <e p="Players" t="Include">

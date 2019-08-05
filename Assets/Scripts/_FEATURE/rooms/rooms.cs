@@ -1,34 +1,62 @@
-﻿using System.Collections;
-using System.Collections.Generic;
+﻿using Photon.Pun;
+using Photon.Realtime;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
-public class rooms : MonoBehaviour {
+public class rooms : MonoBehaviourPunCallbacks 
+{
 	public GameObject readygame;
-	public GameObject gameisready; 
+	public Text roomId;
+	public Text playerName;
+	public Text[] playersInRoom;
+	
 
-	public GameObject readytogame;	
-	public GameObject cancelready;
+	private void Awake()
+	{
+		roomId.text = PhotonNetwork.CurrentRoom.Name;
+		playerName.text = PhotonNetwork.NickName;
+
+		PhotonNetwork.AutomaticallySyncScene = true;
+		
+		if (PhotonNetwork.IsMasterClient)
+		{
+			readygame.SetActive(true);
+		}
+	}
+
+	private void Update()
+	{
+		int i = 0;
+		foreach (var player in PhotonNetwork.PlayerListOthers)
+		{
+			playersInRoom[i].text = player.NickName;
+			i++;
+		}
+	}
+
+	public void GoToAnotherScene()
+	{
+		PhotonNetwork.LoadLevel("Gameplay-Online");
+	}
+	
 	public void BacktoMenu()
 	{
-		SceneManager.LoadSceneAsync("GameMenu");
+		PhotonNetwork.LeaveRoom();
 	}
 
-	public void ReadyToGame() {
-		gameisready.gameObject.SetActive(true);
-		readygame.gameObject.SetActive(false);
-	}
-
-	public void ReadyGame()
+	public override void OnLeftRoom()
 	{
-		readytogame.gameObject.SetActive(false);
-		cancelready.gameObject.SetActive(true);
+		SceneManager.LoadSceneAsync("MenuGame 1");
 	}
 
-	public void CancelGame()
+	public override void OnPlayerLeftRoom(Player otherPlayer)
 	{
-		cancelready.gameObject.SetActive(false);
-		readytogame.gameObject.SetActive(true);
+		Debug.Log("Player Left Room: " +otherPlayer);
+	}
+
+	public override void OnPlayerEnteredRoom(Player newPlayer)
+	{
+		Debug.Log("Player Entered Room: " +newPlayer);
 	}
 }

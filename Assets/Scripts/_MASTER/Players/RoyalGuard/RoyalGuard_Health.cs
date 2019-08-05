@@ -73,15 +73,15 @@ public class RoyalGuard_Health : MonoBehaviourPunCallbacks, IPunObservable {
         {
 			if(isPunchAttack)
 			{
-				if(RoyalGuard_Control.Instance.FacingRight)
-				{
-					m_Body.velocity = new Vector2(Knockback, transform.position.y);					
-				}
-
-				if(!RoyalGuard_Control.Instance.FacingRight)
-				{
-					m_Body.velocity = new Vector2(-Knockback, transform.position.y);
-				}
+//				if(RoyalGuard_Control.Instance.FacingRight)
+//				{
+//					m_Body.velocity = new Vector2(Knockback, transform.position.y);					
+//				}
+//
+//				if(!RoyalGuard_Control.Instance.FacingRight)
+//				{
+//					m_Body.velocity = new Vector2(-Knockback, transform.position.y);
+//				}
 
 				tempTime -= Time.deltaTime;
 				if(tempTime < 0)
