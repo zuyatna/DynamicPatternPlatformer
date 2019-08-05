@@ -105,11 +105,6 @@ public class LevelManager : MonoBehaviourPunCallbacks, IPunObservable
 				photonView.RPC("RpcLeaveRoom", RpcTarget.All);					
 			}
 		}
-		
-		if (PhotonNetwork.CountOfPlayersInRooms == 1)
-		{
-			PhotonNetwork.LoadLevel("MenuGame 1");
-		}
 	}
 
 	#region Photon Messages

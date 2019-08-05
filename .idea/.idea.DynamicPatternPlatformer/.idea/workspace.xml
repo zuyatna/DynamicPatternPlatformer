@@ -2,22 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1aa241fe-1cc8-4950-bbb4-8a24042d8eaa" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.DynamicPatternPlatformer/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.DynamicPatternPlatformer/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.DynamicPatternPlatformer/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.DynamicPatternPlatformer/.idea/indexLayout.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.DynamicPatternPlatformer/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.DynamicPatternPlatformer/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/RoyalGuard-FixPack.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/RoyalGuard-FixPack.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/_FEATURE/MenuGame/MenuGame 1.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/_FEATURE/MenuGame/MenuGame 1.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/_FEATURE/Room/Room.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/_FEATURE/Room/Room.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/_MASTER/Gameplay/Gameplay-Online.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/_MASTER/Gameplay/Gameplay-Online.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/_FEATURE/GameMenu/menumanager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/_FEATURE/GameMenu/menumanager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/_FEATURE/rooms/rooms.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/_FEATURE/rooms/rooms.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/_MASTER/Camera/Timer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/_MASTER/Camera/Timer.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/_MASTER/Photon/CustomMatch.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/_MASTER/Photon/CustomMatch.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/_MASTER/Players/RoyalGuard/RoyalGuard_Health.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/_MASTER/Players/RoyalGuard/RoyalGuard_Health.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/_MASTER/_MANAGERS/LevelManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/_MASTER/_MANAGERS/LevelManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -178,45 +163,45 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/_MASTER/_MANAGERS/LevelManager.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="307">
-              <caret line="127" column="40" selection-start-line="127" selection-start-column="40" selection-end-line="127" selection-end-column="40" />
+            <state relative-caret-position="51">
+              <caret line="94" column="44" selection-start-line="94" selection-start-column="44" selection-end-line="94" selection-end-column="44" />
               <folding>
-                <marker date="1565021747224" expanded="true" signature="6:127" ph="..." />
-                <marker date="1565021747224" expanded="true" signature="198:5337" ph="{...}" />
-                <marker date="1565021747224" expanded="true" signature="242:974" ph="Public Variables" />
-                <marker date="1565021747224" expanded="true" signature="977:1069" ph="/// Awake is called when the script instance is being loaded. ... " />
-                <marker date="1565021747224" expanded="true" signature="1083:1950" ph="{...}" />
-                <marker date="1565021747224" expanded="true" signature="1184:1342" ph="{...}" />
-                <marker date="1565021747224" expanded="true" signature="1355:1862" ph="{...}" />
-                <marker date="1565021747224" expanded="true" signature="1424:1763" ph="{...}" />
-                <marker date="1565021747224" expanded="true" signature="1771:1852" ph="{...}" />
-                <marker date="1565021747224" expanded="true" signature="1953:2050" ph="/// Update is called every frame, if the MonoBehaviour is enabled. ... " />
-                <marker date="1565021747224" expanded="true" signature="2065:2746" ph="{...}" />
-                <marker date="1565021747224" expanded="true" signature="2237:2304" ph="{...}" />
-                <marker date="1565021747224" expanded="true" signature="2330:2388" ph="{...}" />
-                <marker date="1565021747224" expanded="true" signature="2407:2743" ph="{...}" />
-                <marker date="1565021747224" expanded="true" signature="2542:2739" ph="{...}" />
-                <marker date="1565021747224" expanded="true" signature="2749:3521" ph="Photon Messages" />
-                <marker date="1565021747224" expanded="true" signature="2850:3048" ph="{...}" />
-                <marker date="1565021747224" expanded="true" signature="2952:3045" ph="{...}" />
-                <marker date="1565021747224" expanded="true" signature="3125:3310" ph="{...}" />
-                <marker date="1565021747224" expanded="true" signature="3265:3307" ph="{...}" />
-                <marker date="1565021747224" expanded="true" signature="3313:3427" ph="/// Called when the local player left the room. We need to load the launcher scene. ... " />
-                <marker date="1565021747224" expanded="true" signature="3463:3508" ph="{...}" />
-                <marker date="1565021747224" expanded="true" signature="3524:3620" ph="Public Methods" />
-                <marker date="1565021747224" expanded="true" signature="3573:3607" ph="{...}" />
-                <marker date="1565021747224" expanded="true" signature="3624:3954" ph="Private Methods" />
-                <marker date="1565021747224" expanded="true" signature="3667:3941" ph="{...}" />
-                <marker date="1565021747224" expanded="true" signature="3706:3805" ph="{...}" />
-                <marker date="1565021747224" expanded="true" signature="3957:5179" ph="RPC" />
-                <marker date="1565021747224" expanded="true" signature="4011:4894" ph="{...}" />
-                <marker date="1565021747224" expanded="true" signature="4278:4395" ph="{...}" />
-                <marker date="1565021747224" expanded="true" signature="4402:4447" ph="{...}" />
-                <marker date="1565021747224" expanded="true" signature="4498:4635" ph="{...}" />
-                <marker date="1565021747224" expanded="true" signature="4642:4695" ph="{...}" />
-                <marker date="1565021747224" expanded="true" signature="4934:5091" ph="{...}" />
-                <marker date="1565021747224" expanded="true" signature="5131:5166" ph="{...}" />
-                <marker date="1565021747224" expanded="true" signature="5268:5335" ph="{...}" />
+                <marker date="1565022540092" expanded="true" signature="6:127" ph="..." />
+                <marker date="1565022540092" expanded="true" signature="198:5345" ph="{...}" />
+                <marker date="1565022540092" expanded="true" signature="242:974" ph="Public Variables" />
+                <marker date="1565022540092" expanded="true" signature="977:1069" ph="/// Awake is called when the script instance is being loaded. ... " />
+                <marker date="1565022540092" expanded="true" signature="1083:1950" ph="{...}" />
+                <marker date="1565022540092" expanded="true" signature="1184:1342" ph="{...}" />
+                <marker date="1565022540092" expanded="true" signature="1355:1862" ph="{...}" />
+                <marker date="1565022540092" expanded="true" signature="1424:1763" ph="{...}" />
+                <marker date="1565022540092" expanded="true" signature="1771:1852" ph="{...}" />
+                <marker date="1565022540092" expanded="true" signature="1953:2050" ph="/// Update is called every frame, if the MonoBehaviour is enabled. ... " />
+                <marker date="1565022540092" expanded="true" signature="2065:2845" ph="{...}" />
+                <marker date="1565022540092" expanded="true" signature="2237:2304" ph="{...}" />
+                <marker date="1565022540092" expanded="true" signature="2330:2487" ph="{...}" />
+                <marker date="1565022540092" expanded="true" signature="2430:2483" ph="{...}" />
+                <marker date="1565022540092" expanded="true" signature="2506:2842" ph="{...}" />
+                <marker date="1565022540092" expanded="true" signature="2641:2838" ph="{...}" />
+                <marker date="1565022540092" expanded="true" signature="2848:3529" ph="Photon Messages" />
+                <marker date="1565022540092" expanded="true" signature="2949:3147" ph="{...}" />
+                <marker date="1565022540092" expanded="true" signature="3051:3144" ph="{...}" />
+                <marker date="1565022540092" expanded="true" signature="3224:3318" ph="{...}" />
+                <marker date="1565022540092" expanded="true" signature="3321:3435" ph="/// Called when the local player left the room. We need to load the launcher scene. ... " />
+                <marker date="1565022540092" expanded="true" signature="3471:3516" ph="{...}" />
+                <marker date="1565022540092" expanded="true" signature="3532:3628" ph="Public Methods" />
+                <marker date="1565022540092" expanded="true" signature="3581:3615" ph="{...}" />
+                <marker date="1565022540092" expanded="true" signature="3632:3962" ph="Private Methods" />
+                <marker date="1565022540092" expanded="true" signature="3675:3949" ph="{...}" />
+                <marker date="1565022540092" expanded="true" signature="3714:3813" ph="{...}" />
+                <marker date="1565022540092" expanded="true" signature="3965:5187" ph="RPC" />
+                <marker date="1565022540092" expanded="true" signature="4019:4902" ph="{...}" />
+                <marker date="1565022540092" expanded="true" signature="4286:4403" ph="{...}" />
+                <marker date="1565022540092" expanded="true" signature="4410:4455" ph="{...}" />
+                <marker date="1565022540092" expanded="true" signature="4506:4643" ph="{...}" />
+                <marker date="1565022540092" expanded="true" signature="4650:4703" ph="{...}" />
+                <marker date="1565022540092" expanded="true" signature="4942:5099" ph="{...}" />
+                <marker date="1565022540092" expanded="true" signature="5139:5174" ph="{...}" />
+                <marker date="1565022540092" expanded="true" signature="5276:5343" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -433,12 +418,12 @@
       <workItem from="1564843576929" duration="620000" />
       <workItem from="1564844398387" duration="2527000" />
       <workItem from="1565005643210" duration="10621000" />
-      <workItem from="1565017422465" duration="3509000" />
+      <workItem from="1565017422465" duration="4251000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="60292000" />
+    <option name="totallyTimeSpent" value="61034000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1310,45 +1295,45 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/_MASTER/_MANAGERS/LevelManager.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="307">
-          <caret line="127" column="40" selection-start-line="127" selection-start-column="40" selection-end-line="127" selection-end-column="40" />
+        <state relative-caret-position="51">
+          <caret line="94" column="44" selection-start-line="94" selection-start-column="44" selection-end-line="94" selection-end-column="44" />
           <folding>
-            <marker date="1565021747224" expanded="true" signature="6:127" ph="..." />
-            <marker date="1565021747224" expanded="true" signature="198:5337" ph="{...}" />
-            <marker date="1565021747224" expanded="true" signature="242:974" ph="Public Variables" />
-            <marker date="1565021747224" expanded="true" signature="977:1069" ph="/// Awake is called when the script instance is being loaded. ... " />
-            <marker date="1565021747224" expanded="true" signature="1083:1950" ph="{...}" />
-            <marker date="1565021747224" expanded="true" signature="1184:1342" ph="{...}" />
-            <marker date="1565021747224" expanded="true" signature="1355:1862" ph="{...}" />
-            <marker date="1565021747224" expanded="true" signature="1424:1763" ph="{...}" />
-            <marker date="1565021747224" expanded="true" signature="1771:1852" ph="{...}" />
-            <marker date="1565021747224" expanded="true" signature="1953:2050" ph="/// Update is called every frame, if the MonoBehaviour is enabled. ... " />
-            <marker date="1565021747224" expanded="true" signature="2065:2746" ph="{...}" />
-            <marker date="1565021747224" expanded="true" signature="2237:2304" ph="{...}" />
-            <marker date="1565021747224" expanded="true" signature="2330:2388" ph="{...}" />
-            <marker date="1565021747224" expanded="true" signature="2407:2743" ph="{...}" />
-            <marker date="1565021747224" expanded="true" signature="2542:2739" ph="{...}" />
-            <marker date="1565021747224" expanded="true" signature="2749:3521" ph="Photon Messages" />
-            <marker date="1565021747224" expanded="true" signature="2850:3048" ph="{...}" />
-            <marker date="1565021747224" expanded="true" signature="2952:3045" ph="{...}" />
-            <marker date="1565021747224" expanded="true" signature="3125:3310" ph="{...}" />
-            <marker date="1565021747224" expanded="true" signature="3265:3307" ph="{...}" />
-            <marker date="1565021747224" expanded="true" signature="3313:3427" ph="/// Called when the local player left the room. We need to load the launcher scene. ... " />
-            <marker date="1565021747224" expanded="true" signature="3463:3508" ph="{...}" />
-            <marker date="1565021747224" expanded="true" signature="3524:3620" ph="Public Methods" />
-            <marker date="1565021747224" expanded="true" signature="3573:3607" ph="{...}" />
-            <marker date="1565021747224" expanded="true" signature="3624:3954" ph="Private Methods" />
-            <marker date="1565021747224" expanded="true" signature="3667:3941" ph="{...}" />
-            <marker date="1565021747224" expanded="true" signature="3706:3805" ph="{...}" />
-            <marker date="1565021747224" expanded="true" signature="3957:5179" ph="RPC" />
-            <marker date="1565021747224" expanded="true" signature="4011:4894" ph="{...}" />
-            <marker date="1565021747224" expanded="true" signature="4278:4395" ph="{...}" />
-            <marker date="1565021747224" expanded="true" signature="4402:4447" ph="{...}" />
-            <marker date="1565021747224" expanded="true" signature="4498:4635" ph="{...}" />
-            <marker date="1565021747224" expanded="true" signature="4642:4695" ph="{...}" />
-            <marker date="1565021747224" expanded="true" signature="4934:5091" ph="{...}" />
-            <marker date="1565021747224" expanded="true" signature="5131:5166" ph="{...}" />
-            <marker date="1565021747224" expanded="true" signature="5268:5335" ph="{...}" />
+            <marker date="1565022540092" expanded="true" signature="6:127" ph="..." />
+            <marker date="1565022540092" expanded="true" signature="198:5345" ph="{...}" />
+            <marker date="1565022540092" expanded="true" signature="242:974" ph="Public Variables" />
+            <marker date="1565022540092" expanded="true" signature="977:1069" ph="/// Awake is called when the script instance is being loaded. ... " />
+            <marker date="1565022540092" expanded="true" signature="1083:1950" ph="{...}" />
+            <marker date="1565022540092" expanded="true" signature="1184:1342" ph="{...}" />
+            <marker date="1565022540092" expanded="true" signature="1355:1862" ph="{...}" />
+            <marker date="1565022540092" expanded="true" signature="1424:1763" ph="{...}" />
+            <marker date="1565022540092" expanded="true" signature="1771:1852" ph="{...}" />
+            <marker date="1565022540092" expanded="true" signature="1953:2050" ph="/// Update is called every frame, if the MonoBehaviour is enabled. ... " />
+            <marker date="1565022540092" expanded="true" signature="2065:2845" ph="{...}" />
+            <marker date="1565022540092" expanded="true" signature="2237:2304" ph="{...}" />
+            <marker date="1565022540092" expanded="true" signature="2330:2487" ph="{...}" />
+            <marker date="1565022540092" expanded="true" signature="2430:2483" ph="{...}" />
+            <marker date="1565022540092" expanded="true" signature="2506:2842" ph="{...}" />
+            <marker date="1565022540092" expanded="true" signature="2641:2838" ph="{...}" />
+            <marker date="1565022540092" expanded="true" signature="2848:3529" ph="Photon Messages" />
+            <marker date="1565022540092" expanded="true" signature="2949:3147" ph="{...}" />
+            <marker date="1565022540092" expanded="true" signature="3051:3144" ph="{...}" />
+            <marker date="1565022540092" expanded="true" signature="3224:3318" ph="{...}" />
+            <marker date="1565022540092" expanded="true" signature="3321:3435" ph="/// Called when the local player left the room. We need to load the launcher scene. ... " />
+            <marker date="1565022540092" expanded="true" signature="3471:3516" ph="{...}" />
+            <marker date="1565022540092" expanded="true" signature="3532:3628" ph="Public Methods" />
+            <marker date="1565022540092" expanded="true" signature="3581:3615" ph="{...}" />
+            <marker date="1565022540092" expanded="true" signature="3632:3962" ph="Private Methods" />
+            <marker date="1565022540092" expanded="true" signature="3675:3949" ph="{...}" />
+            <marker date="1565022540092" expanded="true" signature="3714:3813" ph="{...}" />
+            <marker date="1565022540092" expanded="true" signature="3965:5187" ph="RPC" />
+            <marker date="1565022540092" expanded="true" signature="4019:4902" ph="{...}" />
+            <marker date="1565022540092" expanded="true" signature="4286:4403" ph="{...}" />
+            <marker date="1565022540092" expanded="true" signature="4410:4455" ph="{...}" />
+            <marker date="1565022540092" expanded="true" signature="4506:4643" ph="{...}" />
+            <marker date="1565022540092" expanded="true" signature="4650:4703" ph="{...}" />
+            <marker date="1565022540092" expanded="true" signature="4942:5099" ph="{...}" />
+            <marker date="1565022540092" expanded="true" signature="5139:5174" ph="{...}" />
+            <marker date="1565022540092" expanded="true" signature="5276:5343" ph="{...}" />
           </folding>
         </state>
       </provider>
