@@ -13,10 +13,10 @@ MonoBehaviour:
   m_Name: PhotonServerSettings
   m_EditorClassIdentifier: 
   AppSettings:
-    AppIdRealtime: 7b3c4371-9004-4cff-803f-5f6a9f8b47b9
+    AppIdRealtime: 
     AppIdChat: 
     AppIdVoice: 
-    AppVersion: 1
+    AppVersion: 
     UseNameServer: 1
     FixedRegion: 
     Server: 
@@ -42,17 +42,14 @@ MonoBehaviour:
   - RPCInstantiateBurnItem
   - RPCInstantiateSpecialWeapons
   - RPCInstantiateWeapons
-  - RPCItemsDrop
-  - RPCLeaveRoom
+  - RpcItemsDrop
+  - RpcLeaveRoom
   - RPCPlayerDamage
-  - RPCPlayers
+  - RpcPlayers
   - RPCSpawnBurnItem
   - RPCSpawnPlayer
   - RPCSpawnSpecialWeapons
   - RPCSpawnWeapons
   - RPCStandingPlayer
   - RPCUsingUltimate
-  - RpcLeaveRoom
-  - RpcPlayers
-  - RpcItemsDrop
   DisableAutoOpenWizard: 1
