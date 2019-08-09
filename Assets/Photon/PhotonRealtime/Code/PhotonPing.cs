@@ -52,7 +52,7 @@ namespace Photon.Realtime
         {
             this.GotResult = false;
             this.Successful = false;
-            this.PingId = (byte) (Environment.TickCount%255);
+            PingId = (byte) (Environment.TickCount%255);
         }
     }
 
@@ -71,32 +71,29 @@ namespace Photon.Realtime
         /// <returns>True if the Photon Ping could be sent.</returns>
         public override bool StartPing(string ip)
         {
-            this.Init();
+            base.Init();
 
             try
             {
-                if (this.sock == null)
+                if (ip.Contains("."))
                 {
-                    if (ip.Contains("."))
-                    {
-                        this.sock = new Socket(AddressFamily.InterNetwork, SocketType.Dgram, ProtocolType.Udp);
-                    }
-                    else
-                    {
-                        this.sock = new Socket(AddressFamily.InterNetworkV6, SocketType.Dgram, ProtocolType.Udp);
-                    }
-
-                    this.sock.ReceiveTimeout = 5000;
-                    this.sock.Connect(ip, 5055);
+                    this.sock = new Socket(AddressFamily.InterNetwork, SocketType.Dgram, ProtocolType.Udp);
+                }
+                else
+                {
+                    this.sock = new Socket(AddressFamily.InterNetworkV6, SocketType.Dgram, ProtocolType.Udp);
                 }
 
+                sock.ReceiveTimeout = 5000;
+                sock.Connect(ip, 5055);
 
-                this.PingBytes[this.PingBytes.Length - 1] = this.PingId;
-                this.sock.Send(this.PingBytes);
+                PingBytes[PingBytes.Length - 1] = PingId;
+                sock.Send(PingBytes);
+                PingBytes[PingBytes.Length - 1] = (byte)(PingId - 1);
             }
             catch (Exception e)
             {
-                this.sock = null;
+                sock = null;
                 Console.WriteLine(e);
             }
 
@@ -105,26 +102,23 @@ namespace Photon.Realtime
 
         public override bool Done()
         {
-            if (this.GotResult || this.sock == null)
+            if (this.GotResult || sock == null)
             {
                 return true;
             }
 
-            if (!this.sock.Poll(0, SelectMode.SelectRead))
+            if (sock.Available <= 0)
             {
                 return false;
             }
 
-            int read = this.sock.Receive(this.PingBytes, SocketFlags.None);
+            int read = sock.Receive(PingBytes, SocketFlags.None);
 
-            bool replyMatch = this.PingBytes[this.PingBytes.Length - 1] == this.PingId && read == this.PingLength;
-            if (!replyMatch)
-            {
-                this.DebugString += " ReplyMatch is false! ";
-            }
+            bool replyMatch = PingBytes[PingBytes.Length - 1] == PingId && read == PingLength;
+            if (!replyMatch) this.DebugString += " ReplyMatch is false! ";
 
 
-            this.Successful = replyMatch;
+            this.Successful = read == PingBytes.Length && PingBytes[PingBytes.Length - 1] == PingId;
             this.GotResult = true;
             return true;
         }
@@ -133,13 +127,12 @@ namespace Photon.Realtime
         {
             try
             {
-                this.sock.Close();
+                sock.Close();
             }
             catch
             {
             }
-
-            this.sock = null;
+            sock = null;
         }
 
     }

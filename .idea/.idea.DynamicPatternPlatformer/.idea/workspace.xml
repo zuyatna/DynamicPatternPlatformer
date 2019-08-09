@@ -2,8 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1aa241fe-1cc8-4950-bbb4-8a24042d8eaa" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.DynamicPatternPlatformer/.idea/projectSettingsUpdater.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.DynamicPatternPlatformer/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.DynamicPatternPlatformer/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.DynamicPatternPlatformer/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.DynamicPatternPlatformer/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.DynamicPatternPlatformer/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.DynamicPatternPlatformer/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ObjectPooler.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ObjectPooler.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Editor/JetBrains/JetBrains.Rider.Unity.Editor.Plugin.Repacked.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Editor/JetBrains/JetBrains.Rider.Unity.Editor.Plugin.Repacked.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/_MASTER/Gameplay/Gameplay-Online.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/_MASTER/Gameplay/Gameplay-Online.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/_MASTER/Photon/LobbyNetwork.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/_MASTER/Photon/LobbyNetwork.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/_MASTER/Players/RoyalGuard/RoyalGuard_Health.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/_MASTER/Players/RoyalGuard/RoyalGuard_Health.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/_MASTER/_MANAGERS/LevelManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/_MASTER/_MANAGERS/LevelManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -14,58 +22,33 @@
   <component name="FavoritesManager">
     <favorites_list name="DynamicPatternPlatformer" />
   </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/Scripts/GeneratorPlatformer.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="435">
-              <caret line="34" column="64" selection-start-line="34" selection-start-column="48" selection-end-line="34" selection-end-column="64" />
-              <folding>
-                <marker date="1560825250592" expanded="true" signature="6:51" ph="..." />
-                <marker date="1560825250592" expanded="true" signature="102:1322" ph="{...}" />
-                <marker date="1560825250592" expanded="true" signature="469:506" ph="{...}" />
-                <marker date="1560825250592" expanded="true" signature="530:717" ph="{...}" />
-                <marker date="1560825250592" expanded="true" signature="599:711" ph="{...}" />
-                <marker date="1560825250592" expanded="true" signature="756:1320" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Assets/Scripts/ObjectPooler.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="287">
-              <caret line="40" column="1" lean-forward="true" selection-start-line="40" selection-start-column="1" selection-end-line="40" selection-end-column="1" />
-              <folding>
-                <marker date="1561705494051" expanded="false" signature="6:52" ph="..." />
-                <marker date="1561705494051" expanded="true" signature="95:944" ph="{...}" />
-                <marker date="1561705494051" expanded="true" signature="279:322" ph="{...}" />
-                <marker date="1561705494051" expanded="true" signature="348:613" ph="{...}" />
-                <marker date="1561705494051" expanded="true" signature="449:607" ph="{...}" />
-                <marker date="1561705494051" expanded="true" signature="654:942" ph="{...}" />
-                <marker date="1561705494051" expanded="true" signature="714:906" ph="{...}" />
-                <marker date="1561705494051" expanded="true" signature="777:896" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/PlatformDestroyer.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/PlatformerReplacing.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/DetectPlatformer.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/ObjectPooler.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/GeneratorPlatformer.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/CameraMove.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/ItemDestroyer.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/ClickManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/_MASTER/Login/PlayerData.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/_MASTER/_MANAGERS/LoginManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Origin/PlatformDestroyers.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/_MASTER/Photon/ShowInfoOfPlayer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/_MASTER/Photon/LobbyNetwork.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/_FEATURE/HomePlay/homeplaymanager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Anima2D/Scripts/SpriteMeshInstance.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/_FEATURE/rooms/rooms.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/_FEATURE/GameMenu/menumanager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/_MASTER/Camera/FPSCounter.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/_MASTER/Photon/CreateRoom.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Origin/GeneratorPlatformers.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/_MASTER/Players/RoyalGuard/RoyalGuard_Health.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/_MASTER/Players/RoyalGuard/RoyalGuard_Control.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Origin/ObjectPoolers.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/_MASTER/PlayFab/AccountInfo.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/_MASTER/Camera/Timer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/_FEATURE/ScrollRec/ScrollSnapRect.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Photon/PhotonUnityNetworking/UtilityScripts/PhotonPlayer/PunPlayerScores.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/PlayFabEditorExtensions/Editor/PlayFabEditor.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/_MASTER/Photon/Launcher.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Photon/PhotonUnityNetworking/Code/PhotonView.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/_MASTER/_MANAGERS/LevelManager.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -78,22 +61,33 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/GeneratorPlatformer.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PlatformerReplacing.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ObjectPooler.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Origin/PlatformDestroyers.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Origin/ObjectPoolers.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Origin/GeneratorPlatformers.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/_MASTER/_MANAGERS/LoginManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/_MASTER/Camera/FPSCounter.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/_MASTER/PlayFab/AccountInfo.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/_MASTER/Photon/ShowInfoOfPlayer.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/_FEATURE/ScrollRec/ScrollSnapRect.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/_MASTER/Photon/CustomMatch.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/_FEATURE/HomePlay/homeplaymanager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/_MASTER/Photon/Launcher.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/_MASTER/Login/PlayerData.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/_MASTER/Photon/MenuGameConnect.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/_MASTER/Photon/DDOL.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/_MASTER/Photon/PlayerNetwork.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/_MASTER/Photon/CustomRoom.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/_FEATURE/GameMenu/menumanager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/_FEATURE/rooms/rooms.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/_MASTER/Camera/Timer.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/_MASTER/Photon/LobbyNetwork.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/_MASTER/_MANAGERS/LevelManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/_MASTER/Players/RoyalGuard/RoyalGuard_Health.cs" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="466" />
-    <option name="y" value="41" />
-    <option name="width" value="1022" />
-    <option name="height" value="596" />
-  </component>
+  <component name="ProjectId" id="1PCQXoabKjmfejDc86LAaJc7J5Z" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes />
-  </component>
   <component name="PropertiesComponent">
     <property name="Discover.Launch.Via.Unity" value="true" />
     <property name="Rider.DefaultBreakpoints.AreToggled" value="true" />
@@ -146,60 +140,58 @@
       <workItem from="1560793415531" duration="10281000" />
       <workItem from="1560821342023" duration="6273000" />
       <workItem from="1561705353564" duration="748000" />
+      <workItem from="1561708123360" duration="3221000" />
+      <workItem from="1561720374640" duration="1231000" />
+      <workItem from="1561722616911" duration="651000" />
+      <workItem from="1562321664601" duration="1155000" />
+      <workItem from="1562323375907" duration="845000" />
+      <workItem from="1562648528037" duration="3180000" />
+      <workItem from="1563876433540" duration="84000" />
+      <workItem from="1563876622777" duration="2940000" />
+      <workItem from="1563882120507" duration="2561000" />
+      <workItem from="1563903388397" duration="5411000" />
+      <workItem from="1563908970963" duration="8000" />
+      <workItem from="1563909628585" duration="244000" />
+      <workItem from="1563910359598" duration="553000" />
+      <workItem from="1564821203361" duration="1415000" />
+      <workItem from="1564843576929" duration="620000" />
+      <workItem from="1564844398387" duration="2527000" />
+      <workItem from="1565005643210" duration="10621000" />
+      <workItem from="1565017422465" duration="6872000" />
+      <workItem from="1565374913113" duration="527000" />
+      <workItem from="1565375652462" duration="2209000" />
     </task>
     <servers />
-  </component>
-  <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19516000" />
-  </component>
-  <component name="TodoView">
-    <todo-panel id="selected-file">
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
-    <todo-panel id="all">
-      <are-packages-shown value="true" />
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
-  </component>
-  <component name="ToolWindowManager">
-    <frame x="466" y="41" width="1022" height="596" extended-state="0" />
-    <editor active="true" />
-    <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.25259876" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Image Layers" order="2" />
-      <window_info id="Capture Tool" order="3" />
-      <window_info id="Favorites" order="4" side_tool="true" weight="0.32952183" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="NuGet" order="7" />
-      <window_info anchor="bottom" id="Performance Profiler" order="8" />
-      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="10" />
-      <window_info anchor="bottom" id="Database Changes" order="11" />
-      <window_info anchor="bottom" id="Unit Tests" order="12" />
-      <window_info anchor="bottom" id="Terminal" order="13" />
-      <window_info anchor="bottom" id="Event Log" order="14" side_tool="true" weight="0.3295711" />
-      <window_info anchor="bottom" id="Unity" order="15" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info anchor="right" id="Errors In Solution" order="4" />
-      <window_info anchor="right" id="Database" order="5" />
-      <window_info anchor="right" id="Unit Tests Coverage" order="6" />
-    </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
   <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="EditMode" />
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="LOCAL_CHANGES_DETAILS_PREVIEW_SHOWN" value="true" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
@@ -209,127 +201,5 @@
         </breakpoint>
       </breakpoints>
     </breakpoint-manager>
-  </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/ItemDestroyer.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="17" column="35" selection-start-line="17" selection-start-column="35" selection-end-line="17" selection-end-column="35" />
-          <folding>
-            <marker date="1560803193426" expanded="false" signature="6:78" ph="..." />
-            <marker date="1560803193426" expanded="true" signature="122:477" ph="{...}" />
-            <marker date="1560803193426" expanded="true" signature="215:279" ph="{...}" />
-            <marker date="1560803193426" expanded="true" signature="340:475" ph="{...}" />
-            <marker date="1560803193426" expanded="true" signature="411:469" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/CameraMove.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="9" column="20" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
-          <folding>
-            <marker date="1560798130367" expanded="true" signature="6:75" ph="..." />
-            <marker date="1560798130367" expanded="true" signature="116:939" ph="{...}" />
-            <marker date="1560798130367" expanded="true" signature="369:627" ph="{...}" />
-            <marker date="1560798130367" expanded="true" signature="401:621" ph="{...}" />
-            <marker date="1560798130367" expanded="true" signature="660:937" ph="{...}" />
-            <marker date="1560798130367" expanded="true" signature="701:792" ph="{...}" />
-            <marker date="1560798130367" expanded="true" signature="805:931" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/DetectPlatformer.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="37" column="54" selection-start-line="37" selection-start-column="54" selection-end-line="37" selection-end-column="54" />
-          <folding>
-            <marker date="1560800943001" expanded="false" signature="6:54" ph="..." />
-            <marker date="1560800943001" expanded="true" signature="101:1114" ph="{...}" />
-            <marker date="1560800943001" expanded="true" signature="298:708" ph="{...}" />
-            <marker date="1560800943001" expanded="true" signature="370:702" ph="{...}" />
-            <marker date="1560800943001" expanded="true" signature="523:689" ph="{...}" />
-            <marker date="1560800943001" expanded="true" signature="761:1112" ph="{...}" />
-            <marker date="1560800943001" expanded="true" signature="834:1106" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/PlatformDestroyer.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="7" column="19" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
-          <folding>
-            <marker date="1560801740384" expanded="true" signature="67:401" ph="{...}" />
-            <marker date="1560801740384" expanded="true" signature="154:215" ph="{...}" />
-            <marker date="1560801740384" expanded="true" signature="270:399" ph="{...}" />
-            <marker date="1560801740384" expanded="true" signature="335:396" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/ClickManager.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="16" column="57" selection-start-line="16" selection-start-column="57" selection-end-line="16" selection-end-column="57" />
-          <folding>
-            <marker date="1560823379617" expanded="true" signature="61:609" ph="{...}" />
-            <marker date="1560823379617" expanded="true" signature="120:607" ph="{...}" />
-            <marker date="1560823379617" expanded="true" signature="167:598" ph="{...}" />
-            <marker date="1560823379617" expanded="true" signature="452:588" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/PlatformerReplacing.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="29" column="5" selection-start-line="29" selection-start-column="5" selection-end-line="29" selection-end-column="5" />
-          <folding>
-            <marker date="1560826917217" expanded="true" signature="68:1134" ph="{...}" />
-            <marker date="1560826917217" expanded="true" signature="218:255" ph="{...}" />
-            <marker date="1560826917217" expanded="true" signature="289:580" ph="{...}" />
-            <marker date="1560826917217" expanded="true" signature="337:574" ph="{...}" />
-            <marker date="1560826917217" expanded="true" signature="422:564" ph="{...}" />
-            <marker date="1560826917217" expanded="true" signature="636:1132" ph="{...}" />
-            <marker date="1560826917217" expanded="true" signature="900:1042" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/GeneratorPlatformer.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="34" column="64" selection-start-line="34" selection-start-column="48" selection-end-line="34" selection-end-column="64" />
-          <folding>
-            <marker date="1560825250592" expanded="true" signature="6:51" ph="..." />
-            <marker date="1560825250592" expanded="true" signature="102:1322" ph="{...}" />
-            <marker date="1560825250592" expanded="true" signature="469:506" ph="{...}" />
-            <marker date="1560825250592" expanded="true" signature="530:717" ph="{...}" />
-            <marker date="1560825250592" expanded="true" signature="599:711" ph="{...}" />
-            <marker date="1560825250592" expanded="true" signature="756:1320" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/ObjectPooler.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="287">
-          <caret line="40" column="1" lean-forward="true" selection-start-line="40" selection-start-column="1" selection-end-line="40" selection-end-column="1" />
-          <folding>
-            <marker date="1561705494051" expanded="false" signature="6:52" ph="..." />
-            <marker date="1561705494051" expanded="true" signature="95:944" ph="{...}" />
-            <marker date="1561705494051" expanded="true" signature="279:322" ph="{...}" />
-            <marker date="1561705494051" expanded="true" signature="348:613" ph="{...}" />
-            <marker date="1561705494051" expanded="true" signature="449:607" ph="{...}" />
-            <marker date="1561705494051" expanded="true" signature="654:942" ph="{...}" />
-            <marker date="1561705494051" expanded="true" signature="714:906" ph="{...}" />
-            <marker date="1561705494051" expanded="true" signature="777:896" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
   </component>
 </project>

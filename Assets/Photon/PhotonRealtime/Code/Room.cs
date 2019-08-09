@@ -362,25 +362,20 @@ namespace Photon.Realtime
         {
             Hashtable customProps = propertiesToSet.StripToStringKeys() as Hashtable;
 
-            if (this.isOffline)
+            // merge (and delete null-values), unless we use CAS (expected props)
+            if (expectedProperties == null || expectedProperties.Count == 0)
             {
-                // Merge and delete values.
                 this.CustomProperties.Merge(customProps);
                 this.CustomProperties.StripKeysWithNullValues();
+            }
 
+            if (this.isOffline)
+            {
                 // invoking callbacks
                 this.LoadBalancingClient.InRoomCallbackTargets.OnRoomPropertiesUpdate(propertiesToSet);
-               
             }
             else
             {
-				// merge (and delete null-values), unless we use CAS (expected props)
-				if (expectedProperties == null || expectedProperties.Count == 0)
-				{
-					this.CustomProperties.Merge(customProps);
-					this.CustomProperties.StripKeysWithNullValues();
-				}
-
                 // send (sync) these new values if in online room
                 this.LoadBalancingClient.LoadBalancingPeer.OpSetPropertiesOfRoom(customProps, expectedProperties, webFlags);
             }
