@@ -1,6 +1,7 @@
 ﻿using UnityEngine;
 using UnityEngine.UI;
 using Photon.Pun;
+using Photon.Pun.UtilityScripts;
 
 public class RoyalGuard_Health : MonoBehaviourPunCallbacks, IPunObservable {
 
@@ -107,6 +108,8 @@ public class RoyalGuard_Health : MonoBehaviourPunCallbacks, IPunObservable {
 					photonView.RPC("RPCSpawnPlayer", RpcTarget.All);
 					playerDeath = false;
 					tempCooldownDeath = cooldownDeath;
+					
+					PhotonNetwork.LocalPlayer.AddScore(1);
 				}								
 			}			
 
@@ -135,7 +138,7 @@ public class RoyalGuard_Health : MonoBehaviourPunCallbacks, IPunObservable {
 		this.gameObject.transform.position = transform.position;
 
 		playerHealth.fillAmount = 0;
-		playerMiniHealth.fillAmount = 1;		
+		playerMiniHealth.fillAmount = 1;
 	}
 
 	private void PlayerSpawn()

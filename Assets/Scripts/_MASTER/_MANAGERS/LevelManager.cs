@@ -1,10 +1,14 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using System.Text;
 using JetBrains.Annotations;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 using Photon.Pun;
+using Photon.Pun.UtilityScripts;
+using Photon.Realtime;
+using UnityEngine.Serialization;
 
 public class LevelManager : MonoBehaviourPunCallbacks, IPunObservable
 {
@@ -23,19 +27,27 @@ public class LevelManager : MonoBehaviourPunCallbacks, IPunObservable
 
 	[Tooltip("Time for drop")]
 	public float tempTimerDrop;
-	private int _tempRandomItemDrop = 0;
-	private int _tempRandomDropPosition = 1;
 
 	[HideInInspector] public bool activeCameraMoving;
 	[HideInInspector] public bool activeTimer;
 
 	[Tooltip("Main Camera")] [CanBeNull] public GameObject movingCamera;
 	public float time; //second
-    private float _minutes;
-	private float _seconds;
 
 	public float countdown;
 	public Text countdownText;
+
+	public Text scoreboard;
+	
+	#endregion
+
+	#region Private Varibles
+
+	private int _tempRandomItemDrop = 0;
+	private int _tempRandomDropPosition = 1;
+	
+	private float _minutes;
+	private float _seconds;
 	private float _countdownSecond;
 
 	private readonly List<string> _playersInRoom = new List<string>();
@@ -115,10 +127,24 @@ public class LevelManager : MonoBehaviourPunCallbacks, IPunObservable
 			}
 		}
 
-		if (_playersInRoom.Count == 0)
+//		if (_playersInRoom.Count == 0)
+//		{
+//			PhotonNetwork.LeaveRoom();
+//		}
+		
+		ScoreBoard();
+	}
+
+	private void ScoreBoard()
+	{
+		var playerList = new StringBuilder();
+		foreach (var player in PhotonNetwork.PlayerList)
 		{
-			PhotonNetwork.LeaveRoom();
+			print(player.NickName +" : " +player.GetScore());
+			playerList.Append(player.NickName +" : " +player.GetScore() +"\n");
 		}
+
+		scoreboard.text = playerList.ToString();
 	}
 
 	#region Photon Messages

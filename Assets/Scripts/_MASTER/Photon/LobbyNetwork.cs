@@ -26,7 +26,7 @@ public class LobbyNetwork : MonoBehaviourPunCallbacks
 
     public override void OnJoinedLobby()
     {
-        Debug.Log("Joined Lobby...");
+        Debug.Log("Joined Lobby as " +PhotonNetwork.NickName + "...");
     }
     
     public void ClickCreateRoom()
