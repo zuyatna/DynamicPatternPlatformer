@@ -2,16 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1aa241fe-1cc8-4950-bbb4-8a24042d8eaa" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.DynamicPatternPlatformer/.idea/projectSettingsUpdater.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.DynamicPatternPlatformer/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.DynamicPatternPlatformer/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.DynamicPatternPlatformer/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.DynamicPatternPlatformer/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.DynamicPatternPlatformer/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.DynamicPatternPlatformer/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Editor/JetBrains/JetBrains.Rider.Unity.Editor.Plugin.Repacked.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Editor/JetBrains/JetBrains.Rider.Unity.Editor.Plugin.Repacked.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/UI/World.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/UI/World.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Item-throw.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Item-throw.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Lance.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Lance.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/RoyalGuard-FixPack.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/RoyalGuard-FixPack.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Shield.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Shield.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Weapon-Special.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Weapon-Special.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Weapon.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Weapon.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/fire.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/fire.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/_FEATURE/MenuGame/MenuGame 1.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/_FEATURE/MenuGame/MenuGame 1.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/_MASTER/Gameplay/Gameplay-Online.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/_MASTER/Gameplay/Gameplay-Online.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/_MASTER/Photon/LobbyNetwork.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/_MASTER/Photon/LobbyNetwork.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/_MASTER/Players/RoyalGuard/RoyalGuard_Health.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/_MASTER/Players/RoyalGuard/RoyalGuard_Health.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/_MASTER/_MANAGERS/LevelManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/_MASTER/_MANAGERS/LevelManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/GraphicsSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/GraphicsSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/UnityConnectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/UnityConnectSettings.asset" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -26,29 +31,35 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/_MASTER/Login/PlayerData.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/_MASTER/_MANAGERS/LoginManager.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Origin/PlatformDestroyers.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/_MASTER/Photon/ShowInfoOfPlayer.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/_MASTER/Photon/LobbyNetwork.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/_FEATURE/HomePlay/homeplaymanager.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Anima2D/Scripts/SpriteMeshInstance.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/_FEATURE/rooms/rooms.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/_MASTER/Players/PlayerAttack.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/_FEATURE/GameMenu/menumanager.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/_MASTER/Camera/FPSCounter.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/_MASTER/Players/RoyalGuard/RoyalGuard_ThrowingItems.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/_MASTER/Photon/CreateRoom.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Origin/GeneratorPlatformers.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/_MASTER/Players/RoyalGuard/RoyalGuard_Health.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/_MASTER/Players/RoyalGuard/RoyalGuard_ThrowingLance.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/_MASTER/PlayFab/AccountInfo.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Photon/PhotonUnityNetworking/UtilityScripts/PhotonPlayer/PunPlayerScores.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/_MASTER/_MANAGERS/LevelManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/_MASTER/Login/PlayerData.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Origin/PlatformDestroyers.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/_MASTER/_MANAGERS/PlayerManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/_MASTER/Photon/ShowInfoOfPlayer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/_FEATURE/HomePlay/homeplaymanager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Anima2D/Scripts/SpriteMeshInstance.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/_MASTER/Camera/FPSCounter.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/_MASTER/Players/RoyalGuard/RoyalGuard_Control.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Origin/ObjectPoolers.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/_MASTER/PlayFab/AccountInfo.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/_MASTER/Camera/Timer.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/_FEATURE/ScrollRec/ScrollSnapRect.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Photon/PhotonUnityNetworking/UtilityScripts/PhotonPlayer/PunPlayerScores.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scenes/_MASTER/Gameplay/Gameplay-Online.unity" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/PlayFabEditorExtensions/Editor/PlayFabEditor.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/_MASTER/Photon/Launcher.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Photon/PhotonUnityNetworking/Code/PhotonView.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/_MASTER/_MANAGERS/LevelManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Resources/fire.prefab" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -160,6 +171,8 @@
       <workItem from="1565017422465" duration="6872000" />
       <workItem from="1565374913113" duration="527000" />
       <workItem from="1565375652462" duration="2209000" />
+      <workItem from="1565594135558" duration="1518000" />
+      <workItem from="1565596978873" duration="2009000" />
     </task>
     <servers />
   </component>
@@ -183,7 +196,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>

@@ -55,8 +55,11 @@ public class RoyalGuard_Health : MonoBehaviourPunCallbacks, IPunObservable {
 		m_Body = this.gameObject.GetComponent<Rigidbody2D>();
         m_Anim = this.gameObject.GetComponent<Animator>();
 
-		spawnPlayerPoint = GameObject.Find("SpawnPlayer").GetComponent<Transform>();
-		tempCooldownDeath = cooldownDeath;		
+        if (photonView.IsMine)
+        {
+	        spawnPlayerPoint = GameObject.Find("CameraParent/Main Camera/SpawnPlayer").GetComponent<Transform>();
+        }
+        tempCooldownDeath = cooldownDeath;		
 	}
 
 	/// <summary>
@@ -64,7 +67,11 @@ public class RoyalGuard_Health : MonoBehaviourPunCallbacks, IPunObservable {
 	/// </summary>
 	void Update()
 	{		
-
+		if (photonView.IsMine)
+		{
+			spawnPlayerPoint = GameObject.Find("CameraParent/Main Camera/SpawnPlayer").GetComponent<Transform>();
+		}
+		
 		if (photonView.IsMine == false && PhotonNetwork.IsConnected == true)
         {            
             return;

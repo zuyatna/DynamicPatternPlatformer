@@ -60,7 +60,7 @@ Canvas:
   m_GameObject: {fileID: 1001175635458826}
   m_Enabled: 1
   serializedVersion: 3
-  m_RenderMode: 1
+  m_RenderMode: 0
   m_Camera: {fileID: 0}
   m_PlaneDistance: 100
   m_PixelPerfect: 1
@@ -2748,8 +2748,8 @@ MonoBehaviour:
   ObservedComponents:
   - {fileID: 224020203534435158}
   - {fileID: 114674299892007090}
-  viewIdField: 8
-  InstantiationId: 8
+  viewIdField: 14
+  InstantiationId: 14
   isRuntimeInstantiated: 0
 --- !u!114 &114674299892007090
 MonoBehaviour:
@@ -3176,8 +3176,8 @@ MonoBehaviour:
   ObservedComponents:
   - {fileID: 114807235956775308}
   - {fileID: 114413388404433112}
-  viewIdField: 9
-  InstantiationId: 9
+  viewIdField: 15
+  InstantiationId: 15
   isRuntimeInstantiated: 0
 --- !u!114 &114413388404433112
 MonoBehaviour:
@@ -3301,9 +3301,9 @@ RectTransform:
   m_Father: {fileID: 224142194818865406}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -308, y: -202}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 124, y: 38}
   m_SizeDelta: {x: 210, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1393796775969498
@@ -3946,10 +3946,10 @@ RectTransform:
   m_Father: {fileID: 224142194818865406}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0.5}
-  m_AnchorMax: {x: 0, y: 0.5}
-  m_AnchoredPosition: {x: 578.00006, y: -69}
-  m_SizeDelta: {x: 70, y: 70}
+  m_AnchorMin: {x: 1, y: 0.5}
+  m_AnchorMax: {x: 1, y: 0.5}
+  m_AnchoredPosition: {x: -54, y: -54}
+  m_SizeDelta: {x: 85, y: 85}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &222590036235748662
 CanvasRenderer:
@@ -4414,8 +4414,8 @@ SkinnedMeshRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: 2005967091
+  m_SortingLayer: 1
   m_SortingOrder: 3
   serializedVersion: 2
   m_Quality: 0
@@ -5191,9 +5191,9 @@ RectTransform:
   m_Father: {fileID: 224142194818865406}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0.5}
-  m_AnchorMax: {x: 0, y: 0.5}
-  m_AnchoredPosition: {x: 704, y: -81}
+  m_AnchorMin: {x: 1, y: 0}
+  m_AnchorMax: {x: 1, y: 0}
+  m_AnchoredPosition: {x: -157, y: 163.5}
   m_SizeDelta: {x: 85, y: 85}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &222092304648141820
@@ -5368,6 +5368,7 @@ GameObject:
   - component: {fileID: 4537884229476438}
   - component: {fileID: 114014086415818436}
   - component: {fileID: 114095065898901104}
+  - component: {fileID: 7897916}
   m_Layer: 8
   m_Name: RoyalGuard-FixPack
   m_TagString: Enemy
@@ -5418,13 +5419,28 @@ MonoBehaviour:
   ObservedComponentsFoldoutOpen: 1
   Group: 0
   prefixField: -1
-  Synchronization: 0
+  Synchronization: 3
   OwnershipTransfer: 0
   ObservedComponents:
-  - {fileID: 0}
-  viewIdField: 6
-  InstantiationId: 6
+  - {fileID: 7897916}
+  viewIdField: 5
+  InstantiationId: 5
   isRuntimeInstantiated: 0
+--- !u!114 &7897916
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1668840307981426}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 627855c7f81362d41938ffe0b1475957, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SynchronizePosition: 1
+  m_SynchronizeRotation: 1
+  m_SynchronizeScale: 0
 --- !u!1 &1687551016340122
 GameObject:
   m_ObjectHideFlags: 0
@@ -6102,10 +6118,10 @@ RectTransform:
   m_Father: {fileID: 224142194818865406}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
-  m_AnchorMin: {x: 0, y: 0.5}
-  m_AnchorMax: {x: 0, y: 0.5}
-  m_AnchoredPosition: {x: 672, y: -178.8}
-  m_SizeDelta: {x: 85, y: 85}
+  m_AnchorMin: {x: 0.5, y: 0}
+  m_AnchorMax: {x: 0.5, y: 1}
+  m_AnchoredPosition: {x: 245, y: -178.8}
+  m_SizeDelta: {x: 85, y: -395}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &222889568089796960
 CanvasRenderer:
@@ -6857,8 +6873,8 @@ SkinnedMeshRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: -514041465
-  m_SortingLayer: 0
+  m_SortingLayerID: 2005967091
+  m_SortingLayer: 1
   m_SortingOrder: 3
   serializedVersion: 2
   m_Quality: 0
@@ -8162,7 +8178,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1889398027449538}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 5d6ea926a1fd2164593e93fe2580b7e4, type: 3}
   m_Name: 
@@ -8219,8 +8235,9 @@ MonoBehaviour:
   - {fileID: 114924720381021418}
   - {fileID: 114724937118539524}
   - {fileID: 114066531868665638}
-  viewIdField: 7
-  InstantiationId: 7
+  - {fileID: 114822225059214930}
+  viewIdField: 13
+  InstantiationId: 13
   isRuntimeInstantiated: 0
 --- !u!114 &114829074023142118
 MonoBehaviour:
@@ -8293,37 +8310,37 @@ MonoBehaviour:
     SynchronizeType: 1
     Name: ShieldAttack
   - Type: 4
-    SynchronizeType: 0
+    SynchronizeType: 1
     Name: Throw_Fire
   - Type: 4
     SynchronizeType: 1
     Name: ShieldUltimate
   - Type: 4
-    SynchronizeType: 0
+    SynchronizeType: 1
     Name: LanceIdle
   - Type: 4
-    SynchronizeType: 0
+    SynchronizeType: 1
     Name: LanceRun
   - Type: 4
-    SynchronizeType: 0
+    SynchronizeType: 1
     Name: LanceJump
   - Type: 4
-    SynchronizeType: 0
+    SynchronizeType: 1
     Name: LanceAttack
   - Type: 9
-    SynchronizeType: 0
+    SynchronizeType: 1
     Name: LanceDamage
   - Type: 4
-    SynchronizeType: 0
+    SynchronizeType: 1
     Name: Item_ThrowFire_Idle
   - Type: 4
-    SynchronizeType: 0
+    SynchronizeType: 1
     Name: Item_ThrowFire_Run
   - Type: 4
-    SynchronizeType: 0
+    SynchronizeType: 1
     Name: Item_ThrowFire_Jump
   - Type: 4
-    SynchronizeType: 0
+    SynchronizeType: 1
     Name: LanceJumpAttack
   - Type: 4
     SynchronizeType: 1
@@ -9075,9 +9092,9 @@ RectTransform:
   m_Father: {fileID: 224142194818865406}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 352.6, y: -167}
+  m_AnchorMin: {x: 1, y: 0}
+  m_AnchorMax: {x: 1, y: 0}
+  m_AnchoredPosition: {x: -69, y: 76}
   m_SizeDelta: {x: 120, y: 120}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &222563949627385510
