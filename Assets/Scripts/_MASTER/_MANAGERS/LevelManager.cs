@@ -106,12 +106,12 @@ public class LevelManager : MonoBehaviourPunCallbacks, IPunObservable
 		if (countdown <= 0)
 		{
 			countdownText.text = "";
-//			activeCameraMoving = true;	
+			activeCameraMoving = true;	
 		}
 
 		if(activeCameraMoving)
 		{
-			photonView.RPC("CameraMoving", RpcTarget.All);
+			photonView.RPC("CameraMoving", RpcTarget.AllBufferedViaServer);
 		}
 
 		if(activeTimer)

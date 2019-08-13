@@ -116,7 +116,7 @@ public class RoyalGuard_Health : MonoBehaviourPunCallbacks, IPunObservable {
 					playerDeath = false;
 					tempCooldownDeath = cooldownDeath;
 					
-					PhotonNetwork.LocalPlayer.AddScore(1);
+					PhotonNetwork.LocalPlayer.AddScore(100);
 				}								
 			}			
 

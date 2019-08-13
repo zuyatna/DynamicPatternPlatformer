@@ -603,6 +603,7 @@
             </e>
             <e p="Items" t="Include">
               <e p="BombFireProperties.cs" t="Include" />
+              <e p="DetectPlatformerOnline.cs" t="Include" />
               <e p="ItemProperties.cs" t="Include" />
               <e p="ItemsBehaviour.cs" t="Include" />
               <e p="SpecialWeaponsBehaviour.cs" t="Include" />

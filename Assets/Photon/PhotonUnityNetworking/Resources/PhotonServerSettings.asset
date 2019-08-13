@@ -55,4 +55,5 @@ MonoBehaviour:
   - RpcLeaveRoom
   - RpcPlayers
   - RpcItemsDrop
+  - PositionTransform
   DisableAutoOpenWizard: 1

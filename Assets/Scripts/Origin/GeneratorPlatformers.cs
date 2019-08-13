@@ -9,8 +9,8 @@ public class GeneratorPlatformers : MonoBehaviour {
     [FormerlySerializedAs("GenerationPoint")] public Transform generationPoint;
     public ObjectPoolers[] theObjectPools;
     
-    [FormerlySerializedAs("PlatformSelector")] [HideInInspector] public int platformSelector;
-
+    [FormerlySerializedAs("PlatformSelector")] [HideInInspector] public int platformSelector = 0;
+    
     void Awake()
     {
         instance = this;
@@ -24,13 +24,17 @@ public class GeneratorPlatformers : MonoBehaviour {
             PlatformerReplacing.Instance.SwapAllByArray();
         }
     }
-
+    
     private void PositionTransform() {
     
         transform.position = new Vector3(transform.position.x, transform.position.y + distanceBetween, 0);
 
-        platformSelector = Random.Range(0, theObjectPools.Length);
-
+        if (platformSelector > theObjectPools.Length - 1)
+        {
+            platformSelector = 0;
+        }
+        
+        Debug.Log("platform: " +platformSelector);
         // Spawn pooling
         GameObject newPlatform = theObjectPools[platformSelector].GetPooledObject();        
 
@@ -39,5 +43,7 @@ public class GeneratorPlatformers : MonoBehaviour {
         newPlatform.SetActive(true);        
 
         transform.position = new Vector3(transform.position.x, transform.position.y, 0);
+
+        platformSelector++;
     }
 }

@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using Photon.Pun;
 
-public class ItemsBehaviour : MonoBehaviourPunCallbacks {
+public class ItemsBehaviour : MonoBehaviourPunCallbacks, IPunObservable {
 
     private void OnTriggerEnter2D(Collider2D _other)
     {
@@ -9,5 +9,10 @@ public class ItemsBehaviour : MonoBehaviourPunCallbacks {
         {
             Destroy(gameObject);
         }
+    }
+
+    public void OnPhotonSerializeView(PhotonStream stream, PhotonMessageInfo info)
+    {
+//        throw new System.NotImplementedException();
     }
 }

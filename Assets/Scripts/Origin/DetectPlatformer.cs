@@ -34,8 +34,7 @@ public class DetectPlatformer : MonoBehaviour
             Debug.Log(position.ToString());
             _doSpawn = false;
 
-            Instantiate(items,
-                new Vector3(position.x, position.y + 2, 0), Quaternion.identity);
+            Instantiate(items, new Vector3(position.x, position.y + 2, 0), Quaternion.identity);
         }
     }
 }

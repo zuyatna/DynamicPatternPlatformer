@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 9155213553176370651}
   - component: {fileID: 4296383408130356171}
   - component: {fileID: 1088640051}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: CubeYellow
   m_TagString: Platformer
   m_Icon: {fileID: 0}

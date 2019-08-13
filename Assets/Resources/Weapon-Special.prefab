@@ -15,8 +15,6 @@ GameObject:
   - component: {fileID: 114655269969149962}
   - component: {fileID: 114507198455538774}
   - component: {fileID: 114907629185586894}
-  - component: {fileID: 114858353117396894}
-  - component: {fileID: 114165043046699960}
   m_Layer: 8
   m_Name: Weapon-Special
   m_TagString: WeaponSpecial
@@ -163,44 +161,10 @@ MonoBehaviour:
   ObservedComponentsFoldoutOpen: 1
   Group: 0
   prefixField: -1
-  Synchronization: 3
+  Synchronization: 0
   OwnershipTransfer: 0
   ObservedComponents:
-  - {fileID: 114655269969149962}
-  - {fileID: 114507198455538774}
-  - {fileID: 114858353117396894}
-  - {fileID: 114165043046699960}
+  - {fileID: 0}
   viewIdField: 42
   InstantiationId: 42
   isRuntimeInstantiated: 0
---- !u!114 &114858353117396894
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1949700319889084}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 627855c7f81362d41938ffe0b1475957, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_SynchronizePosition: 1
-  m_SynchronizeRotation: 1
-  m_SynchronizeScale: 0
---- !u!114 &114165043046699960
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1949700319889084}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0e7cb724808c322458aa4d15f5035fa9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_SynchronizeVelocity: 1
-  m_SynchronizeAngularVelocity: 1
-  m_TeleportEnabled: 0
-  m_TeleportIfDistanceGreaterThan: 3

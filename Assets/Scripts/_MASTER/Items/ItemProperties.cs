@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using Photon.Pun;
 
-public class ItemProperties : MonoBehaviourPunCallbacks {
+public class ItemProperties : MonoBehaviourPunCallbacks, IPunObservable {
 
 	public static ItemProperties Instance;
 	[HideInInspector] public Rigidbody2D thisBody;
@@ -39,5 +39,10 @@ public class ItemProperties : MonoBehaviourPunCallbacks {
 		{
 			thisBody.constraints = RigidbodyConstraints2D.None;
 		}
+	}
+
+	public void OnPhotonSerializeView(PhotonStream stream, PhotonMessageInfo info)
+	{
+//		throw new System.NotImplementedException();
 	}
 }
