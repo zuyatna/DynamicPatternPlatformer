@@ -6,7 +6,6 @@ public class Platformer_Pragile : MonoBehaviour {
 
     private bool Pragile;
     private float timer;
-    public GameObject obj;
 
     private void FixedUpdate()
     {
@@ -16,15 +15,16 @@ public class Platformer_Pragile : MonoBehaviour {
 
             if (timer < 0)
             {
-                obj.SetActive(false);
+                this.gameObject.SetActive(false);
                 Pragile = false;
+                Destroy(this.gameObject);
             }
         }
     }
 
     private void OnCollisionEnter2D(Collision2D coll)
     {
-        if (coll.gameObject.tag == "Armature")
+        if (coll.gameObject.tag == "Player")
         {
             Pragile = true;
             timer = 0.5f;
@@ -34,7 +34,7 @@ public class Platformer_Pragile : MonoBehaviour {
 
     private void OnCollisionExit2D(Collision2D coll)
     {
-        if (coll.gameObject.tag == "Armature")
+        if (coll.gameObject.tag == "Player")
         {
             Pragile = true;
             timer = 0.8f;

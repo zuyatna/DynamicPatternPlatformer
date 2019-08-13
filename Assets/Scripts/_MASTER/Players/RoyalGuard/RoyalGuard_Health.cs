@@ -143,9 +143,9 @@ public class RoyalGuard_Health : MonoBehaviourPunCallbacks, IPunObservable {
 	{
 		transform.position = new Vector3(0, spawnPlayerPoint.position.y, 0);
 		this.gameObject.transform.position = transform.position;
-
 		playerHealth.fillAmount = 0;
 		playerMiniHealth.fillAmount = 1;
+		
 	}
 
 	private void PlayerSpawn()

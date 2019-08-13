@@ -122,7 +122,7 @@ public class RoyalGuard_Control : MonoBehaviourPunCallbacks, IPunObservable
                     PlayerMoveRight();
                 }
 
-                if (Input.GetKeyDown(KeyCode.W))
+                if (Input.GetKeyDown(KeyCode.UpArrow))
                 {
                     PlayerJump();
                 }

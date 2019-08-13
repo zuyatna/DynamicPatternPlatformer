@@ -9769,7 +9769,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: beb081667409e2646970d9f9423e473d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxPlayesrInRoom: 2
+  maxPlayesrInRoom: 4
   inputFindRoom: {fileID: 1324924448}
 --- !u!4 &1920307843
 Transform:

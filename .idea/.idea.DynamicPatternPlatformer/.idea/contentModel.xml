@@ -646,6 +646,7 @@
                 <e p="ObjectPooler.cs" t="Include" />
                 <e p="PatternPooler.cs" t="Include" />
               </e>
+              <e p="PlarformPragile.cs" t="Include" />
               <e p="PlatformDestroyer.cs" t="Include" />
               <e p="PooledObject.cs" t="Include" />
             </e>
@@ -670,6 +671,10 @@
           </e>
           <e p="Performance" t="Include">
             <e p="newObjectPools.cs" t="Include" />
+          </e>
+          <e p="PlatformShatter" t="Include">
+            <e p="PlatformBrokenFX.cs" t="Include" />
+            <e p="Shatter.cs" t="Include" />
           </e>
         </e>
       </e>
