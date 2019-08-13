@@ -2,26 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1aa241fe-1cc8-4950-bbb4-8a24042d8eaa" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.DynamicPatternPlatformer/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.DynamicPatternPlatformer/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.DynamicPatternPlatformer/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.DynamicPatternPlatformer/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets Characters/Animation/_ControllerRoyalGuard.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets Characters/Animation/_ControllerRoyalGuard.controller" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Photon/PhotonUnityNetworking/Resources/PhotonServerSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Photon/PhotonUnityNetworking/Resources/PhotonServerSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Photon/PhotonUnityNetworking/Resources/PhotonServerSettings.asset.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Photon/PhotonUnityNetworking/Resources/PhotonServerSettings.asset.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/PlatformBroken/Platform-broken3.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/PlatformBroken/Platform-broken3.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Pattern A.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Pattern A.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Pattern B.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Pattern B.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Pattern C.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Pattern C.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/RoyalGuard-FixPack.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/RoyalGuard-FixPack.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Test.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Test.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/_MASTER/Gameplay/Gameplay-Online.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/_MASTER/Gameplay/Gameplay-Online.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Item/Platformer_Pragile.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Item/Platformer_Pragile.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/_MASTER/Players/PlayerAttack.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/_MASTER/Players/PlayerAttack.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/_MASTER/Players/RoyalGuard/RoyalGuard_Control.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/_MASTER/Players/RoyalGuard/RoyalGuard_Control.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/_MASTER/Players/RoyalGuard/RoyalGuard_Health.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/_MASTER/Players/RoyalGuard/RoyalGuard_Health.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/World/Forest/Sprite Shatter.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/_MASTER/Photon/LobbyNetwork.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/_MASTER/Photon/LobbyNetwork.cs" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -69,6 +51,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/_FEATURE/ScrollRec/ScrollSnapRect.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scenes/_MASTER/Gameplay/Gameplay-Online.unity" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/PlayFabEditorExtensions/Editor/PlayFabEditor.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Photon/PhotonUnityNetworking/Code/PhotonNetwork.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/_MASTER/Photon/Launcher.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/_MASTER/Items/DetectPlatformerOnline.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Photon/PhotonUnityNetworking/Code/PhotonView.cs" root0="FORCE_HIGHLIGHTING" />
@@ -102,7 +85,6 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/_FEATURE/GameMenu/menumanager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/_FEATURE/rooms/rooms.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/_MASTER/Camera/Timer.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/_MASTER/Photon/LobbyNetwork.cs" />
         <option value="$PROJECT_DIR$/Assets/PUN Custom Samples/SmartPool/Scripts/PunSmartPoolBridge.cs" />
         <option value="$PROJECT_DIR$/Assets/PUN Custom Samples/SmartPool/Scripts/SmartPoolPlayer.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/_MASTER/_MANAGERS/LevelManager.cs" />
@@ -118,6 +100,7 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/_MASTER/Players/RoyalGuard/RoyalGuard_Health.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/_MASTER/Players/RoyalGuard/RoyalGuard_Control.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/_MASTER/Players/PlayerAttack.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/_MASTER/Photon/LobbyNetwork.cs" />
       </list>
     </option>
   </component>
@@ -198,7 +181,8 @@
       <workItem from="1565594135558" duration="1518000" />
       <workItem from="1565596978873" duration="2009000" />
       <workItem from="1565673164386" duration="11837000" />
-      <workItem from="1565693912784" duration="4104000" />
+      <workItem from="1565693912784" duration="4414000" />
+      <workItem from="1565706239242" duration="972000" />
     </task>
     <servers />
   </component>

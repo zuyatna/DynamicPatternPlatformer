@@ -6,7 +6,7 @@ using UnityEngine.UI;
 
 public class LobbyNetwork : MonoBehaviourPunCallbacks
 {
-    public byte maxPlayesrInRoom = 2;
+    public byte maxPlayesrInRoom = 4;
     public InputField inputFindRoom;
     
     // Start is called before the first frame update
@@ -34,7 +34,7 @@ public class LobbyNetwork : MonoBehaviourPunCallbacks
         string roomName = "" + Random.Range(0, 1000);
         Debug.Log("RoomName: " +roomName);
         
-        if (PhotonNetwork.CreateRoom(roomName, new RoomOptions { MaxPlayers = maxPlayesrInRoom}))
+        if (PhotonNetwork.CreateRoom(roomName, new RoomOptions { MaxPlayers = 4}))
         {
             Debug.Log("Create Room Successfully Sent...");
         }
