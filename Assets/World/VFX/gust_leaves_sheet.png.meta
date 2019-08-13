@@ -1,0 +1,3232 @@
+fileFormatVersion: 2
+guid: a90204e3129b3ff43b5087c1ff5a5cfa
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5929112332531869639
+    second: gust_leaves_sheet_0
+  - first:
+      213: -9084030205904315683
+    second: gust_leaves_sheet_1
+  - first:
+      213: -8520734534990812712
+    second: gust_leaves_sheet_2
+  - first:
+      213: 5920522561218039054
+    second: gust_leaves_sheet_3
+  - first:
+      213: -1694409220535984900
+    second: gust_leaves_sheet_4
+  - first:
+      213: -1488457976760054175
+    second: gust_leaves_sheet_5
+  - first:
+      213: -5961343557114627801
+    second: gust_leaves_sheet_6
+  - first:
+      213: -114671449523083872
+    second: gust_leaves_sheet_7
+  - first:
+      213: -3453095586091624918
+    second: gust_leaves_sheet_8
+  - first:
+      213: 5872266571112538849
+    second: gust_leaves_sheet_9
+  - first:
+      213: -7976863123639699308
+    second: gust_leaves_sheet_10
+  - first:
+      213: 2363039264491959662
+    second: gust_leaves_sheet_11
+  - first:
+      213: 1204630072482680642
+    second: gust_leaves_sheet_12
+  - first:
+      213: 6370037133580560540
+    second: gust_leaves_sheet_13
+  - first:
+      213: 3300927854602574639
+    second: gust_leaves_sheet_14
+  - first:
+      213: -3764214629857124850
+    second: gust_leaves_sheet_15
+  - first:
+      213: -7589131348323610321
+    second: gust_leaves_sheet_16
+  - first:
+      213: 6386876073724969404
+    second: gust_leaves_sheet_17
+  - first:
+      213: -2993915213133978051
+    second: gust_leaves_sheet_18
+  - first:
+      213: 6254137336223984765
+    second: gust_leaves_sheet_19
+  - first:
+      213: -5921430109565425432
+    second: gust_leaves_sheet_20
+  - first:
+      213: 901568824334863835
+    second: gust_leaves_sheet_21
+  - first:
+      213: 2181140106528877595
+    second: gust_leaves_sheet_22
+  - first:
+      213: 2152772592892247564
+    second: gust_leaves_sheet_23
+  - first:
+      213: 7031547513767438831
+    second: gust_leaves_sheet_24
+  - first:
+      213: 8728055752652197558
+    second: gust_leaves_sheet_25
+  - first:
+      213: 5970776328801518203
+    second: gust_leaves_sheet_26
+  - first:
+      213: 3473972530582663100
+    second: gust_leaves_sheet_27
+  - first:
+      213: 7934813638388754185
+    second: gust_leaves_sheet_28
+  - first:
+      213: 5895825635336687564
+    second: gust_leaves_sheet_29
+  - first:
+      213: -4387391357493298589
+    second: gust_leaves_sheet_30
+  - first:
+      213: 2656364469091206235
+    second: gust_leaves_sheet_31
+  - first:
+      213: 1890833310828745780
+    second: gust_leaves_sheet_32
+  - first:
+      213: -7697898028816474050
+    second: gust_leaves_sheet_33
+  - first:
+      213: -2836371213824736259
+    second: gust_leaves_sheet_34
+  - first:
+      213: -478109712941954640
+    second: gust_leaves_sheet_35
+  - first:
+      213: 6519267491340254330
+    second: gust_leaves_sheet_36
+  - first:
+      213: -8789056783616506150
+    second: gust_leaves_sheet_37
+  - first:
+      213: 3712572085572020737
+    second: gust_leaves_sheet_38
+  - first:
+      213: -1056094432223150388
+    second: gust_leaves_sheet_39
+  - first:
+      213: -5596686419214873566
+    second: gust_leaves_sheet_40
+  - first:
+      213: -5819419801869311766
+    second: gust_leaves_sheet_41
+  - first:
+      213: -3416508716846746102
+    second: gust_leaves_sheet_42
+  - first:
+      213: -3099575825639474084
+    second: gust_leaves_sheet_43
+  - first:
+      213: 7848598999601191141
+    second: gust_leaves_sheet_44
+  - first:
+      213: -8513925803164032073
+    second: gust_leaves_sheet_45
+  - first:
+      213: 4013468178229720672
+    second: gust_leaves_sheet_46
+  - first:
+      213: -5508665410952693092
+    second: gust_leaves_sheet_47
+  - first:
+      213: 413301458316935271
+    second: gust_leaves_sheet_48
+  - first:
+      213: 7528480323879499902
+    second: gust_leaves_sheet_49
+  - first:
+      213: 5383705317551642930
+    second: gust_leaves_sheet_50
+  - first:
+      213: 5906482840186873536
+    second: gust_leaves_sheet_51
+  - first:
+      213: -442417091756131596
+    second: gust_leaves_sheet_52
+  - first:
+      213: 1947814809311788198
+    second: gust_leaves_sheet_53
+  - first:
+      213: -3164068558079860238
+    second: gust_leaves_sheet_54
+  - first:
+      213: 6530462354902550260
+    second: gust_leaves_sheet_55
+  - first:
+      213: -6544726086003736248
+    second: gust_leaves_sheet_56
+  - first:
+      213: 3083283498477902454
+    second: gust_leaves_sheet_57
+  - first:
+      213: 7620807404136650318
+    second: gust_leaves_sheet_58
+  - first:
+      213: -402813913270620751
+    second: gust_leaves_sheet_59
+  - first:
+      213: 3262729755870725099
+    second: gust_leaves_sheet_60
+  - first:
+      213: 2634313122047275207
+    second: gust_leaves_sheet_61
+  - first:
+      213: -95442128163178416
+    second: gust_leaves_sheet_62
+  - first:
+      213: -7233446813361506601
+    second: gust_leaves_sheet_63
+  - first:
+      213: 6912021342345195614
+    second: gust_leaves_sheet_64
+  - first:
+      213: 3021751566364085675
+    second: gust_leaves_sheet_65
+  - first:
+      213: 5329273887597917637
+    second: gust_leaves_sheet_66
+  - first:
+      213: 2288314242308214544
+    second: gust_leaves_sheet_67
+  - first:
+      213: -7653186375119921035
+    second: gust_leaves_sheet_68
+  - first:
+      213: -4492694382179617420
+    second: gust_leaves_sheet_69
+  - first:
+      213: -919395722833172951
+    second: gust_leaves_sheet_70
+  - first:
+      213: 4719261416947670065
+    second: gust_leaves_sheet_71
+  - first:
+      213: 7173016908985573680
+    second: gust_leaves_sheet_72
+  - first:
+      213: 683459958591592844
+    second: gust_leaves_sheet_73
+  - first:
+      213: -1273816158427873106
+    second: gust_leaves_sheet_74
+  - first:
+      213: 4855037016750091418
+    second: gust_leaves_sheet_75
+  - first:
+      213: -7070495640520341077
+    second: gust_leaves_sheet_76
+  - first:
+      213: 3961691027243388820
+    second: gust_leaves_sheet_77
+  - first:
+      213: 2821405199770000273
+    second: gust_leaves_sheet_78
+  - first:
+      213: -8037834306623808956
+    second: gust_leaves_sheet_79
+  - first:
+      213: 3658601821208963753
+    second: gust_leaves_sheet_80
+  - first:
+      213: -6833561379033562095
+    second: gust_leaves_sheet_81
+  - first:
+      213: -8257579336466226687
+    second: gust_leaves_sheet_82
+  - first:
+      213: -7081096583321961671
+    second: gust_leaves_sheet_83
+  - first:
+      213: 6628233488714055595
+    second: gust_leaves_sheet_84
+  - first:
+      213: 8642589596435632795
+    second: gust_leaves_sheet_85
+  - first:
+      213: -1670970847674828522
+    second: gust_leaves_sheet_86
+  - first:
+      213: -8612324759224442644
+    second: gust_leaves_sheet_87
+  - first:
+      213: -8440024304831678145
+    second: gust_leaves_sheet_88
+  - first:
+      213: 1732031897489742103
+    second: gust_leaves_sheet_89
+  - first:
+      213: 8196082275848497865
+    second: gust_leaves_sheet_90
+  - first:
+      213: 5017681803811440766
+    second: gust_leaves_sheet_91
+  - first:
+      213: -356054047934167909
+    second: gust_leaves_sheet_92
+  - first:
+      213: 6089515362589119787
+    second: gust_leaves_sheet_93
+  - first:
+      213: -2880860287145708287
+    second: gust_leaves_sheet_94
+  - first:
+      213: 5500920387332913996
+    second: gust_leaves_sheet_95
+  - first:
+      213: 206330391016259901
+    second: gust_leaves_sheet_96
+  - first:
+      213: -5842960246226977424
+    second: gust_leaves_sheet_97
+  - first:
+      213: -9005182032358702120
+    second: gust_leaves_sheet_98
+  - first:
+      213: 5141242302858146184
+    second: gust_leaves_sheet_99
+  - first:
+      213: 6567973166662345048
+    second: gust_leaves_sheet_100
+  - first:
+      213: 1094278564045613769
+    second: gust_leaves_sheet_101
+  - first:
+      213: -2886759584941337460
+    second: gust_leaves_sheet_102
+  - first:
+      213: 6503156096993774187
+    second: gust_leaves_sheet_103
+  - first:
+      213: -1252668717819283881
+    second: gust_leaves_sheet_104
+  - first:
+      213: -3568325201599515692
+    second: gust_leaves_sheet_105
+  - first:
+      213: 8583877344333078713
+    second: gust_leaves_sheet_106
+  - first:
+      213: 3919012527019744444
+    second: gust_leaves_sheet_107
+  - first:
+      213: -7286452573863681071
+    second: gust_leaves_sheet_108
+  - first:
+      213: 6167523185175159260
+    second: gust_leaves_sheet_109
+  - first:
+      213: -3808624670517167660
+    second: gust_leaves_sheet_110
+  - first:
+      213: 3822749091588321408
+    second: gust_leaves_sheet_111
+  - first:
+      213: 8371144945710750288
+    second: gust_leaves_sheet_112
+  - first:
+      213: -4519495444319313907
+    second: gust_leaves_sheet_113
+  - first:
+      213: 928139521935950363
+    second: gust_leaves_sheet_114
+  - first:
+      213: 1133001879391910263
+    second: gust_leaves_sheet_115
+  - first:
+      213: -5973646014707757318
+    second: gust_leaves_sheet_116
+  - first:
+      213: 7536750074182299743
+    second: gust_leaves_sheet_117
+  - first:
+      213: -1869726826998188296
+    second: gust_leaves_sheet_118
+  - first:
+      213: -1821776927601199278
+    second: gust_leaves_sheet_119
+  - first:
+      213: 6260377181758402928
+    second: gust_leaves_sheet_120
+  - first:
+      213: -7286614899657683320
+    second: gust_leaves_sheet_121
+  - first:
+      213: -8311232905672448331
+    second: gust_leaves_sheet_122
+  - first:
+      213: 7704214211629683815
+    second: gust_leaves_sheet_123
+  - first:
+      213: -934677363307986460
+    second: gust_leaves_sheet_124
+  - first:
+      213: 5220365229273142482
+    second: gust_leaves_sheet_125
+  - first:
+      213: 1654733955824428499
+    second: gust_leaves_sheet_126
+  - first:
+      213: 2521882426128115070
+    second: gust_leaves_sheet_127
+  - first:
+      213: -999935402594437443
+    second: gust_leaves_sheet_128
+  - first:
+      213: -3014318407941572811
+    second: gust_leaves_sheet_129
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: gust_leaves_sheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4860
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 464c6bc42b397d5429c8c6b6efdcf4ee
+      internalID: 5929112332531869639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gust_leaves_sheet_1
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 4860
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 412f0a052ae5d1b4ba3b3b81a41f8255
+      internalID: -9084030205904315683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gust_leaves_sheet_2
+      rect:
+        serializedVersion: 2
+        x: 1440
+        y: 4860
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d859cdea7b9599468a81a2629a62f91
+      internalID: -8520734534990812712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gust_leaves_sheet_3
+      rect:
+        serializedVersion: 2
+        x: 2160
+        y: 4860
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5699b9c362f9a448ad5d9e912006e10
+      internalID: 5920522561218039054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gust_leaves_sheet_4
+      rect:
+        serializedVersion: 2
+        x: 2880
+        y: 4860
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4388cb40c4aae9b4b91d8cf0f95060f5
+      internalID: -1694409220535984900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gust_leaves_sheet_5
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 4860
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0a1ecbec0c3b8f40a65958273df9ff1
+      internalID: -1488457976760054175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gust_leaves_sheet_6
+      rect:
+        serializedVersion: 2
+        x: 4320
+        y: 4860
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a0a3d9353da4ba4094efcd417445858
+      internalID: -5961343557114627801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gust_leaves_sheet_7
+      rect:
+        serializedVersion: 2
+        x: 5040
+        y: 4860
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 281dee17fdbae1e44b4d6a314c27c798
+      internalID: -114671449523083872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gust_leaves_sheet_8
+      rect:
+        serializedVersion: 2
+        x: 5760
+        y: 4860
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3eb0ff19d5e6ba54c82d96fa02ea9b99
+      internalID: -3453095586091624918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gust_leaves_sheet_9
+      rect:
+        serializedVersion: 2
+        x: 6480
+        y: 4860
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d68d3dc9720d6b747851987d4029f4c1
+      internalID: 5872266571112538849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gust_leaves_sheet_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4455
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49da92311de95d84aa4a8e2bd8b72af4
+      internalID: -7976863123639699308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gust_leaves_sheet_11
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 4455
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e251c1ae8fbebc741a3483d10cd6d3d7
+      internalID: 2363039264491959662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gust_leaves_sheet_12
+      rect:
+        serializedVersion: 2
+        x: 1440
+        y: 4455
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40e9ec31666fd4946a8fec2e6139e7a5
+      internalID: 1204630072482680642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gust_leaves_sheet_13
+      rect:
+        serializedVersion: 2
+        x: 2160
+        y: 4455
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b48a618733279704bbeea650ec37d993
+      internalID: 6370037133580560540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gust_leaves_sheet_14
+      rect:
+        serializedVersion: 2
+        x: 2880
+        y: 4455
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56ffe52ecaae2434a85df44823f0fcf9
+      internalID: 3300927854602574639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gust_leaves_sheet_15
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 4455
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0c7ffe1f04c5ec4697bc271a6ee2185
+      internalID: -3764214629857124850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gust_leaves_sheet_16
+      rect:
+        serializedVersion: 2
+        x: 4320
+        y: 4455
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62f755e5dca2fe841892a35090d58a8c
+      internalID: -7589131348323610321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gust_leaves_sheet_17
+      rect:
+        serializedVersion: 2
+        x: 5040
+        y: 4455
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0685682e358d6e04097115376f5e9a7e
+      internalID: 6386876073724969404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gust_leaves_sheet_18
+      rect:
+        serializedVersion: 2
+        x: 5760
+        y: 4455
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86247d34eee8a614192c74a6ab18fcb6
+      internalID: -2993915213133978051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gust_leaves_sheet_19
+      rect:
+        serializedVersion: 2
+        x: 6480
+        y: 4455
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 043fdad118b32ac4cb464ed4769ab4e4
+      internalID: 6254137336223984765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gust_leaves_sheet_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4050
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c079a884baf74e4e9054396fff49934
+      internalID: -5921430109565425432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gust_leaves_sheet_21
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 4050
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 730e81b3245e8034caf270e8e5a4f1ea
+      internalID: 901568824334863835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gust_leaves_sheet_22
+      rect:
+        serializedVersion: 2
+        x: 1440
+        y: 4050
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6a9d6e9839252042b391b485992afeb
+      internalID: 2181140106528877595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gust_leaves_sheet_23
+      rect:
+        serializedVersion: 2
+        x: 2160
+        y: 4050
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 712d639cab9c23641b9a0a1763ef094d
+      internalID: 2152772592892247564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gust_leaves_sheet_24
+      rect:
+        serializedVersion: 2
+        x: 2880
+        y: 4050
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0fd037c7546c8a428c5c2f8daad7f8e
+      internalID: 7031547513767438831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gust_leaves_sheet_25
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 4050
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50b1c60744105474fbafba56c91dd717
+      internalID: 8728055752652197558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gust_leaves_sheet_26
+      rect:
+        serializedVersion: 2
+        x: 4320
+        y: 4050
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0604916f4aebd54bb7ec2422f49cbfc
+      internalID: 5970776328801518203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gust_leaves_sheet_27
+      rect:
+        serializedVersion: 2
+        x: 5040
+        y: 4050
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db7c3575ad339f841806f0cdd65c7f13
+      internalID: 3473972530582663100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gust_leaves_sheet_28
+      rect:
+        serializedVersion: 2
+        x: 5760
+        y: 4050
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 787a9c8cf0b5e8e4095cc5f8b98e0801
+      internalID: 7934813638388754185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gust_leaves_sheet_29
+      rect:
+        serializedVersion: 2
+        x: 6480
+        y: 4050
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07575276aa8dcc3459629125bcdff556
+      internalID: 5895825635336687564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gust_leaves_sheet_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3645
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca1e5b75f155d104196e76e916c7a46f
+      internalID: -4387391357493298589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gust_leaves_sheet_31
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 3645
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d1c8e38885fe064081bbf24d713b14f
+      internalID: 2656364469091206235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gust_leaves_sheet_32
+      rect:
+        serializedVersion: 2
+        x: 1440
+        y: 3645
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed9cfadcb27be9047a6182a306382f6c
+      internalID: 1890833310828745780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gust_leaves_sheet_33
+      rect:
+        serializedVersion: 2
+        x: 2160
+        y: 3645
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a3acb90c0eedfc4fb69abaede5c87a6
+      internalID: -7697898028816474050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gust_leaves_sheet_34
+      rect:
+        serializedVersion: 2
+        x: 2880
+        y: 3645
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea14a6b07085df74dac5bc9a2fd829c0
+      internalID: -2836371213824736259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gust_leaves_sheet_35
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 3645
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2a2feaf547ac9d4cb49fc587b5fbaa6
+      internalID: -478109712941954640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gust_leaves_sheet_36
+      rect:
+        serializedVersion: 2
+        x: 4320
+        y: 3645
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81a32cedb1d176a4cba895dcee12b4f9
+      internalID: 6519267491340254330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gust_leaves_sheet_37
+      rect:
+        serializedVersion: 2
+        x: 5040
+        y: 3645
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b62f656a92c954408b9e980f5b4687d
+      internalID: -8789056783616506150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gust_leaves_sheet_38
+      rect:
+        serializedVersion: 2
+        x: 5760
+        y: 3645
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebcc05816b3dcd446ace82faef7ba96c
+      internalID: 3712572085572020737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gust_leaves_sheet_39
+      rect:
+        serializedVersion: 2
+        x: 6480
+        y: 3645
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff0cd2b7d79f54c489a1c36302f331d4
+      internalID: -1056094432223150388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gust_leaves_sheet_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3240
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1b24bf2a8d39484a88c0d90374c28f5
+      internalID: -5596686419214873566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gust_leaves_sheet_41
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 3240
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c4d1d6e60aed044e8d238d625c0641d
+      internalID: -5819419801869311766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gust_leaves_sheet_42
+      rect:
+        serializedVersion: 2
+        x: 1440
+        y: 3240
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc2be90265970de47a458f2b173c039d
+      internalID: -3416508716846746102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gust_leaves_sheet_43
+      rect:
+        serializedVersion: 2
+        x: 2160
+        y: 3240
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2aad15018ff517c499139d4cb79a67f2
+      internalID: -3099575825639474084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gust_leaves_sheet_44
+      rect:
+        serializedVersion: 2
+        x: 2880
+        y: 3240
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 762e07df563428c48ac869cbdcd9d11d
+      internalID: 7848598999601191141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gust_leaves_sheet_45
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 3240
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 325678c10e97a4b4bb3a07d2f0387ea3
+      internalID: -8513925803164032073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gust_leaves_sheet_46
+      rect:
+        serializedVersion: 2
+        x: 4320
+        y: 3240
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71ed2ca30d4dfc345baa329ad124d52a
+      internalID: 4013468178229720672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gust_leaves_sheet_47
+      rect:
+        serializedVersion: 2
+        x: 5040
+        y: 3240
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b18fba712013d04f983e08e82399f35
+      internalID: -5508665410952693092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gust_leaves_sheet_48
+      rect:
+        serializedVersion: 2
+        x: 5760
+        y: 3240
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f28b8be95ccb2f479c575dc4fd903d2
+      internalID: 413301458316935271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gust_leaves_sheet_49
+      rect:
+        serializedVersion: 2
+        x: 6480
+        y: 3240
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa12b76b1460da7489aa154b4e81ed4e
+      internalID: 7528480323879499902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gust_leaves_sheet_50
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2835
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17278f9dea8cdcf4db1d59e9d648e664
+      internalID: 5383705317551642930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gust_leaves_sheet_51
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 2835
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e044726b560164849aa397011ba2c170
+      internalID: 5906482840186873536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gust_leaves_sheet_52
+      rect:
+        serializedVersion: 2
+        x: 1440
+        y: 2835
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 553ec3d6e477e90489b91c7361ad6963
+      internalID: -442417091756131596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gust_leaves_sheet_53
+      rect:
+        serializedVersion: 2
+        x: 2160
+        y: 2835
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa4e136cb84a2464e833fe885f1fd368
+      internalID: 1947814809311788198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gust_leaves_sheet_54
+      rect:
+        serializedVersion: 2
+        x: 2880
+        y: 2835
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9108ccbfcb656484c961eb2464aaad0f
+      internalID: -3164068558079860238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gust_leaves_sheet_55
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 2835
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06eea532a0e1e6c4c9f6bd829e5fe8d7
+      internalID: 6530462354902550260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gust_leaves_sheet_56
+      rect:
+        serializedVersion: 2
+        x: 4320
+        y: 2835
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 493732a1ffdbcbc42a846970d29be2a8
+      internalID: -6544726086003736248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gust_leaves_sheet_57
+      rect:
+        serializedVersion: 2
+        x: 5040
+        y: 2835
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9e3432d2be0cf94991574044ad345d4
+      internalID: 3083283498477902454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gust_leaves_sheet_58
+      rect:
+        serializedVersion: 2
+        x: 5760
+        y: 2835
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cadacf789466c68488e35eeb94664d46
+      internalID: 7620807404136650318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gust_leaves_sheet_59
+      rect:
+        serializedVersion: 2
+        x: 6480
+        y: 2835
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 310818b93bba25b499cbb1554660ab01
+      internalID: -402813913270620751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gust_leaves_sheet_60
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2430
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26995354fbe3bb0438c1045a45d3b308
+      internalID: 3262729755870725099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gust_leaves_sheet_61
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 2430
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06c2c44738e906941b0cb897dcc497cd
+      internalID: 2634313122047275207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gust_leaves_sheet_62
+      rect:
+        serializedVersion: 2
+        x: 1440
+        y: 2430
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c74ad250f229eb741baa57899ab2dde3
+      internalID: -95442128163178416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gust_leaves_sheet_63
+      rect:
+        serializedVersion: 2
+        x: 2160
+        y: 2430
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f40aa02223efaf4e9fd2739bd416570
+      internalID: -7233446813361506601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gust_leaves_sheet_64
+      rect:
+        serializedVersion: 2
+        x: 2880
+        y: 2430
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fdb392bb5c0ef446aaf1a57025d0562
+      internalID: 6912021342345195614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gust_leaves_sheet_65
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 2430
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2fbec5017f5f9d4da35e8888e55300e
+      internalID: 3021751566364085675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gust_leaves_sheet_66
+      rect:
+        serializedVersion: 2
+        x: 4320
+        y: 2430
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0516632f0934394abb22a3f4ab9f236
+      internalID: 5329273887597917637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gust_leaves_sheet_67
+      rect:
+        serializedVersion: 2
+        x: 5040
+        y: 2430
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9306cfa2d77f56e408ff484feea848e9
+      internalID: 2288314242308214544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gust_leaves_sheet_68
+      rect:
+        serializedVersion: 2
+        x: 5760
+        y: 2430
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 256fd0e29080d4d459d37f7fcf7372de
+      internalID: -7653186375119921035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gust_leaves_sheet_69
+      rect:
+        serializedVersion: 2
+        x: 6480
+        y: 2430
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43ca2f7d526cd5f4981a0bc6d6006cb2
+      internalID: -4492694382179617420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gust_leaves_sheet_70
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2025
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c8c50e0bd0313e43b1e570fee5edca6
+      internalID: -919395722833172951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gust_leaves_sheet_71
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 2025
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc240488d3f31714199d4f49895ccc48
+      internalID: 4719261416947670065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gust_leaves_sheet_72
+      rect:
+        serializedVersion: 2
+        x: 1440
+        y: 2025
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afd75aa7df70bd14dbda0f7feebe0a04
+      internalID: 7173016908985573680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gust_leaves_sheet_73
+      rect:
+        serializedVersion: 2
+        x: 2160
+        y: 2025
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20c530cfe9dfc7544a0d128e480cd19b
+      internalID: 683459958591592844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gust_leaves_sheet_74
+      rect:
+        serializedVersion: 2
+        x: 2880
+        y: 2025
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64d8ec1ddc7754340b2252d591c73bb9
+      internalID: -1273816158427873106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gust_leaves_sheet_75
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 2025
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20ecd9515a7149342bb4f7a38ff5504c
+      internalID: 4855037016750091418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gust_leaves_sheet_76
+      rect:
+        serializedVersion: 2
+        x: 4320
+        y: 2025
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c49ea24d392211d4db4834054a723cb7
+      internalID: -7070495640520341077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gust_leaves_sheet_77
+      rect:
+        serializedVersion: 2
+        x: 5040
+        y: 2025
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b5e2eb4f77030c4bb35a0c7464620ce
+      internalID: 3961691027243388820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gust_leaves_sheet_78
+      rect:
+        serializedVersion: 2
+        x: 5760
+        y: 2025
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97bc7f892b21b0344af2b5989e16abaa
+      internalID: 2821405199770000273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gust_leaves_sheet_79
+      rect:
+        serializedVersion: 2
+        x: 6480
+        y: 2025
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1a78e404ff51204488d48f914657b3c
+      internalID: -8037834306623808956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gust_leaves_sheet_80
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1620
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d1ff4cab033308489310c4386136cec
+      internalID: 3658601821208963753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gust_leaves_sheet_81
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 1620
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b6d9f115c6ac934c9c9f7cb0801ce9f
+      internalID: -6833561379033562095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gust_leaves_sheet_82
+      rect:
+        serializedVersion: 2
+        x: 1440
+        y: 1620
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 181c1cc5916e2d346a3e68674a172e75
+      internalID: -8257579336466226687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gust_leaves_sheet_83
+      rect:
+        serializedVersion: 2
+        x: 2160
+        y: 1620
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b2f6a89abeefdc4e93b69ce08b726ac
+      internalID: -7081096583321961671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gust_leaves_sheet_84
+      rect:
+        serializedVersion: 2
+        x: 2880
+        y: 1620
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3fb90243dd371a419f27b3460b2b6ec
+      internalID: 6628233488714055595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gust_leaves_sheet_85
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 1620
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d981f33f697e9934599edc431a8a6488
+      internalID: 8642589596435632795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gust_leaves_sheet_86
+      rect:
+        serializedVersion: 2
+        x: 4320
+        y: 1620
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37a43eca11e581e4c8c9b327f6b00657
+      internalID: -1670970847674828522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gust_leaves_sheet_87
+      rect:
+        serializedVersion: 2
+        x: 5040
+        y: 1620
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f341887bf6f60247b2c408c60911fcb
+      internalID: -8612324759224442644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gust_leaves_sheet_88
+      rect:
+        serializedVersion: 2
+        x: 5760
+        y: 1620
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f83d50756e2a1b40be6256e4455fd00
+      internalID: -8440024304831678145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gust_leaves_sheet_89
+      rect:
+        serializedVersion: 2
+        x: 6480
+        y: 1620
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e0730e7070dbf344a2bcaf350d9e892
+      internalID: 1732031897489742103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gust_leaves_sheet_90
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1215
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58f8c0302e49c6147a57bda8e455ecd7
+      internalID: 8196082275848497865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gust_leaves_sheet_91
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 1215
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7164f2377ba3a04ea89e48b031c121e
+      internalID: 5017681803811440766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gust_leaves_sheet_92
+      rect:
+        serializedVersion: 2
+        x: 1440
+        y: 1215
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f15b35af582533749a879a3fa0b019d2
+      internalID: -356054047934167909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gust_leaves_sheet_93
+      rect:
+        serializedVersion: 2
+        x: 2160
+        y: 1215
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77adc44c71f5e224a973cbce7818a8c3
+      internalID: 6089515362589119787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gust_leaves_sheet_94
+      rect:
+        serializedVersion: 2
+        x: 2880
+        y: 1215
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd67fae90bcfd1e478527141d224bddf
+      internalID: -2880860287145708287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gust_leaves_sheet_95
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 1215
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 568b14bd71e65f949a522cfdebd7678b
+      internalID: 5500920387332913996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gust_leaves_sheet_96
+      rect:
+        serializedVersion: 2
+        x: 4320
+        y: 1215
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1dfd398e1f027c4796a2341fe263232
+      internalID: 206330391016259901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gust_leaves_sheet_97
+      rect:
+        serializedVersion: 2
+        x: 5040
+        y: 1215
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a14b5556e971b4b448f7b18c8db54469
+      internalID: -5842960246226977424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gust_leaves_sheet_98
+      rect:
+        serializedVersion: 2
+        x: 5760
+        y: 1215
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15597ed210cc4354fa93cdc47d65dfb6
+      internalID: -9005182032358702120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gust_leaves_sheet_99
+      rect:
+        serializedVersion: 2
+        x: 6480
+        y: 1215
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5803263eaa6d18641a19d13015506d3f
+      internalID: 5141242302858146184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gust_leaves_sheet_100
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 810
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d510e364b7aad74da23c124591d0eff
+      internalID: 6567973166662345048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gust_leaves_sheet_101
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 810
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d48f4993474bdd4d9bd95278990f10f
+      internalID: 1094278564045613769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gust_leaves_sheet_102
+      rect:
+        serializedVersion: 2
+        x: 1440
+        y: 810
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a62e7f39e951a304b86c8516cd60b419
+      internalID: -2886759584941337460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gust_leaves_sheet_103
+      rect:
+        serializedVersion: 2
+        x: 2160
+        y: 810
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b8ecc69d0ca41c4b860d1b833a392d3
+      internalID: 6503156096993774187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gust_leaves_sheet_104
+      rect:
+        serializedVersion: 2
+        x: 2880
+        y: 810
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cee8b231567597543a37980dac205201
+      internalID: -1252668717819283881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gust_leaves_sheet_105
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 810
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e5d91ddbd9237d49acd9afbcb83edb7
+      internalID: -3568325201599515692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gust_leaves_sheet_106
+      rect:
+        serializedVersion: 2
+        x: 4320
+        y: 810
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c7509636bb7b184794fa686e04c98e8
+      internalID: 8583877344333078713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gust_leaves_sheet_107
+      rect:
+        serializedVersion: 2
+        x: 5040
+        y: 810
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f66f9a80382fcc84f88701238e03f08a
+      internalID: 3919012527019744444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gust_leaves_sheet_108
+      rect:
+        serializedVersion: 2
+        x: 5760
+        y: 810
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad44898d3cedb854ba89c77a063019f4
+      internalID: -7286452573863681071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gust_leaves_sheet_109
+      rect:
+        serializedVersion: 2
+        x: 6480
+        y: 810
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bad7105ccddb3e49bbec3ec463b2a47
+      internalID: 6167523185175159260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gust_leaves_sheet_110
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 405
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06889bc220a08044c9a996f95d7e9dbb
+      internalID: -3808624670517167660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gust_leaves_sheet_111
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 405
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 216a89c7501bb8048b732d52ae67bc7f
+      internalID: 3822749091588321408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gust_leaves_sheet_112
+      rect:
+        serializedVersion: 2
+        x: 1440
+        y: 405
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f7509e0bba625244ba1e604f4fa1ded
+      internalID: 8371144945710750288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gust_leaves_sheet_113
+      rect:
+        serializedVersion: 2
+        x: 2160
+        y: 405
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf7a998237ebc3d468f3102fbd001616
+      internalID: -4519495444319313907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gust_leaves_sheet_114
+      rect:
+        serializedVersion: 2
+        x: 2880
+        y: 405
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbfc16c6fe80b4f4fa5a9168898251a9
+      internalID: 928139521935950363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gust_leaves_sheet_115
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 405
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27c2c1f07f268394bb15a9877a6085e4
+      internalID: 1133001879391910263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gust_leaves_sheet_116
+      rect:
+        serializedVersion: 2
+        x: 4320
+        y: 405
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 144989c93dcae0d49b714d0ce5094dad
+      internalID: -5973646014707757318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gust_leaves_sheet_117
+      rect:
+        serializedVersion: 2
+        x: 5040
+        y: 405
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90b444fc6a088654e8482d2d0c31d4ca
+      internalID: 7536750074182299743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gust_leaves_sheet_118
+      rect:
+        serializedVersion: 2
+        x: 5760
+        y: 405
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69639133c1feab741b47ba5a5ad2dc48
+      internalID: -1869726826998188296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gust_leaves_sheet_119
+      rect:
+        serializedVersion: 2
+        x: 6480
+        y: 405
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09e5aa2a6248a71458c5ea1d81d2f6b5
+      internalID: -1821776927601199278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gust_leaves_sheet_120
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fffd31991d98b3488e6397a60d16ee6
+      internalID: 6260377181758402928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gust_leaves_sheet_121
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 0
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2142e517b17bfb54ebe241dc63fb207b
+      internalID: -7286614899657683320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gust_leaves_sheet_122
+      rect:
+        serializedVersion: 2
+        x: 1440
+        y: 0
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46edea49f5fadf14fa7279dc5f487185
+      internalID: -8311232905672448331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gust_leaves_sheet_123
+      rect:
+        serializedVersion: 2
+        x: 2160
+        y: 0
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1adbfea01aa8a244a59435076811868
+      internalID: 7704214211629683815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gust_leaves_sheet_124
+      rect:
+        serializedVersion: 2
+        x: 2880
+        y: 0
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1890a7028c73f4a4aba193e3970c51f0
+      internalID: -934677363307986460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gust_leaves_sheet_125
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 0
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f1f77c1696a79640a03bb2f660e744b
+      internalID: 5220365229273142482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gust_leaves_sheet_126
+      rect:
+        serializedVersion: 2
+        x: 4320
+        y: 0
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b18998a8743c9d4d89ec15fa8fe6119
+      internalID: 1654733955824428499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gust_leaves_sheet_127
+      rect:
+        serializedVersion: 2
+        x: 5040
+        y: 0
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d160a48783505c444b7483c0e73dccda
+      internalID: 2521882426128115070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gust_leaves_sheet_128
+      rect:
+        serializedVersion: 2
+        x: 5760
+        y: 0
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9826f07e685dfd845ab7bffb3acdb0cd
+      internalID: -999935402594437443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gust_leaves_sheet_129
+      rect:
+        serializedVersion: 2
+        x: 6480
+        y: 0
+        width: 720
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d11ddf58a3bd7d74787c744aa952a9bd
+      internalID: -3014318407941572811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5d9979582de600a4eb025edd888a23b3
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

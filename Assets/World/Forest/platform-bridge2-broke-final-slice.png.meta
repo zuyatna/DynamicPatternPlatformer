@@ -1,0 +1,400 @@
+fileFormatVersion: 2
+guid: 571437306fe498a4a86539cfc8b86451
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4455100271650509933
+    second: platform-bridge2-broke-final-slice_0
+  - first:
+      213: -8520327692937808102
+    second: platform-bridge2-broke-final-slice_1
+  - first:
+      213: -2982464438090338829
+    second: platform-bridge2-broke-final-slice_2
+  - first:
+      213: -670446209402379284
+    second: platform-bridge2-broke-final-slice_3
+  - first:
+      213: 8233537358325373276
+    second: platform-bridge2-broke-final-slice_4
+  - first:
+      213: 1161715462775130900
+    second: platform-bridge2-broke-final-slice_5
+  - first:
+      213: -7813748034690241726
+    second: platform-bridge2-broke-final-slice_6
+  - first:
+      213: -2132888497822338298
+    second: platform-bridge2-broke-final-slice_7
+  - first:
+      213: -107901424488469113
+    second: platform-bridge2-broke-final-slice_8
+  - first:
+      213: -6015818909158160965
+    second: platform-bridge2-broke-final-slice_9
+  - first:
+      213: -7925830777325168269
+    second: platform-bridge2-broke-final-slice_10
+  - first:
+      213: -1512370917299576362
+    second: platform-bridge2-broke-final-slice_11
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: platform-bridge2-broke-final-slice_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 555
+        width: 267
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4d96d97628237144bef549b32ad7235
+      internalID: 4455100271650509933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: platform-bridge2-broke-final-slice_1
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 552
+        width: 15
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2bbec17c8ed1f34296d6fa4c335398a
+      internalID: -8520327692937808102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: platform-bridge2-broke-final-slice_2
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 450
+        width: 398
+        height: 127
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff8ea1c8eb22ee64a8c0338df1b08526
+      internalID: -2982464438090338829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: platform-bridge2-broke-final-slice_3
+      rect:
+        serializedVersion: 2
+        x: 829
+        y: 504
+        width: 51
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6f00b229e2d5d54fbe35b44f8efa785
+      internalID: -670446209402379284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: platform-bridge2-broke-final-slice_4
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 396
+        width: 47
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2ce422dce68a7746a1dc83e7edd1b62
+      internalID: 8233537358325373276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: platform-bridge2-broke-final-slice_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 213
+        width: 198
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99fe5ef5f21bff64284107e576d8697b
+      internalID: 1161715462775130900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: platform-bridge2-broke-final-slice_6
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 205
+        width: 196
+        height: 152
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f65ab686a4b17a24891d3a2597413690
+      internalID: -7813748034690241726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: platform-bridge2-broke-final-slice_7
+      rect:
+        serializedVersion: 2
+        x: 503
+        y: 213
+        width: 154
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e259a1f5bb1a344eae342f6a951fda6
+      internalID: -2132888497822338298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: platform-bridge2-broke-final-slice_8
+      rect:
+        serializedVersion: 2
+        x: 719
+        y: 209
+        width: 172
+        height: 144
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f941be40490e2234185c1e14548bc9e3
+      internalID: -107901424488469113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: platform-bridge2-broke-final-slice_9
+      rect:
+        serializedVersion: 2
+        x: 927
+        y: 234
+        width: 170
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 065d40b647360fc488191738fd2c74f5
+      internalID: -6015818909158160965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: platform-bridge2-broke-final-slice_10
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 0
+        width: 241
+        height: 161
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ded733736569704aa5dd37c16b1ebf8
+      internalID: -7925830777325168269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: platform-bridge2-broke-final-slice_11
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 0
+        width: 185
+        height: 157
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0e32132a7cc6e34ab1cb7209176de71
+      internalID: -1512370917299576362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 66b972fa1f287de42bdc9e1f61e9533f
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
