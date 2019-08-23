@@ -1,0 +1,3040 @@
+fileFormatVersion: 2
+guid: 59125dc9947e4644fa667c3964318034
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5952750009844450506
+    second: wasen_spritesheet_0
+  - first:
+      213: 5063895115005618556
+    second: wasen_spritesheet_1
+  - first:
+      213: 2595481016956010801
+    second: wasen_spritesheet_2
+  - first:
+      213: 821916803409415317
+    second: wasen_spritesheet_3
+  - first:
+      213: 3865690747621109947
+    second: wasen_spritesheet_4
+  - first:
+      213: -4035072620890727099
+    second: wasen_spritesheet_5
+  - first:
+      213: 5261981373467251935
+    second: wasen_spritesheet_6
+  - first:
+      213: -8363089212605297683
+    second: wasen_spritesheet_7
+  - first:
+      213: -1319532020672228749
+    second: wasen_spritesheet_8
+  - first:
+      213: -232218006924576140
+    second: wasen_spritesheet_9
+  - first:
+      213: 6364612202751499266
+    second: wasen_spritesheet_10
+  - first:
+      213: -1169690790308648214
+    second: wasen_spritesheet_11
+  - first:
+      213: 440162512595271557
+    second: wasen_spritesheet_12
+  - first:
+      213: 217494764723142971
+    second: wasen_spritesheet_13
+  - first:
+      213: 7886868618756036261
+    second: wasen_spritesheet_14
+  - first:
+      213: 2766983385610852890
+    second: wasen_spritesheet_15
+  - first:
+      213: -211246827760326065
+    second: wasen_spritesheet_16
+  - first:
+      213: 1603240579176352614
+    second: wasen_spritesheet_17
+  - first:
+      213: -6374222942288539890
+    second: wasen_spritesheet_18
+  - first:
+      213: -3490472258717680447
+    second: wasen_spritesheet_19
+  - first:
+      213: 7167243040995071775
+    second: wasen_spritesheet_20
+  - first:
+      213: 878756761907625104
+    second: wasen_spritesheet_21
+  - first:
+      213: 2757058687326932945
+    second: wasen_spritesheet_22
+  - first:
+      213: -8240784172677501872
+    second: wasen_spritesheet_23
+  - first:
+      213: 3872538080319261643
+    second: wasen_spritesheet_24
+  - first:
+      213: -7342808053431906761
+    second: wasen_spritesheet_25
+  - first:
+      213: -2701090005090319437
+    second: wasen_spritesheet_26
+  - first:
+      213: 2892584483820459699
+    second: wasen_spritesheet_27
+  - first:
+      213: -5295493679334580620
+    second: wasen_spritesheet_28
+  - first:
+      213: 6623621379323843441
+    second: wasen_spritesheet_29
+  - first:
+      213: -6239561935346086998
+    second: wasen_spritesheet_30
+  - first:
+      213: -7457431959352929229
+    second: wasen_spritesheet_31
+  - first:
+      213: -4663364210240312443
+    second: wasen_spritesheet_32
+  - first:
+      213: 4400115416650844275
+    second: wasen_spritesheet_33
+  - first:
+      213: 3142877854457473249
+    second: wasen_spritesheet_34
+  - first:
+      213: -8700040549607121437
+    second: wasen_spritesheet_35
+  - first:
+      213: 4557176670731077147
+    second: wasen_spritesheet_36
+  - first:
+      213: 4203454928955091595
+    second: wasen_spritesheet_37
+  - first:
+      213: -3101677201602598616
+    second: wasen_spritesheet_38
+  - first:
+      213: -1565252107084230910
+    second: wasen_spritesheet_39
+  - first:
+      213: 35168932785860609
+    second: wasen_spritesheet_40
+  - first:
+      213: -3356433167851892939
+    second: wasen_spritesheet_41
+  - first:
+      213: -7752748148395157278
+    second: wasen_spritesheet_42
+  - first:
+      213: -3043086429820424827
+    second: wasen_spritesheet_43
+  - first:
+      213: 3416682545951341636
+    second: wasen_spritesheet_44
+  - first:
+      213: -88621589028831351
+    second: wasen_spritesheet_45
+  - first:
+      213: 3665517344067385519
+    second: wasen_spritesheet_46
+  - first:
+      213: -856822341952197734
+    second: wasen_spritesheet_47
+  - first:
+      213: -8190563097113867926
+    second: wasen_spritesheet_48
+  - first:
+      213: 6196198593457347711
+    second: wasen_spritesheet_49
+  - first:
+      213: 4449342229546054106
+    second: wasen_spritesheet_50
+  - first:
+      213: 2424625093480070493
+    second: wasen_spritesheet_51
+  - first:
+      213: 2374043288696392492
+    second: wasen_spritesheet_52
+  - first:
+      213: 902633111318478170
+    second: wasen_spritesheet_53
+  - first:
+      213: 6483210658624599930
+    second: wasen_spritesheet_54
+  - first:
+      213: 8540597315394062481
+    second: wasen_spritesheet_55
+  - first:
+      213: 9188952261808298619
+    second: wasen_spritesheet_56
+  - first:
+      213: -3305396609179436071
+    second: wasen_spritesheet_57
+  - first:
+      213: -1240802636198439086
+    second: wasen_spritesheet_58
+  - first:
+      213: -6772033804422489359
+    second: wasen_spritesheet_59
+  - first:
+      213: 35172250159442432
+    second: wasen_spritesheet_60
+  - first:
+      213: 3570720823999561305
+    second: wasen_spritesheet_61
+  - first:
+      213: -3011961657225313960
+    second: wasen_spritesheet_62
+  - first:
+      213: -3672975999750601871
+    second: wasen_spritesheet_63
+  - first:
+      213: -8482176919167916194
+    second: wasen_spritesheet_64
+  - first:
+      213: -6929826249739889366
+    second: wasen_spritesheet_65
+  - first:
+      213: 9103757628545341587
+    second: wasen_spritesheet_66
+  - first:
+      213: 2797430958590482671
+    second: wasen_spritesheet_67
+  - first:
+      213: 8764576478049227571
+    second: wasen_spritesheet_68
+  - first:
+      213: 4454827071018664834
+    second: wasen_spritesheet_69
+  - first:
+      213: -874322576324114387
+    second: wasen_spritesheet_70
+  - first:
+      213: 4104843863261794748
+    second: wasen_spritesheet_71
+  - first:
+      213: 7039919362301375692
+    second: wasen_spritesheet_72
+  - first:
+      213: 6719968820236776464
+    second: wasen_spritesheet_73
+  - first:
+      213: 3013432991198837832
+    second: wasen_spritesheet_74
+  - first:
+      213: 3455414483747200916
+    second: wasen_spritesheet_75
+  - first:
+      213: -2003389714892676430
+    second: wasen_spritesheet_76
+  - first:
+      213: -5778689506429511221
+    second: wasen_spritesheet_77
+  - first:
+      213: -8343521215145974604
+    second: wasen_spritesheet_78
+  - first:
+      213: 6055551227478041193
+    second: wasen_spritesheet_79
+  - first:
+      213: 2670694011847692025
+    second: wasen_spritesheet_80
+  - first:
+      213: 219257062131835663
+    second: wasen_spritesheet_81
+  - first:
+      213: 3896412911306099558
+    second: wasen_spritesheet_82
+  - first:
+      213: 4156890255468478293
+    second: wasen_spritesheet_83
+  - first:
+      213: -7915618951498623090
+    second: wasen_spritesheet_84
+  - first:
+      213: 2920814788936297644
+    second: wasen_spritesheet_85
+  - first:
+      213: -6148823950884847909
+    second: wasen_spritesheet_86
+  - first:
+      213: 5923927682149848677
+    second: wasen_spritesheet_87
+  - first:
+      213: 891148825647386864
+    second: wasen_spritesheet_88
+  - first:
+      213: -9048507967727358738
+    second: wasen_spritesheet_89
+  - first:
+      213: -6922212890076765620
+    second: wasen_spritesheet_90
+  - first:
+      213: -5548745862053911114
+    second: wasen_spritesheet_91
+  - first:
+      213: -1028891377278076499
+    second: wasen_spritesheet_92
+  - first:
+      213: -6542618827186160391
+    second: wasen_spritesheet_93
+  - first:
+      213: 7536028818262268347
+    second: wasen_spritesheet_94
+  - first:
+      213: 5959427079442444824
+    second: wasen_spritesheet_95
+  - first:
+      213: -6448949168309334455
+    second: wasen_spritesheet_96
+  - first:
+      213: -7580832650863532175
+    second: wasen_spritesheet_97
+  - first:
+      213: -6567661643387601844
+    second: wasen_spritesheet_98
+  - first:
+      213: -871024589205337900
+    second: wasen_spritesheet_99
+  - first:
+      213: 3854967542850554685
+    second: wasen_spritesheet_100
+  - first:
+      213: 7715514982345811206
+    second: wasen_spritesheet_101
+  - first:
+      213: 5886736567601288775
+    second: wasen_spritesheet_102
+  - first:
+      213: 1696248237459625900
+    second: wasen_spritesheet_103
+  - first:
+      213: -9063330106130662886
+    second: wasen_spritesheet_104
+  - first:
+      213: -3381922540950225775
+    second: wasen_spritesheet_105
+  - first:
+      213: -6080146324131864336
+    second: wasen_spritesheet_106
+  - first:
+      213: 3379470701774844530
+    second: wasen_spritesheet_107
+  - first:
+      213: 1414606455875942291
+    second: wasen_spritesheet_108
+  - first:
+      213: 6916590395760142868
+    second: wasen_spritesheet_109
+  - first:
+      213: -6683190597700091832
+    second: wasen_spritesheet_110
+  - first:
+      213: -3335082630919544121
+    second: wasen_spritesheet_111
+  - first:
+      213: -164098244258693958
+    second: wasen_spritesheet_112
+  - first:
+      213: -8758475902342239177
+    second: wasen_spritesheet_113
+  - first:
+      213: 1765063899797760342
+    second: wasen_spritesheet_114
+  - first:
+      213: 533752557841502865
+    second: wasen_spritesheet_115
+  - first:
+      213: -5905033057805894423
+    second: wasen_spritesheet_116
+  - first:
+      213: -6987787912750298305
+    second: wasen_spritesheet_117
+  - first:
+      213: 5704085897509316293
+    second: wasen_spritesheet_118
+  - first:
+      213: 3093740163269153170
+    second: wasen_spritesheet_119
+  - first:
+      213: -5710402475223814005
+    second: wasen_spritesheet_120
+  - first:
+      213: 7161924241596118809
+    second: wasen_spritesheet_121
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Android
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: wasen_spritesheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 8328
+        width: 1080
+        height: 694
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0dad51044d8e354ab19770b05ce2cba
+      internalID: 5952750009844450506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wasen_spritesheet_1
+      rect:
+        serializedVersion: 2
+        x: 1080
+        y: 8328
+        width: 1080
+        height: 694
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b6b1a1ef8cb04545bbc1d3efdb0ba78
+      internalID: 5063895115005618556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wasen_spritesheet_2
+      rect:
+        serializedVersion: 2
+        x: 2160
+        y: 8328
+        width: 1080
+        height: 694
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17c55f0583af35949a7a6c324858a12a
+      internalID: 2595481016956010801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wasen_spritesheet_3
+      rect:
+        serializedVersion: 2
+        x: 3240
+        y: 8328
+        width: 1080
+        height: 694
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27f842b0410de894c8cf8f5cf9231d51
+      internalID: 821916803409415317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wasen_spritesheet_4
+      rect:
+        serializedVersion: 2
+        x: 4320
+        y: 8328
+        width: 1080
+        height: 694
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71a7fd049ac390a44b7840a0368c445b
+      internalID: 3865690747621109947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wasen_spritesheet_5
+      rect:
+        serializedVersion: 2
+        x: 5400
+        y: 8328
+        width: 1080
+        height: 694
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 505460307a9b1af49bef522ca09eab07
+      internalID: -4035072620890727099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wasen_spritesheet_6
+      rect:
+        serializedVersion: 2
+        x: 6480
+        y: 8328
+        width: 1080
+        height: 694
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1944d61e74ff1d64c877181a6db2c056
+      internalID: 5261981373467251935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wasen_spritesheet_7
+      rect:
+        serializedVersion: 2
+        x: 7560
+        y: 8328
+        width: 1080
+        height: 694
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 790a0c09dc285e44ba9e639ebd596df1
+      internalID: -8363089212605297683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wasen_spritesheet_8
+      rect:
+        serializedVersion: 2
+        x: 8640
+        y: 8328
+        width: 1080
+        height: 694
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1a586210304e2b4d9db5fe240d45edf
+      internalID: -1319532020672228749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wasen_spritesheet_9
+      rect:
+        serializedVersion: 2
+        x: 9720
+        y: 8328
+        width: 1080
+        height: 694
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25a3d01906aea2146b0443387bcad84c
+      internalID: -232218006924576140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wasen_spritesheet_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 7634
+        width: 1080
+        height: 694
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a8d25b7614ef8140b48ec477f62c565
+      internalID: 6364612202751499266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wasen_spritesheet_11
+      rect:
+        serializedVersion: 2
+        x: 1080
+        y: 7634
+        width: 1080
+        height: 694
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69d7e820e7011b142ae260d26b0929ce
+      internalID: -1169690790308648214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wasen_spritesheet_12
+      rect:
+        serializedVersion: 2
+        x: 2160
+        y: 7634
+        width: 1080
+        height: 694
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 922a3a035d56ef64dbad04ff98a786b7
+      internalID: 440162512595271557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wasen_spritesheet_13
+      rect:
+        serializedVersion: 2
+        x: 3240
+        y: 7634
+        width: 1080
+        height: 694
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95f76868001bb9747917f5a3dfa2f4f9
+      internalID: 217494764723142971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wasen_spritesheet_14
+      rect:
+        serializedVersion: 2
+        x: 4320
+        y: 7634
+        width: 1080
+        height: 694
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e338880366aec842adf35eaf003d008
+      internalID: 7886868618756036261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wasen_spritesheet_15
+      rect:
+        serializedVersion: 2
+        x: 5400
+        y: 7634
+        width: 1080
+        height: 694
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a41240a659ad0343a92cd25e89ce1ea
+      internalID: 2766983385610852890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wasen_spritesheet_16
+      rect:
+        serializedVersion: 2
+        x: 6480
+        y: 7634
+        width: 1080
+        height: 694
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0b9c5bca4790c6498803b25118265dc
+      internalID: -211246827760326065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wasen_spritesheet_17
+      rect:
+        serializedVersion: 2
+        x: 7560
+        y: 7634
+        width: 1080
+        height: 694
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11370aedc9ce5da40a60eb0520f302e0
+      internalID: 1603240579176352614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wasen_spritesheet_18
+      rect:
+        serializedVersion: 2
+        x: 8640
+        y: 7634
+        width: 1080
+        height: 694
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6fd2adfe7da9fc45a81a9a4aa903001
+      internalID: -6374222942288539890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wasen_spritesheet_19
+      rect:
+        serializedVersion: 2
+        x: 9720
+        y: 7634
+        width: 1080
+        height: 694
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0a69e2eafd2c8a4a96bb459dbac096f
+      internalID: -3490472258717680447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wasen_spritesheet_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 6940
+        width: 1080
+        height: 694
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa6c4366d03d65846b22da1e03b12675
+      internalID: 7167243040995071775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wasen_spritesheet_21
+      rect:
+        serializedVersion: 2
+        x: 1080
+        y: 6940
+        width: 1080
+        height: 694
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc9754eb199e77f4ebdc9ce4d161b8b7
+      internalID: 878756761907625104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wasen_spritesheet_22
+      rect:
+        serializedVersion: 2
+        x: 2160
+        y: 6940
+        width: 1080
+        height: 694
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ebf91d4243bbdb458a8937af6eaed6b
+      internalID: 2757058687326932945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wasen_spritesheet_23
+      rect:
+        serializedVersion: 2
+        x: 3240
+        y: 6940
+        width: 1080
+        height: 694
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1500c6fd294a2d74193a3eea4ffe30ed
+      internalID: -8240784172677501872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wasen_spritesheet_24
+      rect:
+        serializedVersion: 2
+        x: 4320
+        y: 6940
+        width: 1080
+        height: 694
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c518ec98a347e5c40943fe563d547a59
+      internalID: 3872538080319261643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wasen_spritesheet_25
+      rect:
+        serializedVersion: 2
+        x: 5400
+        y: 6940
+        width: 1080
+        height: 694
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76208df897ede3a4b8b2f3dd39e88fe5
+      internalID: -7342808053431906761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wasen_spritesheet_26
+      rect:
+        serializedVersion: 2
+        x: 6480
+        y: 6940
+        width: 1080
+        height: 694
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bedda6ec4995504db2c95407d611b48
+      internalID: -2701090005090319437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wasen_spritesheet_27
+      rect:
+        serializedVersion: 2
+        x: 7560
+        y: 6940
+        width: 1080
+        height: 694
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c460d3a7d20166a4bac7ff72f732e2ee
+      internalID: 2892584483820459699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wasen_spritesheet_28
+      rect:
+        serializedVersion: 2
+        x: 8640
+        y: 6940
+        width: 1080
+        height: 694
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e1d070b5d114ec4dad4e2201e0398e2
+      internalID: -5295493679334580620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wasen_spritesheet_29
+      rect:
+        serializedVersion: 2
+        x: 9720
+        y: 6940
+        width: 1080
+        height: 694
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83fbc0da857ed814ba346dd398424a80
+      internalID: 6623621379323843441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wasen_spritesheet_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 6246
+        width: 1080
+        height: 694
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c90552eba6d187e47be5ec9ab4eecb21
+      internalID: -6239561935346086998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wasen_spritesheet_31
+      rect:
+        serializedVersion: 2
+        x: 1080
+        y: 6246
+        width: 1080
+        height: 694
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: defe2b5aaca11d5468d9eccba7b5f1de
+      internalID: -7457431959352929229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wasen_spritesheet_32
+      rect:
+        serializedVersion: 2
+        x: 2160
+        y: 6246
+        width: 1080
+        height: 694
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3dbaf640a453c39448f0f0d8b4f08c02
+      internalID: -4663364210240312443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wasen_spritesheet_33
+      rect:
+        serializedVersion: 2
+        x: 3240
+        y: 6246
+        width: 1080
+        height: 694
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f575dae8c5c541418136c0f8d7d855e
+      internalID: 4400115416650844275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wasen_spritesheet_34
+      rect:
+        serializedVersion: 2
+        x: 4320
+        y: 6246
+        width: 1080
+        height: 694
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71ea1fb18fb58044ba336a941f4f735a
+      internalID: 3142877854457473249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wasen_spritesheet_35
+      rect:
+        serializedVersion: 2
+        x: 5400
+        y: 6246
+        width: 1080
+        height: 694
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d47d4c82afee494999a35529feb7b9a
+      internalID: -8700040549607121437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wasen_spritesheet_36
+      rect:
+        serializedVersion: 2
+        x: 6480
+        y: 6246
+        width: 1080
+        height: 694
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94fdb87420cbe7b459febcf14054fa3e
+      internalID: 4557176670731077147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wasen_spritesheet_37
+      rect:
+        serializedVersion: 2
+        x: 7560
+        y: 6246
+        width: 1080
+        height: 694
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64ab42df3afe0254bb2ee9002680bd40
+      internalID: 4203454928955091595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wasen_spritesheet_38
+      rect:
+        serializedVersion: 2
+        x: 8640
+        y: 6246
+        width: 1080
+        height: 694
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fdeb6a1e8c7f6f40ae0ac92bb325df2
+      internalID: -3101677201602598616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wasen_spritesheet_39
+      rect:
+        serializedVersion: 2
+        x: 9720
+        y: 6246
+        width: 1080
+        height: 694
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a09cd74305ad50f429d945c06978c80e
+      internalID: -1565252107084230910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wasen_spritesheet_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 5552
+        width: 1080
+        height: 694
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27e0157525fd8ba40a5002b5fb58b810
+      internalID: 35168932785860609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wasen_spritesheet_41
+      rect:
+        serializedVersion: 2
+        x: 1080
+        y: 5552
+        width: 1080
+        height: 694
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b2888a451685fc4f9b0a93b0c00b4ce
+      internalID: -3356433167851892939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wasen_spritesheet_42
+      rect:
+        serializedVersion: 2
+        x: 2160
+        y: 5552
+        width: 1080
+        height: 694
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 086e5151a7916574a81ecfb7be02a6eb
+      internalID: -7752748148395157278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wasen_spritesheet_43
+      rect:
+        serializedVersion: 2
+        x: 3240
+        y: 5552
+        width: 1080
+        height: 694
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cba40f3a3089df14cbb0293d458272da
+      internalID: -3043086429820424827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wasen_spritesheet_44
+      rect:
+        serializedVersion: 2
+        x: 4320
+        y: 5552
+        width: 1080
+        height: 694
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d72c6c58d8399e144a508f8f9e9f9986
+      internalID: 3416682545951341636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wasen_spritesheet_45
+      rect:
+        serializedVersion: 2
+        x: 5400
+        y: 5552
+        width: 1080
+        height: 694
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54fffabae6c0bd145866b7a8e9c73679
+      internalID: -88621589028831351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wasen_spritesheet_46
+      rect:
+        serializedVersion: 2
+        x: 6480
+        y: 5552
+        width: 1080
+        height: 694
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75397a7823a2e3540b8c38c4185e4ce8
+      internalID: 3665517344067385519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wasen_spritesheet_47
+      rect:
+        serializedVersion: 2
+        x: 7560
+        y: 5552
+        width: 1080
+        height: 694
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10d35a1d52cf2e54ea5fd7cd36f97fad
+      internalID: -856822341952197734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wasen_spritesheet_48
+      rect:
+        serializedVersion: 2
+        x: 8640
+        y: 5552
+        width: 1080
+        height: 694
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7cbd31b6dface7148b4f6116dad36e3e
+      internalID: -8190563097113867926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wasen_spritesheet_49
+      rect:
+        serializedVersion: 2
+        x: 9720
+        y: 5552
+        width: 1080
+        height: 694
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6096d5a60b27c5d478cacb0de624d024
+      internalID: 6196198593457347711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wasen_spritesheet_50
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4858
+        width: 1080
+        height: 694
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbdd07706e206e040b0e80014e10c200
+      internalID: 4449342229546054106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wasen_spritesheet_51
+      rect:
+        serializedVersion: 2
+        x: 1080
+        y: 4858
+        width: 1080
+        height: 694
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5723a9113daeca43aa67c20ee8acd1c
+      internalID: 2424625093480070493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wasen_spritesheet_52
+      rect:
+        serializedVersion: 2
+        x: 2160
+        y: 4858
+        width: 1080
+        height: 694
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47d70dfe6fad33a47a50d890c6fc48b1
+      internalID: 2374043288696392492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wasen_spritesheet_53
+      rect:
+        serializedVersion: 2
+        x: 3240
+        y: 4858
+        width: 1080
+        height: 694
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bb9d36e9dfe9dd42887d298a28a4738
+      internalID: 902633111318478170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wasen_spritesheet_54
+      rect:
+        serializedVersion: 2
+        x: 4320
+        y: 4858
+        width: 1080
+        height: 694
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b22de0bf63814a4582ae64d95cf2e3a
+      internalID: 6483210658624599930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wasen_spritesheet_55
+      rect:
+        serializedVersion: 2
+        x: 5400
+        y: 4858
+        width: 1080
+        height: 694
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf9fe05b960c29a4dafaac93f99afbf2
+      internalID: 8540597315394062481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wasen_spritesheet_56
+      rect:
+        serializedVersion: 2
+        x: 6480
+        y: 4858
+        width: 1080
+        height: 694
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06a5293dc6d84be4ea998a55387043c8
+      internalID: 9188952261808298619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wasen_spritesheet_57
+      rect:
+        serializedVersion: 2
+        x: 7560
+        y: 4858
+        width: 1080
+        height: 694
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05d779861d4ed93479626be43e6965b3
+      internalID: -3305396609179436071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wasen_spritesheet_58
+      rect:
+        serializedVersion: 2
+        x: 8640
+        y: 4858
+        width: 1080
+        height: 694
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08d023c0e1f128c4d9c9375ce6825493
+      internalID: -1240802636198439086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wasen_spritesheet_59
+      rect:
+        serializedVersion: 2
+        x: 9720
+        y: 4858
+        width: 1080
+        height: 694
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3d69c0c21d1dc1489b5e26823610f0a
+      internalID: -6772033804422489359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wasen_spritesheet_60
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4164
+        width: 1080
+        height: 694
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca0e22673626ff643aa795507c7c67e7
+      internalID: 35172250159442432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wasen_spritesheet_61
+      rect:
+        serializedVersion: 2
+        x: 1080
+        y: 4164
+        width: 1080
+        height: 694
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be1741a0d651df4489f477841de2173b
+      internalID: 3570720823999561305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wasen_spritesheet_62
+      rect:
+        serializedVersion: 2
+        x: 2160
+        y: 4164
+        width: 1080
+        height: 694
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75002794ac2e1484598260e39c0e4abb
+      internalID: -3011961657225313960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wasen_spritesheet_63
+      rect:
+        serializedVersion: 2
+        x: 3240
+        y: 4164
+        width: 1080
+        height: 694
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8e68fa567274084d9a18fc8792fa51d
+      internalID: -3672975999750601871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wasen_spritesheet_64
+      rect:
+        serializedVersion: 2
+        x: 4320
+        y: 4164
+        width: 1080
+        height: 694
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2aef662b0708b6d4980b84c53e0ce92f
+      internalID: -8482176919167916194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wasen_spritesheet_65
+      rect:
+        serializedVersion: 2
+        x: 5400
+        y: 4164
+        width: 1080
+        height: 694
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d34a56557057d05418534d16eeb18061
+      internalID: -6929826249739889366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wasen_spritesheet_66
+      rect:
+        serializedVersion: 2
+        x: 6480
+        y: 4164
+        width: 1080
+        height: 694
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc8a6203c761edf42bb2c5dd9b59f810
+      internalID: 9103757628545341587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wasen_spritesheet_67
+      rect:
+        serializedVersion: 2
+        x: 7560
+        y: 4164
+        width: 1080
+        height: 694
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92f92f64835c861459ae8f8bb1cb61ff
+      internalID: 2797430958590482671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wasen_spritesheet_68
+      rect:
+        serializedVersion: 2
+        x: 8640
+        y: 4164
+        width: 1080
+        height: 694
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2f3fe1c7d7c29a418cc44c0179923b5
+      internalID: 8764576478049227571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wasen_spritesheet_69
+      rect:
+        serializedVersion: 2
+        x: 9720
+        y: 4164
+        width: 1080
+        height: 694
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2fcaab1e18f2d74683af3e98a548f98
+      internalID: 4454827071018664834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wasen_spritesheet_70
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3470
+        width: 1080
+        height: 694
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f16a8b5bb64a7434f95fdc1505b98bb1
+      internalID: -874322576324114387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wasen_spritesheet_71
+      rect:
+        serializedVersion: 2
+        x: 1080
+        y: 3470
+        width: 1080
+        height: 694
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef7cf03ed6d1a5d4f9054cd778de444b
+      internalID: 4104843863261794748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wasen_spritesheet_72
+      rect:
+        serializedVersion: 2
+        x: 2160
+        y: 3470
+        width: 1080
+        height: 694
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 396e49fe1304ca74ca55c7529c3d2b8e
+      internalID: 7039919362301375692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wasen_spritesheet_73
+      rect:
+        serializedVersion: 2
+        x: 3240
+        y: 3470
+        width: 1080
+        height: 694
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d757e1413048f44f9ce8c06bfdc6357
+      internalID: 6719968820236776464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wasen_spritesheet_74
+      rect:
+        serializedVersion: 2
+        x: 4320
+        y: 3470
+        width: 1080
+        height: 694
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff2a39e3c93dac24097081f27861b198
+      internalID: 3013432991198837832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wasen_spritesheet_75
+      rect:
+        serializedVersion: 2
+        x: 5400
+        y: 3470
+        width: 1080
+        height: 694
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5307516eb92f02e4b997e65ffbecbb5c
+      internalID: 3455414483747200916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wasen_spritesheet_76
+      rect:
+        serializedVersion: 2
+        x: 6480
+        y: 3470
+        width: 1080
+        height: 694
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbbd39830bab9424b98e2ba9c5986019
+      internalID: -2003389714892676430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wasen_spritesheet_77
+      rect:
+        serializedVersion: 2
+        x: 7560
+        y: 3470
+        width: 1080
+        height: 694
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 678618ed1d2949d478a705711e0e6fac
+      internalID: -5778689506429511221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wasen_spritesheet_78
+      rect:
+        serializedVersion: 2
+        x: 8640
+        y: 3470
+        width: 1080
+        height: 694
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bebade893127a742a0ec7cc085ad212
+      internalID: -8343521215145974604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wasen_spritesheet_79
+      rect:
+        serializedVersion: 2
+        x: 9720
+        y: 3470
+        width: 1080
+        height: 694
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f74074514e2438442b4fcaf9504c192b
+      internalID: 6055551227478041193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wasen_spritesheet_80
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2776
+        width: 1080
+        height: 694
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93d8ccb9f1c50fa489b94d74f78c11d4
+      internalID: 2670694011847692025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wasen_spritesheet_81
+      rect:
+        serializedVersion: 2
+        x: 1080
+        y: 2776
+        width: 1080
+        height: 694
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b5f45e8f4091f64cbfb08d28b9067f7
+      internalID: 219257062131835663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wasen_spritesheet_82
+      rect:
+        serializedVersion: 2
+        x: 2160
+        y: 2776
+        width: 1080
+        height: 694
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09ea833afa0577f49a45545f547a0d22
+      internalID: 3896412911306099558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wasen_spritesheet_83
+      rect:
+        serializedVersion: 2
+        x: 3240
+        y: 2776
+        width: 1080
+        height: 694
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1fb19b47274a734ba7d6ea0d8b771a6
+      internalID: 4156890255468478293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wasen_spritesheet_84
+      rect:
+        serializedVersion: 2
+        x: 4320
+        y: 2776
+        width: 1080
+        height: 694
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 299ab33f7a68e7e4f930eb78758b4390
+      internalID: -7915618951498623090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wasen_spritesheet_85
+      rect:
+        serializedVersion: 2
+        x: 5400
+        y: 2776
+        width: 1080
+        height: 694
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 929e02d2e77372447a892d93363d55f9
+      internalID: 2920814788936297644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wasen_spritesheet_86
+      rect:
+        serializedVersion: 2
+        x: 6480
+        y: 2776
+        width: 1080
+        height: 694
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edead3ab32ee5234b9c270822f556572
+      internalID: -6148823950884847909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wasen_spritesheet_87
+      rect:
+        serializedVersion: 2
+        x: 7560
+        y: 2776
+        width: 1080
+        height: 694
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 898a638a67cfe1e4bbdc5faee45c63a1
+      internalID: 5923927682149848677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wasen_spritesheet_88
+      rect:
+        serializedVersion: 2
+        x: 8640
+        y: 2776
+        width: 1080
+        height: 694
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 153876a522beeec488c26c8b74e27b1e
+      internalID: 891148825647386864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wasen_spritesheet_89
+      rect:
+        serializedVersion: 2
+        x: 9720
+        y: 2776
+        width: 1080
+        height: 694
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08fbbf2da5bae294b84d51597fc605c9
+      internalID: -9048507967727358738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wasen_spritesheet_90
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2082
+        width: 1080
+        height: 694
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5baf96ca8f26924494f18381ca7e90c
+      internalID: -6922212890076765620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wasen_spritesheet_91
+      rect:
+        serializedVersion: 2
+        x: 1080
+        y: 2082
+        width: 1080
+        height: 694
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91d46df07889d1c40944e03bae339864
+      internalID: -5548745862053911114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wasen_spritesheet_92
+      rect:
+        serializedVersion: 2
+        x: 2160
+        y: 2082
+        width: 1080
+        height: 694
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8638ace82d88ffd45ac177c443ff4f95
+      internalID: -1028891377278076499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wasen_spritesheet_93
+      rect:
+        serializedVersion: 2
+        x: 3240
+        y: 2082
+        width: 1080
+        height: 694
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27acfc754d2ad7245b539d6044334aa7
+      internalID: -6542618827186160391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wasen_spritesheet_94
+      rect:
+        serializedVersion: 2
+        x: 4320
+        y: 2082
+        width: 1080
+        height: 694
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87f8dceb9b615e341b1983311a8bf78e
+      internalID: 7536028818262268347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wasen_spritesheet_95
+      rect:
+        serializedVersion: 2
+        x: 5400
+        y: 2082
+        width: 1080
+        height: 694
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb477ef1955c6fc4c918d211075077df
+      internalID: 5959427079442444824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wasen_spritesheet_96
+      rect:
+        serializedVersion: 2
+        x: 6480
+        y: 2082
+        width: 1080
+        height: 694
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27960898011c9a74a9b3655849b4eefb
+      internalID: -6448949168309334455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wasen_spritesheet_97
+      rect:
+        serializedVersion: 2
+        x: 7560
+        y: 2082
+        width: 1080
+        height: 694
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5eb963072df67fa43bbfa072b60f5a79
+      internalID: -7580832650863532175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wasen_spritesheet_98
+      rect:
+        serializedVersion: 2
+        x: 8640
+        y: 2082
+        width: 1080
+        height: 694
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ded742e3756668d47821ec910c3e8c76
+      internalID: -6567661643387601844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wasen_spritesheet_99
+      rect:
+        serializedVersion: 2
+        x: 9720
+        y: 2082
+        width: 1080
+        height: 694
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea9ce4eb70e457047b919d26cd46eb68
+      internalID: -871024589205337900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wasen_spritesheet_100
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1388
+        width: 1080
+        height: 694
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bc72a1d125d7094fb14281276a6bd5d
+      internalID: 3854967542850554685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wasen_spritesheet_101
+      rect:
+        serializedVersion: 2
+        x: 1080
+        y: 1388
+        width: 1080
+        height: 694
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23b344d5eb666f948b38a9f89d313052
+      internalID: 7715514982345811206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wasen_spritesheet_102
+      rect:
+        serializedVersion: 2
+        x: 2160
+        y: 1388
+        width: 1080
+        height: 694
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d7afbbde9c859f429c1a99d2afb9bae
+      internalID: 5886736567601288775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wasen_spritesheet_103
+      rect:
+        serializedVersion: 2
+        x: 3240
+        y: 1388
+        width: 1080
+        height: 694
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 975f0b903be85a643ad1e8f68c7c2dcd
+      internalID: 1696248237459625900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wasen_spritesheet_104
+      rect:
+        serializedVersion: 2
+        x: 4320
+        y: 1388
+        width: 1080
+        height: 694
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9520b06313730eb45a4d558143e17aff
+      internalID: -9063330106130662886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wasen_spritesheet_105
+      rect:
+        serializedVersion: 2
+        x: 5400
+        y: 1388
+        width: 1080
+        height: 694
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 691255818d94ef04493f636eec78e1d3
+      internalID: -3381922540950225775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wasen_spritesheet_106
+      rect:
+        serializedVersion: 2
+        x: 6480
+        y: 1388
+        width: 1080
+        height: 694
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbe1fb7626f356a48b4a1d756f3bc2b6
+      internalID: -6080146324131864336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wasen_spritesheet_107
+      rect:
+        serializedVersion: 2
+        x: 7560
+        y: 1388
+        width: 1080
+        height: 694
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e47dea3c761362e4b91eec5dea613791
+      internalID: 3379470701774844530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wasen_spritesheet_108
+      rect:
+        serializedVersion: 2
+        x: 8640
+        y: 1388
+        width: 1080
+        height: 694
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 033dbcd18947a294cbd93fa7e1e379c2
+      internalID: 1414606455875942291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wasen_spritesheet_109
+      rect:
+        serializedVersion: 2
+        x: 9720
+        y: 1388
+        width: 1080
+        height: 694
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62d678eca2ccbe7488be2dca07414724
+      internalID: 6916590395760142868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wasen_spritesheet_110
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 694
+        width: 1080
+        height: 694
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96469b571b6a9374f86ae3786c0ed20c
+      internalID: -6683190597700091832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wasen_spritesheet_111
+      rect:
+        serializedVersion: 2
+        x: 1080
+        y: 694
+        width: 1080
+        height: 694
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b90d5546b946c946991788a79ac07fe
+      internalID: -3335082630919544121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wasen_spritesheet_112
+      rect:
+        serializedVersion: 2
+        x: 2160
+        y: 694
+        width: 1080
+        height: 694
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08597763fc0a0b24b962ad2cd1830ea1
+      internalID: -164098244258693958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wasen_spritesheet_113
+      rect:
+        serializedVersion: 2
+        x: 3240
+        y: 694
+        width: 1080
+        height: 694
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65cb7269388ac424b8367d918238ad19
+      internalID: -8758475902342239177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wasen_spritesheet_114
+      rect:
+        serializedVersion: 2
+        x: 4320
+        y: 694
+        width: 1080
+        height: 694
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf1497091c095734b987c86abd443e0c
+      internalID: 1765063899797760342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wasen_spritesheet_115
+      rect:
+        serializedVersion: 2
+        x: 5400
+        y: 694
+        width: 1080
+        height: 694
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8026611206b6e244dbaeddba9e6e67da
+      internalID: 533752557841502865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wasen_spritesheet_116
+      rect:
+        serializedVersion: 2
+        x: 6480
+        y: 694
+        width: 1080
+        height: 694
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e87a12ddb66e7824e895f5b4527e9124
+      internalID: -5905033057805894423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wasen_spritesheet_117
+      rect:
+        serializedVersion: 2
+        x: 7560
+        y: 694
+        width: 1080
+        height: 694
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d15efa887ab8da4589e61076f9abe5c
+      internalID: -6987787912750298305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wasen_spritesheet_118
+      rect:
+        serializedVersion: 2
+        x: 8640
+        y: 694
+        width: 1080
+        height: 694
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6b2c94536aa21f45aef60e301476482
+      internalID: 5704085897509316293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wasen_spritesheet_119
+      rect:
+        serializedVersion: 2
+        x: 9720
+        y: 694
+        width: 1080
+        height: 694
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd1b34d9bbb524f41bfa938f2cf8b770
+      internalID: 3093740163269153170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wasen_spritesheet_120
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1080
+        height: 694
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68975e34b854e7247bdb894005b730c7
+      internalID: -5710402475223814005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wasen_spritesheet_121
+      rect:
+        serializedVersion: 2
+        x: 1080
+        y: 0
+        width: 1080
+        height: 694
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa7c741949b86774195a938bf0cd3f5c
+      internalID: 7161924241596118809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 88d53de8a1db7f0468cce0a9d8e496a3
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
