@@ -6707,7 +6707,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.z
-    path: Bones/IK/L Leg IK
+    path: Bones/Hip/Torso/R Arm
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -6717,7 +6717,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.y
-    path: Bones/IK/L Leg IK
+    path: Bones/Hip/Torso/R Arm
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -6727,7 +6727,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.x
-    path: Bones/IK/L Leg IK
+    path: Bones/Hip/Torso/R Arm
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -6797,7 +6797,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.x
-    path: Bones/Hip/Torso/R Arm
+    path: Bones/IK/L Leg IK
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -6807,7 +6807,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.y
-    path: Bones/Hip/Torso/R Arm
+    path: Bones/IK/L Leg IK
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -6817,7 +6817,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.z
-    path: Bones/Hip/Torso/R Arm
+    path: Bones/IK/L Leg IK
     classID: 4
     script: {fileID: 0}
   m_HasGenericRootTransform: 0
