@@ -178,12 +178,12 @@ public class PlayerAttack : MonoBehaviourPunCallbacks, IPunObservable
 				}
 			}
 			
-			if(Input.GetKeyDown(KeyCode.F))
+			if(Input.GetKeyDown(KeyCode.Space))
 			{
 				isPunch = true;
 			}
 
-			if(Input.GetKeyUp(KeyCode.F))
+			if(Input.GetKeyUp(KeyCode.Space))
 			{
 				isPunch = false;
 			}

@@ -1,8 +1,14 @@
-﻿using System.Collections.Generic;
+﻿using System.Collections;
+using System.Collections.Generic;
+using System.Text;
+using JetBrains.Annotations;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 using Photon.Pun;
+using Photon.Pun.UtilityScripts;
+using Photon.Realtime;
+using UnityEngine.Serialization;
 
 public class LevelManager : MonoBehaviourPunCallbacks, IPunObservable
 {
@@ -11,39 +17,41 @@ public class LevelManager : MonoBehaviourPunCallbacks, IPunObservable
 
 	#region Public Variables
 
-	[Tooltip("The prefab to use for representation the player")]
-    public GameObject playerPrefab;
+	[Tooltip("The prefab to use for representation the player")] [CanBeNull]
+	public GameObject playerPrefab;
 
-	[Header("Leave Room")]
-	public Button leaveButton;
+	[Header("Leave Room")] [CanBeNull] public Button leaveButton;
 
-	public List<Transform> itemsDropPosition;
-	public List<GameObject> itemsDrop;
+	[CanBeNull] public List<Transform> itemsDropPosition;
+	[CanBeNull] public List<GameObject> itemsDrop;
 
 	[Tooltip("Time for drop")]
-	private float _timerDrop;
 	public float tempTimerDrop;
-	private int _tempRandomItemDrop = 0;
-	private int _tempRandomDropPosition = 1;
-
-	[SerializeField] private int tempPlayer = 1;
-	public Text playerInRoom;
-
-	private int _players = 1;
 
 	[HideInInspector] public bool activeCameraMoving;
 	[HideInInspector] public bool activeTimer;
 
-	public Text waitingPlayer;
-	public GameObject loadingObject;
-	public int maxPlayer;
-
-	[Tooltip("Main Camera")]
-	public GameObject movingCamera;
+	[Tooltip("Main Camera")] [CanBeNull] public GameObject movingCamera;
 	public float time; //second
-    private float _minutes;
+
+	public float countdown;
+	public Text countdownText;
+
+	public Text scoreboard;
+	
+	#endregion
+
+	#region Private Varibles
+
+	private int _tempRandomItemDrop = 0;
+	private int _tempRandomDropPosition = 1;
+	
+	private float _minutes;
 	private float _seconds;
-		
+	private float _countdownSecond;
+
+	private readonly List<string> _playersInRoom = new List<string>();
+
 	#endregion
 
 	/// <summary>
@@ -53,6 +61,8 @@ public class LevelManager : MonoBehaviourPunCallbacks, IPunObservable
 	{
 		Instance = this;
 
+		PhotonNetwork.AutomaticallySyncScene = true;
+		
 		if (playerPrefab == null)
         {
             Debug.LogError("<Color=Red><a>Missing</a></Color> playerPrefab References. Please set it up GameObject 'GameManager'", this);
@@ -73,27 +83,14 @@ public class LevelManager : MonoBehaviourPunCallbacks, IPunObservable
         }
 		
 		leaveButton.onClick.AddListener(LeaveRoom);
-		
-		waitingPlayer.text = "Waiting Until " +maxPlayer +" Players";
-		_timerDrop = tempTimerDrop;
-		tempPlayer = maxPlayer;
-		
 		Application.targetFrameRate = 70;
 		
-
-//		foreach (var player in PhotonNetwork.PlayerListOthers)
-//		{
-//			_tempPlayer++;
-//			maxPlayer -= _tempPlayer;
-//
-//			photonView.RPC("RPCPlayers", RpcTarget.All, 1f);
-//
-//			if(_tempPlayer > 0)
-//			{
-//				playerInRoom.text = "PIR: " +_tempPlayer +" RPC: " +_players;
-//				waitingPlayer.text = "Waiting Until " +maxPlayer +" Players";
-//			}	
-//		}			
+		foreach (var player in PhotonNetwork.PlayerListOthers)
+		{
+			_playersInRoom.Add(player.NickName);
+		}
+		
+		Debug.Log("Player In Room: " +_playersInRoom.Count);
 	}
 
 	/// <summary>
@@ -102,19 +99,19 @@ public class LevelManager : MonoBehaviourPunCallbacks, IPunObservable
 	void Update()
 	{
 
-		if(photonView.IsMine)
+		_countdownSecond = Mathf.RoundToInt(countdown % 60);
+		countdown -= Time.deltaTime;
+		countdownText.text = "" +_countdownSecond.ToString("0");
+
+		if (countdown <= 0)
 		{
-			//
-		}
-		
-		if(_players == tempPlayer)
-		{
-			activeCameraMoving = true;
+			countdownText.text = "";
+			activeCameraMoving = true;	
 		}
 
 		if(activeCameraMoving)
 		{
-			photonView.RPC("CameraMoving", RpcTarget.All);
+			photonView.RPC("CameraMoving", RpcTarget.AllBufferedViaServer);
 		}
 
 		if(activeTimer)
@@ -129,6 +126,25 @@ public class LevelManager : MonoBehaviourPunCallbacks, IPunObservable
 				photonView.RPC("RpcLeaveRoom", RpcTarget.All);					
 			}
 		}
+
+//		if (_playersInRoom.Count == 0)
+//		{
+//			PhotonNetwork.LeaveRoom();
+//		}
+		
+		ScoreBoard();
+	}
+
+	private void ScoreBoard()
+	{
+		var playerList = new StringBuilder();
+		foreach (var player in PhotonNetwork.PlayerList)
+		{
+			print(player.NickName +" : " +player.GetScore());
+			playerList.Append(player.NickName +" : " +player.GetScore() +"\n");
+		}
+
+		scoreboard.text = playerList.ToString();
 	}
 
 	#region Photon Messages
@@ -141,21 +157,14 @@ public class LevelManager : MonoBehaviourPunCallbacks, IPunObservable
 
 			Debug.Log("OnPhotonPlayerConnected isMasterClient " +PhotonNetwork.IsMasterClient);
 		}
-
-		_players++;
-		maxPlayer -= _players;
-		
-		waitingPlayer.text = "Waiting Until " +maxPlayer +" Players";
 	}
 
 	public override void OnPlayerLeftRoom(Photon.Realtime.Player otherPlayer) {
 
 		Debug.Log("OnPhotonPlayerDisconnected isMasterClient " +PhotonNetwork.IsMasterClient);
+		_playersInRoom.Remove(otherPlayer.NickName);
 		
-		_players--;
-		maxPlayer -= _players;
-		
-		waitingPlayer.text = "Waiting Until " +maxPlayer +" Players";
+		Debug.Log("Was Remove: " +_playersInRoom.Remove(otherPlayer.NickName));
 	}
 
 	/// <summary>
@@ -231,7 +240,6 @@ public class LevelManager : MonoBehaviourPunCallbacks, IPunObservable
 	{		
 		GameObject.FindGameObjectWithTag("MainCamera").GetComponent<MovingCamera>().enabled = true;
 		
-		loadingObject.SetActive(false);
 		activeCameraMoving = false;
 		activeTimer = true;
 	}
@@ -242,13 +250,7 @@ public class LevelManager : MonoBehaviourPunCallbacks, IPunObservable
 		PhotonNetwork.LeaveRoom();
 	}
 
-	[PunRPC]
-	private void RpcPlayers(int player)
-	{
-		_players += player;
-	}
-
-    #endregion
+	#endregion
 
 	void IPunObservable.OnPhotonSerializeView(PhotonStream stream, PhotonMessageInfo info)
     {

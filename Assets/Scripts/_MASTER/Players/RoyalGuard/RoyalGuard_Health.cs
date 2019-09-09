@@ -1,6 +1,7 @@
 ﻿using UnityEngine;
 using UnityEngine.UI;
 using Photon.Pun;
+using Photon.Pun.UtilityScripts;
 
 public class RoyalGuard_Health : MonoBehaviourPunCallbacks, IPunObservable {
 
@@ -54,8 +55,11 @@ public class RoyalGuard_Health : MonoBehaviourPunCallbacks, IPunObservable {
 		m_Body = this.gameObject.GetComponent<Rigidbody2D>();
         m_Anim = this.gameObject.GetComponent<Animator>();
 
-		spawnPlayerPoint = GameObject.Find("SpawnPlayer").GetComponent<Transform>();
-		tempCooldownDeath = cooldownDeath;		
+        if (photonView.IsMine)
+        {
+	        spawnPlayerPoint = GameObject.Find("CameraParent/Main Camera/SpawnPlayer").GetComponent<Transform>();
+        }
+        tempCooldownDeath = cooldownDeath;		
 	}
 
 	/// <summary>
@@ -63,7 +67,11 @@ public class RoyalGuard_Health : MonoBehaviourPunCallbacks, IPunObservable {
 	/// </summary>
 	void Update()
 	{		
-
+		if (photonView.IsMine)
+		{
+			spawnPlayerPoint = GameObject.Find("CameraParent/Main Camera/SpawnPlayer").GetComponent<Transform>();
+		}
+		
 		if (photonView.IsMine == false && PhotonNetwork.IsConnected == true)
         {            
             return;
@@ -73,15 +81,15 @@ public class RoyalGuard_Health : MonoBehaviourPunCallbacks, IPunObservable {
         {
 			if(isPunchAttack)
 			{
-				if(RoyalGuard_Control.Instance.FacingRight)
-				{
-					m_Body.velocity = new Vector2(Knockback, transform.position.y);					
-				}
-
-				if(!RoyalGuard_Control.Instance.FacingRight)
-				{
-					m_Body.velocity = new Vector2(-Knockback, transform.position.y);
-				}
+//				if(RoyalGuard_Control.Instance.FacingRight)
+//				{
+//					m_Body.velocity = new Vector2(Knockback, transform.position.y);					
+//				}
+//
+//				if(!RoyalGuard_Control.Instance.FacingRight)
+//				{
+//					m_Body.velocity = new Vector2(-Knockback, transform.position.y);
+//				}
 
 				tempTime -= Time.deltaTime;
 				if(tempTime < 0)
@@ -107,6 +115,8 @@ public class RoyalGuard_Health : MonoBehaviourPunCallbacks, IPunObservable {
 					photonView.RPC("RPCSpawnPlayer", RpcTarget.All);
 					playerDeath = false;
 					tempCooldownDeath = cooldownDeath;
+					
+					PhotonNetwork.LocalPlayer.AddScore(100);
 				}								
 			}			
 
@@ -133,9 +143,9 @@ public class RoyalGuard_Health : MonoBehaviourPunCallbacks, IPunObservable {
 	{
 		transform.position = new Vector3(0, spawnPlayerPoint.position.y, 0);
 		this.gameObject.transform.position = transform.position;
-
 		playerHealth.fillAmount = 0;
-		playerMiniHealth.fillAmount = 1;		
+		playerMiniHealth.fillAmount = 1;
+		
 	}
 
 	private void PlayerSpawn()

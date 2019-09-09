@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ContentModelStore">
-    <e p="C:\Users\Suyatna-PC\.Rider2019.1\system\extResources" t="IncludeRecursive" />
-    <e p="C:\Users\Suyatna-PC\.Rider2019.1\system\resharper-host\local\Transient\ReSharperHost\v191\SolutionCaches\_DynamicPatternPlatformer.1934712659.00" t="ExcludeRecursive" />
-    <e p="G:\ADA Game Studio\DynamicPatternPlatformer" t="IncludeRecursive">
+    <e p="C:\Users\SUYATNA\.Rider2019.2\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\SUYATNA\.Rider2019.2\system\resharper-host\local\Transient\ReSharperHost\v192\SolutionCaches\_DynamicPatternPlatformer.-328122186.00" t="ExcludeRecursive" />
+    <e p="D:\ADA Game Studio\DynamicPatternPlatformer" t="IncludeRecursive">
       <e p="Assembly-CSharp-Editor.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
@@ -603,6 +603,7 @@
             </e>
             <e p="Items" t="Include">
               <e p="BombFireProperties.cs" t="Include" />
+              <e p="DetectPlatformerOnline.cs" t="Include" />
               <e p="ItemProperties.cs" t="Include" />
               <e p="ItemsBehaviour.cs" t="Include" />
               <e p="SpecialWeaponsBehaviour.cs" t="Include" />
@@ -613,8 +614,8 @@
             </e>
             <e p="Photon" t="Include">
               <e p="CreateRoom.cs" t="Include" />
-              <e p="CustomMatch.cs" t="Include" />
               <e p="Launcher.cs" t="Include" />
+              <e p="LobbyNetwork.cs" t="Include" />
               <e p="ShowInfoOfPlayer.cs" t="Include" />
             </e>
             <e p="Players" t="Include">
@@ -645,6 +646,7 @@
                 <e p="ObjectPooler.cs" t="Include" />
                 <e p="PatternPooler.cs" t="Include" />
               </e>
+              <e p="PlarformPragile.cs" t="Include" />
               <e p="PlatformDestroyer.cs" t="Include" />
               <e p="PooledObject.cs" t="Include" />
             </e>
@@ -669,6 +671,10 @@
           </e>
           <e p="Performance" t="Include">
             <e p="newObjectPools.cs" t="Include" />
+          </e>
+          <e p="PlatformShatter" t="Include">
+            <e p="PlatformBrokenFX.cs" t="Include" />
+            <e p="Shatter.cs" t="Include" />
           </e>
         </e>
       </e>

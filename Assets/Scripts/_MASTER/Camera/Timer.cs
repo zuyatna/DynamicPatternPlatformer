@@ -27,7 +27,7 @@ public class Timer : MonoBehaviourPunCallbacks {
             if (time <= 0)
             {                
                 GameObject.FindGameObjectWithTag("MainCamera").GetComponent<MovingCamera>().enabled = false;               			
-                // PhotonNetwork.LeaveRoom();							
+                PhotonNetwork.LeaveRoom();							
             }
 		}
 	}

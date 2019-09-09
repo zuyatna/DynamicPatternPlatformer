@@ -21,6 +21,9 @@ EditorBuildSettings:
     path: Assets/Scenes/_FEATURE/MenuGame/MenuGame 1.unity
     guid: ee692189c5dd4fc48b8e247039042985
   - enabled: 1
+    path: Assets/Scenes/_FEATURE/Room/Room.unity
+    guid: 4b34efcaf3d515a4d865dcfa873d95ca
+  - enabled: 1
     path: Assets/Scenes/_MASTER/Gameplay/Gameplay-Online.unity
     guid: eed17ac7a48cd1b4d8ca1f1a5c4b6c8a
   m_configObjects: {}

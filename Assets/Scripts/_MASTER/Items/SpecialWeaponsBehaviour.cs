@@ -1,6 +1,7 @@
-﻿using UnityEngine;
+﻿using Photon.Pun;
+using UnityEngine;
 
-public class SpecialWeaponsBehaviour : MonoBehaviour
+public class SpecialWeaponsBehaviour : MonoBehaviour, IPunObservable
 {
 
     private void OnTriggerEnter2D(Collider2D _other)
@@ -9,5 +10,10 @@ public class SpecialWeaponsBehaviour : MonoBehaviour
         {
             Destroy(gameObject);
         }
+    }
+
+    public void OnPhotonSerializeView(PhotonStream stream, PhotonMessageInfo info)
+    {
+//        throw new System.NotImplementedException();
     }
 }

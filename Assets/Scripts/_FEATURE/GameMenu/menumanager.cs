@@ -30,8 +30,12 @@ public class menumanager : MonoBehaviour {
 	public void customeGame() {
 		customegame.gameObject.SetActive(true);
 		myAnim.SetBool("IsMoveBtn", true);
-		// myAnim.SetTrigger("CustomeIsMove");
-		// myAnim.SetBool("CustomeIsMoveBtn", true);
+	}
+
+	public void DisableCustomGame()
+	{
+		customegame.gameObject.SetActive(false);
+		findgame.gameObject.SetActive(false);
 	}
 
 	public void findGame() {
@@ -83,7 +87,6 @@ public class menumanager : MonoBehaviour {
 
 	public void creategame() {
 		SceneManager.LoadSceneAsync("Room");
-		
 	}
 
 	public void unready(){
