@@ -250,8 +250,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Length: 0.92000145
-  m_Child: {fileID: 0}
+  m_Length: 0.9200011
   m_ChildTransform: {fileID: 164505591}
   m_AttachedIK: {fileID: 1874703028}
 --- !u!1 &53703485
@@ -346,7 +345,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_Length: 0.36
-  m_Child: {fileID: 0}
   m_ChildTransform: {fileID: 0}
   m_AttachedIK: {fileID: 0}
 --- !u!1 &77637865
@@ -516,7 +514,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_Length: 0.15000027
-  m_Child: {fileID: 0}
   m_ChildTransform: {fileID: 2123879682}
   m_AttachedIK: {fileID: 0}
 --- !u!1 &135810356
@@ -889,8 +886,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Length: 1.0000029
-  m_Child: {fileID: 0}
+  m_Length: 1.000003
   m_ChildTransform: {fileID: 776615227}
   m_AttachedIK: {fileID: 1874703028}
 --- !u!1 &169608384
@@ -1363,7 +1359,6 @@ MonoBehaviour:
   - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
   m_SortingLayerID: -514041465
   m_SortingOrder: 3
-  m_Bones: []
   m_BoneTransforms:
   - {fileID: 1849405991}
 --- !u!1 &271009903
@@ -1471,7 +1466,6 @@ MonoBehaviour:
   - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
   m_SortingLayerID: -514041465
   m_SortingOrder: 1
-  m_Bones: []
   m_BoneTransforms:
   - {fileID: 1177657456}
   - {fileID: 1604664040}
@@ -1744,7 +1738,6 @@ MonoBehaviour:
   - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
   m_SortingLayerID: -514041465
   m_SortingOrder: 3
-  m_Bones: []
   m_BoneTransforms:
   - {fileID: 1849405991}
   - {fileID: 1753754744}
@@ -2005,7 +1998,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 99091f75dac5d4ede961d37f71798fc6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Target: {fileID: 0}
   m_Record: 0
   m_TargetTransform: {fileID: 750077995}
   m_NumBones: 2
@@ -2014,16 +2006,13 @@ MonoBehaviour:
   m_OrientChild: 1
   flip: 0
   m_Solver:
-    m_RootBone: {fileID: 0}
     m_RootBoneTransform: {fileID: 892991641}
     m_SolverPoses:
-    - m_Bone: {fileID: 0}
-      m_BoneTransform: {fileID: 892991641}
+    - m_BoneTransform: {fileID: 892991641}
       solverPosition: {x: 0, y: 0, z: 0}
       solverRotation: {x: 0, y: 0, z: -0.9750567, w: 0.221956}
       defaultLocalRotation: {x: -0, y: -0, z: -0.977257, w: 0.2120584}
-    - m_Bone: {fileID: 0}
-      m_BoneTransform: {fileID: 750077995}
+    - m_BoneTransform: {fileID: 750077995}
       solverPosition: {x: 0, y: 0, z: 0}
       solverRotation: {x: 0, y: 0, z: 0.5871485, w: 0.80947924}
       defaultLocalRotation: {x: 0, y: 0, z: 0.59402555, w: 0.8044462}
@@ -2152,7 +2141,6 @@ MonoBehaviour:
   - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
   m_SortingLayerID: -514041465
   m_SortingOrder: 2
-  m_Bones: []
   m_BoneTransforms:
   - {fileID: 25936880}
   - {fileID: 164505591}
@@ -2434,7 +2422,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 99091f75dac5d4ede961d37f71798fc6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Target: {fileID: 0}
   m_Record: 0
   m_TargetTransform: {fileID: 1331252150}
   m_NumBones: 2
@@ -2443,16 +2430,13 @@ MonoBehaviour:
   m_OrientChild: 1
   flip: 1
   m_Solver:
-    m_RootBone: {fileID: 0}
     m_RootBoneTransform: {fileID: 1973977102}
     m_SolverPoses:
-    - m_Bone: {fileID: 0}
-      m_BoneTransform: {fileID: 1973977102}
+    - m_BoneTransform: {fileID: 1973977102}
       solverPosition: {x: 0, y: 0, z: 0}
       solverRotation: {x: 0, y: 0, z: -0.8334221, w: 0.5526369}
       defaultLocalRotation: {x: 0, y: 0, z: 0.8319304, w: -0.5548801}
-    - m_Bone: {fileID: 0}
-      m_BoneTransform: {fileID: 1331252150}
+    - m_BoneTransform: {fileID: 1331252150}
       solverPosition: {x: 0, y: 0, z: 0}
       solverRotation: {x: 0, y: 0, z: -0.5539151, w: 0.8325732}
       defaultLocalRotation: {x: 0, y: 0, z: -0.55730116, w: 0.8303104}
@@ -3033,7 +3017,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_Length: 1
-  m_Child: {fileID: 0}
   m_ChildTransform: {fileID: 0}
   m_AttachedIK: {fileID: 0}
 --- !u!1 &462839006
@@ -3251,7 +3234,6 @@ MonoBehaviour:
   - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
   m_SortingLayerID: -514041465
   m_SortingOrder: -1
-  m_Bones: []
   m_BoneTransforms:
   - {fileID: 892991641}
   - {fileID: 750077995}
@@ -3360,7 +3342,6 @@ MonoBehaviour:
   - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
   m_SortingLayerID: -514041465
   m_SortingOrder: 2
-  m_Bones: []
   m_BoneTransforms:
   - {fileID: 1604664040}
   - {fileID: 1986485193}
@@ -3794,8 +3775,8 @@ MonoBehaviour:
   ObservedComponents:
   - {fileID: 540291996}
   - {fileID: 540291997}
-  viewIdField: 9
-  InstantiationId: 9
+  viewIdField: 16
+  InstantiationId: 16
   isRuntimeInstantiated: 0
 --- !u!1 &598749847
 GameObject:
@@ -3936,7 +3917,6 @@ MonoBehaviour:
   - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
   m_SortingLayerID: -514041465
   m_SortingOrder: 1
-  m_Bones: []
   m_BoneTransforms:
   - {fileID: 1535082795}
   - {fileID: 70561529}
@@ -4059,7 +4039,7 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 1279898011}
+  - {fileID: 1787214547}
   - {fileID: 538274881}
   m_Father: {fileID: 0}
   m_RootOrder: 1
@@ -4290,7 +4270,6 @@ MonoBehaviour:
   - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
   m_SortingLayerID: -514041465
   m_SortingOrder: 2
-  m_Bones: []
   m_BoneTransforms:
   - {fileID: 1177657456}
   - {fileID: 1604664040}
@@ -4454,7 +4433,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_Length: 1
-  m_Child: {fileID: 0}
   m_ChildTransform: {fileID: 0}
   m_AttachedIK: {fileID: 0}
 --- !u!1 &722988994
@@ -4561,7 +4539,6 @@ MonoBehaviour:
   - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
   m_SortingLayerID: -514041465
   m_SortingOrder: 5
-  m_Bones: []
   m_BoneTransforms:
   - {fileID: 461404314}
 --- !u!1 &750077994
@@ -4612,7 +4589,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_Length: 0.84
-  m_Child: {fileID: 0}
   m_ChildTransform: {fileID: 0}
   m_AttachedIK: {fileID: 315010210}
 --- !u!1 &754833158
@@ -4680,7 +4656,7 @@ Transform:
   m_Children: []
   m_Father: {fileID: 164505591}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 163.319}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 138.00401}
 --- !u!114 &776615228
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4696,7 +4672,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_Length: 0.35
-  m_Child: {fileID: 0}
   m_ChildTransform: {fileID: 0}
   m_AttachedIK: {fileID: 0}
 --- !u!1 &779894869
@@ -4848,8 +4823,8 @@ MonoBehaviour:
   OwnershipTransfer: 0
   ObservedComponents:
   - {fileID: 790604549}
-  viewIdField: 13
-  InstantiationId: 13
+  viewIdField: 17
+  InstantiationId: 17
   isRuntimeInstantiated: 0
 --- !u!114 &790604549
 MonoBehaviour:
@@ -4863,7 +4838,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 57a87517774d9e74eb6e3dc26d5b0e90, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerPrefab: {fileID: 1668840307981426, guid: f20ce2fde89d8b348b0741f1d4131a49,
+  playerPrefab: {fileID: 1668840307981426, guid: 09e069db9bc19c846bc1232e956e86bf,
     type: 3}
   leaveButton: {fileID: 625470331}
   burnItemButton: {fileID: 1425420329}
@@ -5326,7 +5301,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_Length: 0.8000014
-  m_Child: {fileID: 0}
   m_ChildTransform: {fileID: 750077995}
   m_AttachedIK: {fileID: 315010210}
 --- !u!1 &899449250
@@ -5472,7 +5446,7 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1331252150}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 95.9}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 96.170006}
 --- !u!114 &970796141
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5488,7 +5462,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_Length: 0.35
-  m_Child: {fileID: 0}
   m_ChildTransform: {fileID: 0}
   m_AttachedIK: {fileID: 0}
 --- !u!1 &995502974
@@ -5965,7 +5938,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Color: {r: 0.90344834, g: 1, b: 0, a: 1}
   m_Length: 0.21000239
-  m_Child: {fileID: 0}
   m_ChildTransform: {fileID: 1604664040}
   m_AttachedIK: {fileID: 0}
 --- !u!1 &1180461905
@@ -6072,7 +6044,6 @@ MonoBehaviour:
   - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
   m_SortingLayerID: -514041465
   m_SortingOrder: -2
-  m_Bones: []
   m_BoneTransforms:
   - {fileID: 2091378030}
 --- !u!1 &1193135163
@@ -6181,7 +6152,6 @@ MonoBehaviour:
   - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
   m_SortingLayerID: -514041465
   m_SortingOrder: 0
-  m_Bones: []
   m_BoneTransforms:
   - {fileID: 25936880}
   - {fileID: 164505591}
@@ -6217,7 +6187,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 99091f75dac5d4ede961d37f71798fc6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Target: {fileID: 0}
   m_Record: 0
   m_TargetTransform: {fileID: 1753754744}
   m_NumBones: 2
@@ -6226,16 +6195,13 @@ MonoBehaviour:
   m_OrientChild: 1
   flip: 0
   m_Solver:
-    m_RootBone: {fileID: 0}
     m_RootBoneTransform: {fileID: 1849405991}
     m_SolverPoses:
-    - m_Bone: {fileID: 0}
-      m_BoneTransform: {fileID: 1849405991}
+    - m_BoneTransform: {fileID: 1849405991}
       solverPosition: {x: 0, y: 0, z: 0}
       solverRotation: {x: 0, y: 0, z: 0.9601217, w: 0.27958238}
       defaultLocalRotation: {x: -0, y: -0, z: 0.9626992, w: 0.27057406}
-    - m_Bone: {fileID: 0}
-      m_BoneTransform: {fileID: 1753754744}
+    - m_BoneTransform: {fileID: 1753754744}
       solverPosition: {x: 0, y: 0, z: 0}
       solverRotation: {x: 0, y: 0, z: 0.29207408, w: 0.9563957}
       defaultLocalRotation: {x: 0, y: 0, z: 0.26497886, w: 0.96425426}
@@ -6380,7 +6346,6 @@ MonoBehaviour:
   - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
   m_SortingLayerID: -514041465
   m_SortingOrder: 5
-  m_Bones: []
   m_BoneTransforms:
   - {fileID: 461404314}
 --- !u!1 &1255778524
@@ -6465,12 +6430,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!4 &1279898011 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 4537884229476438, guid: f20ce2fde89d8b348b0741f1d4131a49,
-    type: 3}
-  m_PrefabInstance: {fileID: 1787214546}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1298135262
 GameObject:
   m_ObjectHideFlags: 0
@@ -6658,8 +6617,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Length: 1.0000014
-  m_Child: {fileID: 0}
+  m_Length: 1.0000008
   m_ChildTransform: {fileID: 970796140}
   m_AttachedIK: {fileID: 358513007}
 --- !u!1 &1332012751
@@ -7198,7 +7156,6 @@ MonoBehaviour:
   - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
   m_SortingLayerID: -514041465
   m_SortingOrder: 4
-  m_Bones: []
   m_BoneTransforms:
   - {fileID: 1604664040}
   - {fileID: 1986485193}
@@ -7678,7 +7635,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_Length: 0.2800004
-  m_Child: {fileID: 0}
   m_ChildTransform: {fileID: 70561529}
   m_AttachedIK: {fileID: 0}
 --- !u!1 &1543350839
@@ -8137,7 +8093,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_Length: 0.8600006
-  m_Child: {fileID: 0}
   m_ChildTransform: {fileID: 1986485193}
   m_AttachedIK: {fileID: 0}
 --- !u!1 &1616306124
@@ -8262,7 +8217,6 @@ MonoBehaviour:
   - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
   m_SortingLayerID: -514041465
   m_SortingOrder: 4
-  m_Bones: []
   m_BoneTransforms:
   - {fileID: 674814992}
 --- !u!1 &1630590159
@@ -8370,7 +8324,6 @@ MonoBehaviour:
   - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
   m_SortingLayerID: -514041465
   m_SortingOrder: 5
-  m_Bones: []
   m_BoneTransforms:
   - {fileID: 1849405991}
   - {fileID: 1753754744}
@@ -8856,7 +8809,6 @@ MonoBehaviour:
   - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
   m_SortingLayerID: -514041465
   m_SortingOrder: 5
-  m_Bones: []
   m_BoneTransforms:
   - {fileID: 750077995}
 --- !u!1 &1753754743
@@ -8908,7 +8860,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_Length: 0.84
-  m_Child: {fileID: 0}
   m_ChildTransform: {fileID: 0}
   m_AttachedIK: {fileID: 1231686897}
 --- !u!1 &1778061100
@@ -9004,26 +8955,6 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 137157458439189206, guid: f20ce2fde89d8b348b0741f1d4131a49,
-        type: 3}
-      propertyPath: m_Mesh
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 137711191386378304, guid: f20ce2fde89d8b348b0741f1d4131a49,
-        type: 3}
-      propertyPath: m_Mesh
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 137729087607167718, guid: f20ce2fde89d8b348b0741f1d4131a49,
-        type: 3}
-      propertyPath: m_Mesh
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 137948115637709062, guid: f20ce2fde89d8b348b0741f1d4131a49,
-        type: 3}
-      propertyPath: m_Mesh
-      value: 
-      objectReference: {fileID: 0}
     - target: {fileID: 4537884229476438, guid: f20ce2fde89d8b348b0741f1d4131a49, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -9056,7 +8987,7 @@ PrefabInstance:
       propertyPath: m_RootOrder
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 137400424969693296, guid: f20ce2fde89d8b348b0741f1d4131a49,
+    - target: {fileID: 137440042645973616, guid: f20ce2fde89d8b348b0741f1d4131a49,
         type: 3}
       propertyPath: m_Mesh
       value: 
@@ -9066,7 +8997,12 @@ PrefabInstance:
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 0}
-    - target: {fileID: 137035145851233112, guid: f20ce2fde89d8b348b0741f1d4131a49,
+    - target: {fileID: 137553756296801614, guid: f20ce2fde89d8b348b0741f1d4131a49,
+        type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 137948115637709062, guid: f20ce2fde89d8b348b0741f1d4131a49,
         type: 3}
       propertyPath: m_Mesh
       value: 
@@ -9076,12 +9012,27 @@ PrefabInstance:
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 0}
-    - target: {fileID: 137553756296801614, guid: f20ce2fde89d8b348b0741f1d4131a49,
+    - target: {fileID: 137035145851233112, guid: f20ce2fde89d8b348b0741f1d4131a49,
         type: 3}
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 0}
-    - target: {fileID: 137440042645973616, guid: f20ce2fde89d8b348b0741f1d4131a49,
+    - target: {fileID: 137400424969693296, guid: f20ce2fde89d8b348b0741f1d4131a49,
+        type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 137729087607167718, guid: f20ce2fde89d8b348b0741f1d4131a49,
+        type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 137711191386378304, guid: f20ce2fde89d8b348b0741f1d4131a49,
+        type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 137157458439189206, guid: f20ce2fde89d8b348b0741f1d4131a49,
         type: 3}
       propertyPath: m_Mesh
       value: 
@@ -9153,6 +9104,11 @@ PrefabInstance:
       objectReference: {fileID: 388375952}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f20ce2fde89d8b348b0741f1d4131a49, type: 3}
+--- !u!4 &1787214547 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 1787214546}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1822371965
 GameObject:
   m_ObjectHideFlags: 0
@@ -9352,8 +9308,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Length: 0.80000067
-  m_Child: {fileID: 0}
+  m_Length: 0.8000003
   m_ChildTransform: {fileID: 1753754744}
   m_AttachedIK: {fileID: 1231686897}
 --- !u!1 &1850803265
@@ -9545,7 +9500,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 99091f75dac5d4ede961d37f71798fc6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Target: {fileID: 0}
   m_Record: 0
   m_TargetTransform: {fileID: 164505591}
   m_NumBones: 2
@@ -9554,16 +9508,13 @@ MonoBehaviour:
   m_OrientChild: 1
   flip: 1
   m_Solver:
-    m_RootBone: {fileID: 0}
     m_RootBoneTransform: {fileID: 25936880}
     m_SolverPoses:
-    - m_Bone: {fileID: 0}
-      m_BoneTransform: {fileID: 25936880}
+    - m_BoneTransform: {fileID: 25936880}
       solverPosition: {x: 0, y: 0, z: 0}
       solverRotation: {x: 0, y: 0, z: 0.9995292, w: 0.030683069}
       defaultLocalRotation: {x: 0, y: 0, z: 0.9978931, w: 0.064880505}
-    - m_Bone: {fileID: 0}
-      m_BoneTransform: {fileID: 164505591}
+    - m_BoneTransform: {fileID: 164505591}
       solverPosition: {x: 0, y: 0, z: 0}
       solverRotation: {x: 0, y: 0, z: -0.32963988, w: 0.94410676}
       defaultLocalRotation: {x: 0, y: 0, z: -0.28835225, w: 0.9575244}
@@ -9770,7 +9721,6 @@ MonoBehaviour:
   - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
   m_SortingLayerID: -514041465
   m_SortingOrder: 0
-  m_Bones: []
   m_BoneTransforms:
   - {fileID: 892991641}
   - {fileID: 750077995}
@@ -10074,7 +10024,6 @@ MonoBehaviour:
   - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
   m_SortingLayerID: -514041465
   m_SortingOrder: -1
-  m_Bones: []
   m_BoneTransforms:
   - {fileID: 1973977102}
   - {fileID: 1331252150}
@@ -10576,8 +10525,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Length: 0.9200008
-  m_Child: {fileID: 0}
+  m_Length: 0.92000043
   m_ChildTransform: {fileID: 1331252150}
   m_AttachedIK: {fileID: 358513007}
 --- !u!1 &1982039850
@@ -10759,7 +10707,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_Length: 0.61
-  m_Child: {fileID: 0}
   m_ChildTransform: {fileID: 0}
   m_AttachedIK: {fileID: 0}
 --- !u!1 &1989344228
@@ -10867,7 +10814,6 @@ MonoBehaviour:
   - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
   m_SortingLayerID: -514041465
   m_SortingOrder: -2
-  m_Bones: []
   m_BoneTransforms:
   - {fileID: 892991641}
   - {fileID: 750077995}
@@ -11210,7 +11156,6 @@ MonoBehaviour:
   - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
   m_SortingLayerID: -514041465
   m_SortingOrder: 4
-  m_Bones: []
   m_BoneTransforms:
   - {fileID: 892991641}
   - {fileID: 750077995}
@@ -11262,7 +11207,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_Length: 1
-  m_Child: {fileID: 0}
   m_ChildTransform: {fileID: 0}
   m_AttachedIK: {fileID: 0}
 --- !u!1 &2123879681
@@ -11313,7 +11257,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_Length: 0.18
-  m_Child: {fileID: 0}
   m_ChildTransform: {fileID: 0}
   m_AttachedIK: {fileID: 0}
 --- !u!1 &2137531569

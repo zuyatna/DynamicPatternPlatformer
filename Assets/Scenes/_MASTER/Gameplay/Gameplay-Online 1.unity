@@ -235,12 +235,21 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f20ce2fde89d8b348b0741f1d4131a49, type: 3}
---- !u!4 &7897914 stripped
+--- !u!4 &7897914
 Transform:
+  m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 4537884229476438, guid: f20ce2fde89d8b348b0741f1d4131a49,
     type: 3}
   m_PrefabInstance: {fileID: 7897913}
   m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1114286358}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 356764935}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &24391872
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1834,6 +1843,37 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 296212805}
   m_CullTransparentMesh: 0
+--- !u!1 &356764934
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 7897913}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 356764935}
+  m_Layer: 0
+  m_Name: RoyalGuard-FixPack (Missing Prefab)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &356764935
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 7897913}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 356764934}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 7897914}
+  m_Father: {fileID: 619386005}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &388375948
 GameObject:
   m_ObjectHideFlags: 0
@@ -2483,7 +2523,7 @@ Transform:
   m_Children:
   - {fileID: 2006355644}
   - {fileID: 1837885695}
-  - {fileID: 7897914}
+  - {fileID: 356764935}
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -3202,6 +3242,22 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 912946328}
   m_CullTransparentMesh: 0
+--- !u!1 &1114286358
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 7897913}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7897914}
+  m_Layer: 0
+  m_Name: Missing Prefab (Dummy)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
 --- !u!1001 &1191976498
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3249,16 +3305,6 @@ PrefabInstance:
       propertyPath: m_RootOrder
       value: 2
       objectReference: {fileID: 0}
-    - target: {fileID: 212512222436742498, guid: 00555ecb27111054087dfc7ed5a703e8,
-        type: 3}
-      propertyPath: m_SortingLayerID
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 212512222436742498, guid: 00555ecb27111054087dfc7ed5a703e8,
-        type: 3}
-      propertyPath: m_SortingOrder
-      value: 10
-      objectReference: {fileID: 0}
     - target: {fileID: 114907629185586894, guid: 00555ecb27111054087dfc7ed5a703e8,
         type: 3}
       propertyPath: viewIdField
@@ -3268,6 +3314,16 @@ PrefabInstance:
         type: 3}
       propertyPath: instantiationId
       value: 42
+      objectReference: {fileID: 0}
+    - target: {fileID: 212512222436742498, guid: 00555ecb27111054087dfc7ed5a703e8,
+        type: 3}
+      propertyPath: m_SortingLayerID
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 212512222436742498, guid: 00555ecb27111054087dfc7ed5a703e8,
+        type: 3}
+      propertyPath: m_SortingOrder
+      value: 10
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 00555ecb27111054087dfc7ed5a703e8, type: 3}
@@ -4340,7 +4396,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6e3c165a72a05e04aab08b46cb080668, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerPrefab: {fileID: 1668840307981426, guid: f20ce2fde89d8b348b0741f1d4131a49,
+  playerPrefab: {fileID: 1668840307981426, guid: 09e069db9bc19c846bc1232e956e86bf,
     type: 3}
   leaveButton: {fileID: 912946330}
   itemsDropPosition: []

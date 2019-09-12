@@ -143,7 +143,7 @@ MonoBehaviour:
   - {fileID: 114136376671442684}
   - {fileID: 114184638756005520}
   - {fileID: 114487113385557674}
-  viewIdField: 3
+  viewIdField: 0
   InstantiationId: 3
   isRuntimeInstantiated: 0
 --- !u!114 &114136376671442684

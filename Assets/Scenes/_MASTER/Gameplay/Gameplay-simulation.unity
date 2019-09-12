@@ -3712,20 +3712,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6e3c165a72a05e04aab08b46cb080668, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerPrefab: {fileID: 1017574966225446, guid: 8ad9aec8631f27949a4bcaed1077fb97,
-    type: 2}
+  playerPrefab: {fileID: 1668840307981426, guid: 09e069db9bc19c846bc1232e956e86bf,
+    type: 3}
   leaveButton: {fileID: 0}
   itemsDropPosition: []
   itemsDrop: []
   tempTimerDrop: 0
-  playerInRoom: {fileID: 0}
   activeCameraMoving: 0
   activeTimer: 0
-  waitingPlayer: {fileID: 0}
-  loadingObject: {fileID: 0}
-  maxPlayer: 0
   movingCamera: {fileID: 0}
   time: 0
+  countdown: 0
+  countdownText: {fileID: 0}
+  scoreboard: {fileID: 0}
 --- !u!114 &893296181
 MonoBehaviour:
   m_ObjectHideFlags: 0

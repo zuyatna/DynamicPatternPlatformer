@@ -233,8 +233,7 @@ PrefabInstance:
   m_SourcePrefab: {fileID: 100100000, guid: f20ce2fde89d8b348b0741f1d4131a49, type: 3}
 --- !u!4 &7897914 stripped
 Transform:
-  m_CorrespondingSourceObject: {fileID: 4537884229476438, guid: f20ce2fde89d8b348b0741f1d4131a49,
-    type: 3}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 7897913}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &80484179
@@ -5385,7 +5384,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6e3c165a72a05e04aab08b46cb080668, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerPrefab: {fileID: 1668840307981426, guid: f20ce2fde89d8b348b0741f1d4131a49,
+  playerPrefab: {fileID: 1668840307981426, guid: 09e069db9bc19c846bc1232e956e86bf,
     type: 3}
   leaveButton: {fileID: 912946330}
   itemsDropPosition: []
